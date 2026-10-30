@@ -1,0 +1,110 @@
+{
+  "run_id": "diagnostic_ba7511a08425489496d7df46987554e2",
+  "created_at_utc": "2026-10-30T15:41:14.602282+00:00",
+  "config": {
+    "experiment_id": "wide_incremental_diagnostics_v1",
+    "analysis_status": "Post-hoc exploratory diagnostics; original V1 aggregate results were already observed",
+    "source_run_id": "wide_e0f795afd46f4f1e95a950ab8181ca7c",
+    "source_artifact_inventory_digest": "cccfaf6a749510dee368538436fc31425f6c0275c3af7932e7f29b4c5aee0032",
+    "source_predictions_sha256": "d878d886328a635a93134c3fe5a2be4de478e85e4610f7447107e1a76c9f3520",
+    "prediction_years": [
+      2009,
+      2010
+    ],
+    "reserved_start": "2011-01-01",
+    "reserved_performance_enabled": false,
+    "new_model_fits": 0,
+    "model": "hgb_7",
+    "comparators": [
+      "reversal5",
+      "momentum21",
+      "ridge_100"
+    ],
+    "partial_rank_controls": [
+      "reversal5",
+      "momentum21"
+    ],
+    "partial_null_controls": [
+      "null_hgb_191",
+      "null_hgb_727",
+      "null_hgb_2027"
+    ],
+    "scopes": [
+      "all",
+      "low_liquidity",
+      "high_liquidity",
+      "low_volatility",
+      "high_volatility"
+    ],
+    "scope_definition": "Within-date full forecast-cohort average ranks split at (n+1)/2; ties remain together in the lower group. Groups are cross-sectional conditions, not market regimes.",
+    "minimum_partial_observations": 20,
+    "partial_rank_definition": "On the common observed-label cohort, average-tie-rank scores, outcomes and controls. SVD-project both score and outcome ranks on intercept plus control ranks. Correlate residuals; degenerate residuals are undefined, not zero.",
+    "primary_diagnostic": "Mean paired daily HGB7 minus reversal5 observed-case Spearman IC",
+    "bootstrap_primary_block": 20,
+    "bootstrap_sensitivity_blocks": [
+      10,
+      20,
+      40
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 1729,
+    "max_analysis_runs": 1,
+    "max_runtime_seconds": 600,
+    "multiplicity_adjusted": false,
+    "promotion_authorized": false,
+    "export_policy": "Aggregate daily/scoped diagnostics and code/provenance only; raw bars, caches, row-level scores/targets and models remain in the platform",
+    "excluded_claims": [
+      "confirmatory inference",
+      "tradable residual forecast",
+      "general conditional independence",
+      "partial-correlation missing-outcome bounds",
+      "net PnL",
+      "executable Sharpe",
+      "production readiness"
+    ]
+  },
+  "config_sha256": "1146e6fc125977603cef51f908511fae953d346f61de29948efb8aa2960578a9",
+  "source_sha256": {
+    "wide_diagnostics.py": "3a5c15d63d6edc5dac8467654bd56fcaa044ace81e1ee028f327ecf1ecda3c28",
+    "incremental_stats.py": "080748f7aee643e30630a8a969457af149210c377abadbd92b98147e3e0b6cf5",
+    "wide_stats.py": "73d5bea687471b89d260696d3dabb67b927b4aa7fd6dd34a5f0fd7d65af1ec3e",
+    "wide_verify.py": "95fb8706dacf8e381e1c26fc2c6fe655464a9792f2370927f97881b93366d31e",
+    "wide_experiment.py": "dca6f164af0be3af6b0b3e0e0bf275ae295b23fbaf41b3ceb29d2cdea0bbe539",
+    "wide_data.py": "93098e0fec352fe91bf464870bac1f9d2b95c82f29614d22f04de316d748be3c",
+    "registry.py": "d45ce4fe6b489be061c1327d50cf506115c5ec4d862706af8b18f154837b4d61",
+    "integrity.py": "231fb67199b30ae1ca7c92da1b054fdccdb6bb16ede5cdb6b3a136891b44997d"
+  },
+  "frozen_input_verification": {
+    "status": "verified",
+    "run_id": "wide_e0f795afd46f4f1e95a950ab8181ca7c",
+    "experiment_id": "wide_ml_v1",
+    "artifact_count": 32,
+    "source_file_count": 6,
+    "model_file_count": 14,
+    "completed_model_fits": 14,
+    "bound_cache_file_count": 8,
+    "cache_verified": true,
+    "registry_verified": true,
+    "config_sha256": "162bd4771b56e6c1e8be141b517c0bca702267c2ffa0a1f96d7373a5d8e7749d",
+    "data_digest": "ab909d557b238d6afcf0b19f486c908c7030c95e0b41762699289fdcf4aaa5eb",
+    "source_digest": "2d6ef5771e1fd0a62d691b67e920168f6bea0854a39227e32460b5272d5bed1a",
+    "artifact_inventory_digest": "cccfaf6a749510dee368538436fc31425f6c0275c3af7932e7f29b4c5aee0032",
+    "assurance": "internal_consistency_only_not_authorship_scientific_validation_or_promotion"
+  },
+  "prediction_sha256": "d878d886328a635a93134c3fe5a2be4de478e85e4610f7447107e1a76c9f3520",
+  "new_model_fits": 0,
+  "engineering_recovery": {
+    "failed_run_id": "diagnostic_e5498fa8b7ab475d828ff80d0244462f",
+    "failed_directory": "/codeload/equity-alpha-wide/diagnostics-wide-v1-20261030",
+    "failure_sha256": "d2f25341c6e9185d4eaca694ac8efec9bc850b81d6e29e063c4ae5a0bdcd9832",
+    "reason": "Normalize identical midnight session labels from seconds to nanoseconds; no calendar filtering or statistical-design changes",
+    "failed_before_statistical_summary": true,
+    "failed_attempt_retained": true
+  },
+  "libraries": {
+    "python": "3.14.7",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1"
+  }
+}

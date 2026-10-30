@@ -1,0 +1,114 @@
+{
+  "run_id": "wide_e0f795afd46f4f1e95a950ab8181ca7c",
+  "config": {
+    "experiment_id": "wide_ml_v1",
+    "bundle": "usstock-learn-1d",
+    "authorized_start": "2007-01-03",
+    "development_end_exclusive": "2011-01-01",
+    "reserved_start": "2011-01-01",
+    "prediction_years": [
+      2009,
+      2010
+    ],
+    "warmup_sessions": 126,
+    "chunk_size": 256,
+    "max_assets_per_date": 2500,
+    "min_price": 5.0,
+    "min_adv20": 10000000.0,
+    "max_cache_bytes": 2000000000,
+    "min_free_disk_bytes": 8000000000,
+    "max_training_names_per_date": 1500,
+    "execution_delay_sessions": 1,
+    "horizon_sessions": 5,
+    "label_exit_offset": 6,
+    "target_name": "Zipline-adjusted close return proxy, rank-normalized within observed training cohorts",
+    "universe_name": "Past-price/liquidity-selected US equity securities, including non-common-stock instruments",
+    "classification_used_for_eligibility": false,
+    "end_date_or_auto_close_used_for_eligibility": false,
+    "models": [
+      "ridge_10",
+      "ridge_100",
+      "hgb_7",
+      "hgb_15"
+    ],
+    "primary_linear": "ridge_100",
+    "primary_nonlinear": "hgb_7",
+    "seed": 1729,
+    "permutation_seeds": [
+      191,
+      727,
+      2027
+    ],
+    "hgb_max_iter": 80,
+    "hgb_learning_rate": 0.05,
+    "hgb_l2_regularization": 10.0,
+    "hgb_min_samples_leaf": 150,
+    "early_stopping": false,
+    "threads": 2,
+    "max_total_model_fits": 14,
+    "max_runtime_seconds": 1800,
+    "bootstrap_samples": 1000,
+    "bootstrap_block_sessions": 20,
+    "bundle_reference_hash": "f9e4e64b10367f64dc7dc00cdce6ad3a9520916d9c0735b3123a91e5f43947d1",
+    "reserved_performance_enabled": false,
+    "original_2025_protocol_modified": false,
+    "primary_metric": "Equal-weighted daily observed-case Spearman IC in 2009-2010 development predictions",
+    "primary_comparison": "Fixed hgb_7 minus fixed ridge_100, not a best-of-grid comparison",
+    "baselines": [
+      "momentum21",
+      "reversal5",
+      "composite_mom63_rev5"
+    ],
+    "model_selection": "Development-only candidate ranking; not a confirmatory result or automatic holdout release",
+    "missing_outcome_policy": "Predict all eligible rows; retain missing labels and report coverage plus Kendall tau-a completion bounds",
+    "label_boundaries": "No label may use any price or adjustment on/after 2011-01-01; last six development sessions remain forecasted but boundary-censored",
+    "data_scope_limitations": [
+      "Historical common-stock/security-type and exchange membership are not qualified; snapshot classifications are not eligibility inputs",
+      "Vendor adjustment ratios define a price-return proxy, not fully qualified cash-distribution total return",
+      "Missing terminal payouts and merger consideration remain unresolved; missing labels are not assumed zero",
+      "Source revision/publication timestamps are not qualified",
+      "The 2011 data received coverage auditing but no prediction-performance evaluation; it is not described as never accessed"
+    ],
+    "excluded_claims": [
+      "executable Sharpe",
+      "investable alpha",
+      "survivorship-free common-stock universe",
+      "capacity",
+      "production readiness"
+    ],
+    "data_export_policy": "Raw bars, feature cache, per-security targets and forecasts remain inside QuantRocket; only code and aggregate analytical results may be shared"
+  },
+  "config_sha256": "162bd4771b56e6c1e8be141b517c0bca702267c2ffa0a1f96d7373a5d8e7749d",
+  "source_sha256": {
+    "wide_experiment.py": "5eb872ec38b32ea1dae12c02e5b6b7326d6d07f271277c41a296984508fefa46",
+    "wide_data.py": "93098e0fec352fe91bf464870bac1f9d2b95c82f29614d22f04de316d748be3c",
+    "wide_models.py": "376e6ad14679e57e0f1885e99c2a3c0d6cf7e4ddb0fa75919af6faa32084aa34",
+    "wide_stats.py": "73d5bea687471b89d260696d3dabb67b927b4aa7fd6dd34a5f0fd7d65af1ec3e",
+    "registry.py": "d45ce4fe6b489be061c1327d50cf506115c5ec4d862706af8b18f154837b4d61",
+    "integrity.py": "231fb67199b30ae1ca7c92da1b054fdccdb6bb16ede5cdb6b3a136891b44997d"
+  },
+  "data_sha256": {
+    "X.npy": "f2c4d6b1fe8209967059bd25f36082d81bc9b22f915172c50c167e69aa7320ae",
+    "y.npy": "77934f975d7a959ef1b3bc0b808e0b9647876436fa295db30b0a84ac14ead516",
+    "status.npy": "a20606707b87e3f2cf27621a5903be385ac9a4cf25648ccb9e34b33b29e4e275",
+    "date_index.npy": "fc2ffb2cee93fb8c88b478e401decf0645c560ead7633ea283b415ad62638523",
+    "asset_index.npy": "837a8721e2dc7e3abae1806876b7720d3dad5a22105dea7e8fab068e92461dc6",
+    "dates.npy": "427e9f6b3435d02f0834dabb7b85b55941d23acb9abc660c9bfa83642b87b8fc",
+    "asset_ids.npy": "cbce5eb587192e120966512a0e8614b14d500d32692ad9783883d66b63b9688a",
+    "manifest.json": "0e2b60c42f6e9d5f2eea3989bc9718164b9f2351af79224d9cb8833b06d540dd"
+  },
+  "data_digest": "ab909d557b238d6afcf0b19f486c908c7030c95e0b41762699289fdcf4aaa5eb",
+  "data_cache_path": "/codeload/equity-alpha-wide/data-wide-v1-20261030-final",
+  "created_at_utc": "2026-10-30T15:03:21.022774+00:00",
+  "libraries": {
+    "python": "3.14.7",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.9.1"
+  },
+  "model_fit_budget": 14,
+  "reserved_performance_enabled": false,
+  "prediction_scope": "All decision-eligible test rows, including missing future labels",
+  "data_qualification": "provisional; see registered scope limitations"
+}

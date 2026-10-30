@@ -1,0 +1,114 @@
+[
+  {
+    "year": 2009,
+    "model": "ridge_10",
+    "rows": 558000,
+    "forecast_rows": 390961,
+    "seconds": 0.3018407910003589,
+    "label_permutation": false
+  },
+  {
+    "year": 2009,
+    "model": "ridge_100",
+    "rows": 558000,
+    "forecast_rows": 390961,
+    "seconds": 0.03558945900022081,
+    "label_permutation": false
+  },
+  {
+    "year": 2009,
+    "model": "hgb_7",
+    "rows": 558000,
+    "forecast_rows": 390961,
+    "seconds": 1.4332691250001517,
+    "label_permutation": false
+  },
+  {
+    "year": 2009,
+    "model": "hgb_15",
+    "rows": 558000,
+    "forecast_rows": 390961,
+    "seconds": 1.4858842510002432,
+    "label_permutation": false
+  },
+  {
+    "year": 2009,
+    "model": "null_hgb_191",
+    "rows": 558000,
+    "forecast_rows": 390961,
+    "seconds": 0.9493347500001619,
+    "label_permutation": true
+  },
+  {
+    "year": 2009,
+    "model": "null_hgb_727",
+    "rows": 558000,
+    "forecast_rows": 390961,
+    "seconds": 0.9435820840008091,
+    "label_permutation": true
+  },
+  {
+    "year": 2009,
+    "model": "null_hgb_2027",
+    "rows": 558000,
+    "forecast_rows": 390961,
+    "seconds": 0.9075042089998533,
+    "label_permutation": true
+  },
+  {
+    "year": 2010,
+    "model": "ridge_10",
+    "rows": 932172,
+    "forecast_rows": 429067,
+    "seconds": 0.52388054200037,
+    "label_permutation": false
+  },
+  {
+    "year": 2010,
+    "model": "ridge_100",
+    "rows": 932172,
+    "forecast_rows": 429067,
+    "seconds": 0.16867999999976746,
+    "label_permutation": false
+  },
+  {
+    "year": 2010,
+    "model": "hgb_7",
+    "rows": 932172,
+    "forecast_rows": 429067,
+    "seconds": 1.6351247089996832,
+    "label_permutation": false
+  },
+  {
+    "year": 2010,
+    "model": "hgb_15",
+    "rows": 932172,
+    "forecast_rows": 429067,
+    "seconds": 1.8249682919995394,
+    "label_permutation": false
+  },
+  {
+    "year": 2010,
+    "model": "null_hgb_191",
+    "rows": 932172,
+    "forecast_rows": 429067,
+    "seconds": 1.3154940009999336,
+    "label_permutation": true
+  },
+  {
+    "year": 2010,
+    "model": "null_hgb_727",
+    "rows": 932172,
+    "forecast_rows": 429067,
+    "seconds": 1.4479590009996173,
+    "label_permutation": true
+  },
+  {
+    "year": 2010,
+    "model": "null_hgb_2027",
+    "rows": 932172,
+    "forecast_rows": 429067,
+    "seconds": 1.5068282090005596,
+    "label_permutation": true
+  }
+]

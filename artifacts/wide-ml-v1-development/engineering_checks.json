@@ -1,0 +1,24 @@
+{
+  "checked_on": "2026-10-30",
+  "scope": "Current working implementation after post-run verification and trial-budget hardening; frozen model run was not refitted",
+  "pytest": {
+    "command": ".venv/bin/pytest",
+    "passed": 399,
+    "failed": 0,
+    "warnings": 1,
+    "seconds": 15.52,
+    "warning_detail": "An older V2 test triggers joblib physical-core detection fallback to logical cores in this macOS sandbox; no test failure."
+  },
+  "ruff_check": {
+    "command": ".venv/bin/ruff check src tests infra/quantrocket/research",
+    "passed": true
+  },
+  "ruff_format": {
+    "command": ".venv/bin/ruff format --check src tests infra/quantrocket/research",
+    "passed": true,
+    "formatted_files_checked": 51
+  },
+  "dedicated_wide_verifier_synthetic_tests": 58,
+  "native_wide_verifier": "Passed with explicit full-run, cache and registry paths; see verification.json",
+  "assurance_limit": "Tests and hashes are engineering evidence, not proof of profitable alpha or absence of all defects."
+}

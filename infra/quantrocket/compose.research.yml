@@ -1,0 +1,141 @@
+# Derived from QuantRocket's Apache-2.0 local deployment template, version 2.12.0.
+# See vendor/docker-compose.2.12.0.yml for the original copyright/license notice.
+# Research only: no brokerage gateway, account, blotter, realtime or order service.
+# The only published port is loopback; no host Docker socket or home-directory mount.
+
+name: equity-alpha-qr
+
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "3"
+
+volumes:
+  codeload:
+  db:
+  flightlog:
+  settings:
+
+services:
+  postgres:
+    image: quantrocket/postgres:2.12.0
+    environment:
+      PGDATA: /var/lib/quantrocket/postgresql12/data/pg_data
+    volumes:
+      - db:/var/lib/quantrocket
+    logging: *logging
+    restart: "no"
+
+  db:
+    image: quantrocket/db:2.12.0
+    volumes:
+      - db:/var/lib/quantrocket
+      - settings:/etc/opt/quantrocket
+    depends_on:
+      - postgres
+    logging: *logging
+    restart: "no"
+
+  flightlog:
+    image: quantrocket/flightlog:2.12.0
+    environment:
+      SEND_CRASH_REPORTS: "false"
+    volumes:
+      - flightlog:/var/log/flightlog
+      - settings:/etc/opt/quantrocket
+    logging: *logging
+    restart: "no"
+
+  license-service:
+    image: quantrocket/license-service:2.12.0
+    volumes:
+      - settings:/etc/opt/quantrocket
+      - db:/var/lib/quantrocket
+      - codeload:/codeload
+    depends_on:
+      - db
+    logging: *logging
+    restart: "no"
+
+  master:
+    image: quantrocket/master:2.12.0
+    volumes:
+      - db:/var/lib/quantrocket
+      - codeload:/codeload
+      - settings:/etc/opt/quantrocket
+    depends_on:
+      - db
+    logging: *logging
+    restart: "no"
+
+  fundamental:
+    image: quantrocket/fundamental:2.12.0
+    volumes:
+      - db:/var/lib/quantrocket
+      - codeload:/codeload
+      - settings:/etc/opt/quantrocket
+    depends_on:
+      - db
+    logging: *logging
+    restart: "no"
+
+  history:
+    image: quantrocket/history:2.12.0
+    volumes:
+      - db:/var/lib/quantrocket
+      - settings:/etc/opt/quantrocket
+    depends_on:
+      - db
+    logging: *logging
+    restart: "no"
+
+  codeload:
+    image: quantrocket/codeload:2.12.0
+    environment:
+      GIT_URL: https://github.com/quantrocket-codeload/quickstart.git
+      GIT_BRANCH: "2.12"
+      OVERWRITE_EXISTING: "false"
+    volumes:
+      - codeload:/codeload
+    logging: *logging
+    restart: "no"
+
+  jupyter:
+    image: quantrocket/jupyter:2.12.0
+    volumes:
+      - codeload:/codeload
+      - db:/var/lib/quantrocket
+      - ../../src:/codeload/equity-alpha-src:ro
+      - ../../configs:/codeload/equity-alpha-configs:ro
+      - ./research:/codeload/equity-alpha-research:ro
+    depends_on:
+      - codeload
+      - license-service
+    logging: *logging
+    restart: "no"
+
+  zipline:
+    image: quantrocket/zipline:2.12.0
+    volumes:
+      - codeload:/codeload
+      - db:/var/lib/quantrocket
+      - settings:/etc/opt/quantrocket
+    depends_on:
+      - db
+      - master
+      - license-service
+    logging: *logging
+    restart: "no"
+
+  houston:
+    image: quantrocket/houston:2.12.0
+    environment:
+      QUANTROCKET_VERSION: "2.12.0"
+    ports:
+      - "127.0.0.1:1969:80"
+    depends_on:
+      - jupyter
+      - zipline
+    logging: *logging
+    restart: "no"

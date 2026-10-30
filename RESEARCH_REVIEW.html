@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AxiomAlpha — evidence and review guide</title>
+<style>
+  :root { color-scheme: light; }
+  body { max-width: 1120px; margin: 0 auto; padding: 40px 28px 60px; font: 16px/1.7 system-ui, sans-serif; color: #183344; background: #fff; }
+  h1 { font-size: clamp(30px, 5vw, 46px); line-height: 1.15; margin: 12px 0 18px; letter-spacing: -.025em; }
+  h2 { font-size: 24px; margin-top: 40px; line-height: 1.3; }
+  .eyebrow { color: #536b78; font-size: 14px; letter-spacing: .05em; text-transform: uppercase; }
+  .lead { max-width: 900px; font-size: 19px; }
+  .verdict { padding: 18px 22px; border-left: 5px solid #bd791b; background: #fff3da; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 24px 0; }
+  .card { padding: 17px 20px; border: 1px solid #d7e2e7; border-radius: 8px; background: #f7fafb; }
+  .card strong { display: block; font-size: 25px; } .card span { color: #536b78; }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 11px; border-bottom: 1px solid #dbe4e8; vertical-align: top; }
+  th { background: #eff4f6; } .scroll { overflow-x: auto; }
+  a { color: #086f96; text-underline-offset: 3px; }
+  code, pre { font: 14px/1.6 ui-monospace, SFMono-Regular, Consolas, monospace; }
+  pre { padding: 18px; background: #eef3f5; overflow-x: auto; border-radius: 6px; }
+  li { margin: 6px 0; } footer { margin-top: 45px; border-top: 1px solid #dbe4e8; padding-top: 20px; color: #536b78; font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="eyebrow">Completed bounded research release · 30 October 2026 · No trading connection</div>
+<h1>AxiomAlpha</h1>
+<p class="eyebrow">Cross-Sectional Equity ML &amp; Signal Validation</p>
+<p class="lead">An auditable test of whether nonlinear ML adds cross-sectional equity-return information beyond simple factors—with causal data processing, honest controls and preserved negative findings.</p>
+<div class="verdict"><strong>Research verdict: no robust standalone or incremental ML advantage established.</strong>
+The engineering/research deliverable is complete. A profitable alpha model, production system and deployment approval are not claimed. The 2011 prediction-performance evaluation remains locked.</div>
+<div class="grid">
+  <div class="card"><strong>1.53 million</strong><span>development decision rows; dynamic security universe</span></div>
+  <div class="card"><strong>14 fits</strong><span>four fixed candidates and three label-shuffle controls, two annual folds</span></div>
+  <div class="card"><strong>820,028</strong><span>forecast rows per specification, including missing future outcomes</span></div>
+</div>
+
+<h2>1. Read the result before the implementation</h2>
+<div class="scroll"><table>
+<thead><tr><th>Question</th><th>Development measurement</th><th>What it supports</th></tr></thead>
+<tbody>
+<tr><td>Is the fixed HGB7 forecast positively associated with future returns?</td><td>Mean daily Rank IC 0.00165<br>95% block interval [−0.03179, 0.03315]</td><td>No reliable positive standalone association established.</td></tr>
+<tr><td>Does HGB7 improve on Ridge100?</td><td>Paired IC difference 0.01067<br>[0.00238, 0.01833]</td><td>A relative development improvement over a negative linear comparator—not general ML superiority.</td></tr>
+<tr><td>Does HGB7 beat reversal5?</td><td>Paired IC difference −0.02564<br>[−0.05577, 0.00346]</td><td>Lower point estimate; no evidence of improvement. The interval does not establish an overall population ranking either.</td></tr>
+<tr><td>Is there incremental association after controlling reversal5 and momentum21?</td><td>Mean descriptive partial rank correlation −0.00407<br>[−0.03093, 0.02092]</td><td>No reliable positive incremental association established under this projection.</td></tr>
+</tbody></table></div>
+<p>Intervals use 1,000 circular 20-session calendar-block resamples. The model study is development;
+the extension is explicitly post-hoc. None of these intervals corrects research selection or multiplicity.</p>
+<p><a href="artifacts/wide-ml-v1-development/report.html">Original-study reviewed report →</a><br>
+<a href="artifacts/wide-incremental-diagnostics-v1/report.html">Frozen-forecast incremental diagnostics →</a></p>
+
+<h2>2. The causality contract</h2>
+<pre>Close t: past-only features and dynamic eligibility
+  → close t+1: assumed entry reference
+  → close t+6: five-session vendor-adjusted price-return proxy
+  → training allowed only after that label has matured</pre>
+<ul>
+  <li>The source population contains 11,220 security IDs, not 11,220 verified common stocks. Daily eligibility uses a $5 price floor, $10m trailing average dollar volume, required history and a 2,500-security cap.</li>
+  <li>Twelve fixed price/volume features are cross-section ranked before future-label availability is checked. Latest security-type, symbol lifetime and auto-close metadata do not define eligibility.</li>
+  <li>Annual forecasts in 2009 and 2010 use strictly earlier, matured training outcomes. Full observed-cohort target ranks precede deterministic sampling; each training date receives equal weight.</li>
+  <li>All 2011 raw sessions are excluded before this study's feature/label calculation. The earlier 2011 coverage audit is disclosed, so it is not described as never-accessed data.</li>
+</ul>
+<p>Inspect <a href="src/equity_alpha/wide_data.py">causal features/labels</a>,
+<a href="src/equity_alpha/wide_models.py">maturity purging and sampling</a>,
+<a href="configs/wide_ml_v1.json">the fixed model protocol</a>, and
+<a href="tests/test_wide_data.py">hand-worked temporal/corporate-action tests</a>.</p>
+
+<h2>3. What prevents an optimistic backtest</h2>
+<ul>
+  <li><strong>Missing outcomes are not silently deleted.</strong> Per specification, 731 non-boundary missing outcomes and 10,469 fixed-boundary rows remain in forecast denominators. Observed-case IC and conservative Kendall completion bounds are distinct estimands.</li>
+  <li><strong>ML is compared with useful baselines.</strong> The stronger reversal baseline, all three frozen shuffled-label controls, both forecast years, all five declared cross-sectional conditions and all fixed 10/20/40-session block sensitivities are retained.</li>
+  <li><strong>No favorable subgroup is promoted.</strong> HGB7 partial correlation is negative in 2009 and positive in 2010. A shuffled-label control also has a positive pointwise partial interval, underscoring why isolated significance is not a discovery.</li>
+  <li><strong>Partial correlation is evaluation, not a new strategy.</strong> SVD projects both observed score ranks and outcome ranks on the two control ranks plus an intercept. Same-date outcome projection is descriptive; no residual portfolio, coefficients or per-security residuals are exported.</li>
+  <li><strong>Trials remain visible.</strong> The 14 model fits are frozen. One diagnostic attempt failed before summary statistics due to pandas datetime-unit equality; one explicitly logged same-protocol compatibility retry completed. Both attempts remain in the audit trail; no model refit occurred.</li>
+</ul>
+<p>Inspect <a href="src/equity_alpha/incremental_stats.py">the partial-rank implementation</a>,
+<a href="tests/test_incremental_stats.py">independent projection/degeneracy tests</a>,
+<a href="tests/test_wide_diagnostics.py">cohort, date-unit and recovery tests</a>, and
+<a href="artifacts/wide-incremental-diagnostics-v1/analysis_registry.jsonl">the append-only local registry snapshot</a>.</p>
+
+<h2>4. Reproduce the checks without vendor access</h2>
+<pre>uv sync --frozen --extra dev
+LOKY_MAX_CPU_COUNT=2 uv run pytest
+uv run ruff check src tests infra/quantrocket/research
+uv run ruff format --check src tests infra/quantrocket/research
+uv run python -m equity_alpha.release_verify --release artifacts/wide-ml-v1-development
+uv run python -m equity_alpha.release_verify --release artifacts/wide-incremental-diagnostics-v1</pre>
+<p>The completion test run passed <strong>540 tests</strong>. Tests include independent hand-worked projection,
+temporal/alignment checks, synthetic positive/null controls, accounting tests for the separate older pilot,
+and adversarial tampering tests for the native and portable verifiers. They are evidence, not proof that every defect is absent.</p>
+<p>The public releases contain aggregates, code and provenance only. The portable verifier checks exact inventories and hashes,
+rejects unsafe paths/symlinks/private array or model payloads, and never executes frozen code or follows recorded external paths.
+Checksums prove local internal consistency, not authenticity or externally immutable trial history.</p>
+<p>Native model replay additionally requires the same licensed platform/bundle vintage and frozen cache.
+<a href="artifacts/wide-incremental-diagnostics-v1/runtime_provenance.json">Platform package/image provenance</a>
+is separate from the host <a href="uv.lock">offline development lockfile</a>; bitwise model replay from the host lock is not claimed.
+Recorded model/analysis budgets are exhausted. Review the frozen evidence instead of resetting the registry to rerun it.</p>
+
+<h2>5. The limits a senior reviewer should challenge</h2>
+<div class="scroll"><table>
+<tr><th>Limitation</th><th>Consequence / next requirement</th></tr>
+<tr><td>Historical security classifications and vendor revision/publication times are not qualified.</td><td>Past-only processing is not the same as a fully point-in-time vendor dataset. Obtain historical membership/classification and vintage provenance.</td></tr>
+<tr><td>Dividend/split factors define an adjusted price proxy; terminal payouts/merger consideration are unresolved.</td><td>Do not call this exact total return or survivor-complete terminal wealth. Reconcile cash distributions and terminal returns before portfolio evaluation.</td></tr>
+<tr><td>Only two old forecast years, with overlapping five-session labels.</td><td>Modern and longer independent samples plus dependence-aware uncertainty are needed; 2011 is not a route to repair development results.</td></tr>
+<tr><td>No qualified fill, borrow, transaction-cost or capacity data for the broad panel.</td><td>No PnL, executable Sharpe or deployable strategy claim. The older fixed-panel simulator does not solve this data limitation.</td></tr>
+<tr><td>Diagnostics follow observed V1 aggregate results.</td><td>They explain a development finding, not independent confirmation. Any new model hypothesis needs a new recorded protocol and fresh evaluation evidence.</td></tr>
+</table></div>
+<p>The defensible conclusion is not “ML never works.” It is that this fixed price/volume setup has not demonstrated a stable,
+useful ML increment over the simple alternatives in this dataset. Rejecting that setup with an inspectable audit trail is a valid research outcome.</p>
+<footer>
+<a href="README.md">Repository guide and native verification command</a> ·
+<a href="artifacts/wide-incremental-diagnostics-v1/release_review.json">Completion review and scope</a><br>
+Research-only local environment; no broker, exchange, live orders or redistribution of raw vendor data.
+</footer>
+</body>
+</html>

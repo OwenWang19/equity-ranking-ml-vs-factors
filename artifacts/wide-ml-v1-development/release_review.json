@@ -1,0 +1,45 @@
+{
+  "schema": "wide_ml_interpretive_release_v1",
+  "review_date": "2026-10-30",
+  "native_run_id": "wide_e0f795afd46f4f1e95a950ab8181ca7c",
+  "scientific_verdict": "No robust standalone ML advantage established in development",
+  "interpretation": {
+    "fixed_hgb7_minus_ridge100_interval_positive": true,
+    "hgb7_standalone_ic_interval_positive": false,
+    "hgb7_exceeds_every_shuffled_label_control_mean": false,
+    "hgb7_exceeds_reversal5_mean": false,
+    "hgb7_nonboundary_kendall_completion_lower_positive": false,
+    "development_is_independent_confirmation": false,
+    "investable_alpha_established": false,
+    "promotion_authorized": false
+  },
+  "engineering_verification": {
+    "dedicated_wide_verifier": "equity_alpha.wide_verify",
+    "native_artifact_count": 32,
+    "frozen_source_count": 6,
+    "model_files_hashed_without_deserialization": 14,
+    "bound_cache_file_count": 8,
+    "completed_fit_forecast_lifecycles": 14,
+    "native_registry_verified": true,
+    "original_pilot_verifier_applicable": false,
+    "assurance": "Local internal consistency only; not external immutability, authenticity or scientific correctness"
+  },
+  "post_run_changes": [
+    "Added dedicated wide verifier and synthetic tampering tests",
+    "Hardened trial-budget guard to reject missing prior lifecycle records; current wide_experiment.py differs from the frozen snapshot",
+    "Added a reviewed report emphasizing standalone uncertainty, stronger reversal baseline and null-control limitations"
+  ],
+  "frozen_native_run_modified": false,
+  "predictions_or_statistics_rerun": false,
+  "new_fits_for_release": 0,
+  "reserved_2011_prediction_performance_evaluated": false,
+  "prior_2011_coverage_audit_disclosed": true,
+  "private_platform_only": [
+    "Raw vendor bars and corporate-action tables",
+    "Per-security feature/target cache and complete cache manifest",
+    "private_predictions.npz",
+    "models/*.joblib"
+  ],
+  "public_subset_note": "This directory is an aggregate/code/provenance subset, not the full native run. The full native verifier must run against the original platform directory, not this subset.",
+  "next_research_question": "Under a new protocol, test incremental prediction beyond reversal and regime stability without tuning this frozen run or automatically releasing 2011."
+}

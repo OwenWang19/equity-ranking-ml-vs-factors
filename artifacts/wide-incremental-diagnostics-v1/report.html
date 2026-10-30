@@ -1,0 +1,28 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Frozen-forecast incremental diagnostics</title>
+<style>body{font:16px/1.65 system-ui;max-width:1100px;margin:36px auto;padding:0 24px;color:#183344}
+aside{background:#fff2d9;border-left:5px solid #bd791b;padding:18px}table{border-collapse:collapse;width:100%}
+td,th{padding:10px;text-align:left;border-bottom:1px solid #dae2e7}img{width:100%;height:auto}
+.scroll{overflow:auto}a{color:#086f96}</style></head><body>
+<h1>Does the frozen ML forecast add information beyond simple factors?</h1>
+<aside><b>Post-hoc exploratory analysis of 2009–2010 development.</b> Original V1 results were already observed.
+No new model was fitted; 2011 performance remains disabled. Pointwise intervals do not correct selection or multiplicity.</aside>
+<h2>Overall measurements</h2><p>Paired HGB7 minus reversal5 daily IC: <b>-0.02564</b>,
+95% 20-session calendar-block interval [-0.05577, 0.00346].</p>
+<p>HGB7 partial rank correlation after linear projection of both score and outcome ranks on reversal5 and momentum21:
+<b>-0.00407</b>, interval [-0.03093, 0.02092].
+This is an observed-case descriptive statistic, not a tradable residual signal or general conditional-independence test.</p>
+<h2>All declared cross-sectional conditions</h2><div class="scroll"><table>
+<tr><th>Condition</th><th>Forecast rows</th><th>HGB7 − reversal5 IC [95% interval]</th><th>Partial rank correlation [95% interval]</th></tr>
+<tr><td>all</td><td>820,028</td><td>-0.02564 [-0.05577, 0.00346]</td><td>-0.00407 [-0.03093, 0.02092]</td></tr><tr><td>low_liquidity</td><td>410,139</td><td>-0.02691 [-0.05640, 0.00193]</td><td>-0.00625 [-0.03362, 0.01865]</td></tr><tr><td>high_liquidity</td><td>409,889</td><td>-0.02244 [-0.05538, 0.00755]</td><td>0.00003 [-0.02738, 0.02665]</td></tr><tr><td>low_volatility</td><td>410,138</td><td>-0.03277 [-0.05872, -0.00860]</td><td>-0.01854 [-0.04094, 0.00245]</td></tr><tr><td>high_volatility</td><td>409,890</td><td>-0.00587 [-0.03296, 0.02227]</td><td>0.01014 [-0.01080, 0.02918]</td></tr></table></div><p>Liquidity and volatility groups use the full same-date forecast cohort before checking outcomes.
+They are relative cross-sectional conditions, not aggregate market regimes. Both years and all fixed
+10/20/40-session block sensitivities are reported in <a href="summary.json">summary.json</a>; none is selected as the headline result.</p>
+<h2>Frozen shuffled-label control diagnostics</h2><table><tr><th>Original training-label control</th><th>Mean partial rank correlation</th><th>95% interval</th></tr>
+<tr><td>null_hgb_191</td><td>0.00801</td><td>[0.00131, 0.01477]</td></tr><tr><td>null_hgb_727</td><td>-0.00312</td><td>[-0.01097, 0.00437]</td></tr><tr><td>null_hgb_2027</td><td>-0.00023</td><td>[-0.00868, 0.00776]</td></tr></table><p>These three controls are diagnostics, not a high-powered randomization test.</p>
+<img src="incremental_diagnostics.png" alt="Rolling paired IC difference and partial rank correlations, with all fixed null controls">
+<h2>Why this is not deployment evidence</h2><ul><li>Post-hoc development diagnostics; all intervals are pointwise and not selection/multiplicity adjusted</li><li>Partial rank correlation is descriptive linear projection on the common observed cohort, not a tradable forecast</li><li>Cross-sectional groups are defined before labels and are not aggregate market regimes</li><li>Missing-outcome Kendall bounds from V1 do not transfer to partial correlations</li><li>All V1 data-vintage, historical classification, corporate-action and terminal-wealth limitations remain</li></ul>
+<p>No combination weights, signs, features, subgroups or hyperparameters were searched. Outcome projection uses same-date
+observed returns for evaluation only; no coefficients or per-security residuals are exported. Missing outcomes remain in
+forecast denominators, and undefined partial correlations remain undefined. There is no PnL or trading-promotion gate.</p>
+<p><a href="analysis_started.json">Input/protocol/runtime bindings</a> · <a href="config.json">Analysis protocol</a> ·
+<a href="daily_incremental_metrics.csv">All aggregate daily diagnostics</a></p></body></html>

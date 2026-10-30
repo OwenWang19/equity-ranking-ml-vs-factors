@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wide ML V1 — reviewed development findings</title>
+  <style>
+    :root { color-scheme: light; }
+    body { font: 16px/1.65 system-ui, sans-serif; color: #183344; max-width: 1080px; margin: 40px auto; padding: 0 24px; }
+    h1 { line-height: 1.2; } h2 { margin-top: 36px; }
+    .scope { color: #536b78; } .verdict { background: #fff3da; border-left: 5px solid #bd791b; padding: 18px 22px; }
+    table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+    th, td { text-align: left; padding: 10px; border-bottom: 1px solid #dce4e8; }
+    th { background: #eef3f5; } .scroll { overflow-x: auto; }
+    img { display: block; width: 100%; height: auto; } a { color: #086f96; }
+    code { overflow-wrap: anywhere; } footer { border-top: 1px solid #dce4e8; margin-top: 38px; padding-top: 18px; font-size: 14px; }
+  </style>
+</head>
+<body>
+<p class="scope">Equity Alpha Research · Wide ML V1 · 2009–2010 development · Released 2026-10-30</p>
+<h1>No robust standalone ML advantage established</h1>
+<div class="verdict">
+  <strong>The fixed nonlinear model improves on a negative linear baseline, not on the strongest simple factor.</strong>
+  Its standalone IC confidence interval includes zero, its mean does not exceed every shuffled-label control,
+  and missing-outcome completion bounds do not establish positive full-cohort association.
+  No trading promotion or reserved-year evaluation is authorized by these results.
+</div>
+<h2>What the first registered experiment found</h2>
+<div class="scroll"><table>
+  <thead><tr><th>Specification</th><th>Mean daily Rank IC</th><th>95% calendar-block interval</th><th>2009</th><th>2010</th></tr></thead>
+  <tbody>
+    <tr><td>Ridge10</td><td>−0.00906</td><td>[−0.04249, 0.02399]</td><td>−0.02275</td><td>0.00498</td></tr>
+    <tr><td>Ridge100 — fixed linear comparator</td><td>−0.00902</td><td>[−0.04250, 0.02410]</td><td>−0.02272</td><td>0.00502</td></tr>
+    <tr><td>HGB7 — fixed nonlinear comparator</td><td>0.00165</td><td>[−0.03179, 0.03315]</td><td>−0.01844</td><td>0.02222</td></tr>
+    <tr><td>HGB15</td><td>0.00051</td><td>[−0.03113, 0.03143]</td><td>−0.01921</td><td>0.02070</td></tr>
+    <tr><td>Shuffled training labels: seed 191</td><td>0.00708</td><td>[−0.00565, 0.02115]</td><td>0.02568</td><td>−0.01196</td></tr>
+    <tr><td>Shuffled training labels: seed 727</td><td>−0.00707</td><td>[−0.01519, 0.00158]</td><td>−0.00750</td><td>−0.00662</td></tr>
+    <tr><td>Shuffled training labels: seed 2027</td><td>−0.00183</td><td>[−0.01263, 0.00738]</td><td>−0.00263</td><td>−0.00102</td></tr>
+    <tr><td>Momentum21</td><td>−0.01863</td><td>[−0.04888, 0.01429]</td><td>−0.01786</td><td>−0.01942</td></tr>
+    <tr><td>Reversal5 — strongest simple baseline</td><td>0.02729</td><td>[0.00790, 0.04877]</td><td>0.02284</td><td>0.03184</td></tr>
+    <tr><td>Fixed momentum63/reversal5 composite</td><td>0.00928</td><td>[−0.01220, 0.03098]</td><td>−0.00842</td><td>0.02741</td></tr>
+  </tbody>
+</table></div>
+<p>The prespecified paired comparison, <strong>HGB7 minus Ridge100 = 0.01067</strong>, has a 95% interval
+[0.00238, 0.01833]. That relative development improvement is positive under the stated calendar-block estimator;
+it does not establish positive standalone predictive alpha or nonlinear superiority over reversal.
+All intervals use 1,000 circular 20-session calendar-block resamples, preserving the six dates without
+observed IC. Three label-shuffle controls are diagnostics, not a high-powered randomization test.</p>
+<h2>Design and scale</h2>
+<p>The source population contains 11,220 US equity-security IDs, including non-common-stock instruments.
+Eligibility uses only past/current prices and liquidity: minimum $5 price, $10 million trailing 20-session
+average dollar volume, complete required history, and a 2,500-security daily cap. There are 1,530,082
+decision rows across 2007–2010 and 820,028 forecast rows per specification in 2009–2010.</p>
+<p>Twelve fixed price/volume features feed two Ridge and two shallow histogram-gradient-boosting specifications.
+Three within-training-date label-shuffled HGB controls produce <strong>14 total fits across two annual folds</strong>.
+Training targets mature strictly before each forecast year; target ranks precede deterministic sampling,
+and dates receive equal weight. Features are observed through close t, with an assumed entry close t+1
+and label exit close t+6. Both forecast years are development, not final confirmation.</p>
+<h2>Missing outcomes are not deleted</h2>
+<p>Of 820,028 forecast rows per specification, 808,828 have observed labels. The remaining rows comprise
+126 missing entries, 551 missing exits, 54 internal gaps and 10,469 fixed right-boundary rows.
+The 731 non-boundary missing outcomes remain in coverage denominators and score-decile diagnostics;
+they are not imputed as flat returns. Observed-case Spearman IC is conditional on label availability.</p>
+<p>HGB7's mean non-boundary full-cohort Kendall tau-a completion interval is
+<strong>[−0.00115, 0.00241]</strong>. These are conservative, tie-aware missing-outcome bounds,
+not a Spearman confidence interval. They assume latent outcomes exist and do not reconstruct terminal payouts.</p>
+<img src="diagnostics.png" alt="Rolling observed-case IC, paired nonlinear-minus-linear IC, label coverage and Kendall completion bounds">
+<h2>Limits that prevent stronger claims</h2>
+<ul>
+  <li>Historical security-type/exchange membership and source revision timestamps are not qualified. Latest metadata and auto-close dates are not eligibility inputs.</li>
+  <li>Split/dividend mechanics are checked causally, but the label is a vendor-adjusted price-return proxy, not exact cash-distribution total return or qualified terminal wealth.</li>
+  <li>Missing delisting payouts and merger consideration remain unresolved. The panel is not claimed to be survivor-complete ordinary common stocks.</li>
+  <li>The learning sample is old, short, and spans unusual regimes. It does not establish current-market effectiveness.</li>
+  <li>No executable portfolio, transaction-cost/borrow model, capacity estimate, net PnL or Sharpe is computed here.</li>
+  <li>2011 received a prior coverage audit but no prediction-performance evaluation. It remains reserved, not described as never accessed.</li>
+</ul>
+<h2>Audit trail and next decision</h2>
+<p>The native verifier checks 32 frozen artifacts, six source snapshots, eight bound cache files,
+14 fit/forecast lifecycles and local registry bindings without deserializing models.
+This establishes internal consistency, not scientific validity or external immutability.</p>
+<p>The next research question is whether a separately registered model adds information beyond reversal
+and remains stable across regimes—not whether more tuning can improve this same score.
+No new fits or holdout release were performed for this review.</p>
+<footer>
+  This page is a post-run interpretive annotation. The <a href="original_report.html">original frozen report</a>,
+  <a href="summary.json">complete aggregate statistics</a>, <a href="config.json">fixed protocol</a>,
+  <a href="verification.json">native verification attestation</a>, and
+  <a href="release_review.json">release review</a> remain available.
+  Post-run trial-budget guard hardening did not change frozen predictions or statistics.
+  Raw data, row-level forecasts and fitted models remain platform-local.
+</footer>
+</body>
+</html>

@@ -1,0 +1,1447 @@
+{
+  "study": "2009-2010 development; 2011 reserved performance not evaluated",
+  "target": "Zipline-adjusted close return proxy, rank-normalized within observed training cohorts",
+  "universe": "Past-price/liquidity-selected US equity securities, including non-common-stock instruments",
+  "models": {
+    "ridge_10": {
+      "mean_observed_ic": -0.009055270911100309,
+      "ic_interval": {
+        "metric": "mean_daily_a_minus_b",
+        "method": "paired_circular_calendar_block_bootstrap",
+        "estimate": -0.009055270911100307,
+        "lower_95": -0.04248861246035611,
+        "upper_95": 0.023990493414801216,
+        "calendar_dates": 504,
+        "paired_dates": 498,
+        "missing_pair_dates": 6,
+        "block_sessions": 20,
+        "resamples": 1000,
+        "valid_resamples": 1000,
+        "status": "ok"
+      },
+      "years": {
+        "2009": {
+          "mean_observed_ic": -0.022754939394727718,
+          "dates_with_observed_ic": 252,
+          "forecast_rows": 390961,
+          "observed_label_rows": 390698
+        },
+        "2010": {
+          "mean_observed_ic": 0.00497853582822533,
+          "dates_with_observed_ic": 246,
+          "forecast_rows": 429067,
+          "observed_label_rows": 418130
+        }
+      },
+      "mean_full_cohort_kendall_lower_nonboundary": -0.00817072949204254,
+      "mean_full_cohort_kendall_upper_nonboundary": -0.0046072826089411465,
+      "mean_full_cohort_kendall_lower_all_dates": -0.019978220807613457,
+      "mean_full_cohort_kendall_upper_all_dates": 0.0073523278983081515,
+      "forecast_rows": 820028,
+      "observed_label_rows": 808828
+    },
+    "ridge_100": {
+      "mean_observed_ic": -0.009019563586790303,
+      "ic_interval": {
+        "metric": "mean_daily_a_minus_b",
+        "method": "paired_circular_calendar_block_bootstrap",
+        "estimate": -0.009019563586790305,
+        "lower_95": -0.04250456790286105,
+        "upper_95": 0.024097902934295454,
+        "calendar_dates": 504,
+        "paired_dates": 498,
+        "missing_pair_dates": 6,
+        "block_sessions": 20,
+        "resamples": 1000,
+        "valid_resamples": 1000,
+        "status": "ok"
+      },
+      "years": {
+        "2009": {
+          "mean_observed_ic": -0.022721837671674454,
+          "dates_with_observed_ic": 252,
+          "forecast_rows": 390961,
+          "observed_label_rows": 390698
+        },
+        "2010": {
+          "mean_observed_ic": 0.0050169123050422424,
+          "dates_with_observed_ic": 246,
+          "forecast_rows": 429067,
+          "observed_label_rows": 418130
+        }
+      },
+      "mean_full_cohort_kendall_lower_nonboundary": -0.008150677975844137,
+      "mean_full_cohort_kendall_upper_nonboundary": -0.004587231092742745,
+      "mean_full_cohort_kendall_lower_all_dates": -0.019958407999941228,
+      "mean_full_cohort_kendall_upper_all_dates": 0.007372140705980381,
+      "forecast_rows": 820028,
+      "observed_label_rows": 808828
+    },
+    "hgb_7": {
+      "mean_observed_ic": 0.001646052003786957,
+      "ic_interval": {
+        "metric": "mean_daily_a_minus_b",
+        "method": "paired_circular_calendar_block_bootstrap",
+        "estimate": 0.001646052003786957,
+        "lower_95": -0.03179422988861664,
+        "upper_95": 0.033146966207255366,
+        "calendar_dates": 504,
+        "paired_dates": 498,
+        "missing_pair_dates": 6,
+        "block_sessions": 20,
+        "resamples": 1000,
+        "valid_resamples": 1000,
+        "status": "ok"
+      },
+      "years": {
+        "2009": {
+          "mean_observed_ic": -0.018435027441784883,
+          "dates_with_observed_ic": 252,
+          "forecast_rows": 390961,
+          "observed_label_rows": 390698
+        },
+        "2010": {
+          "mean_observed_ic": 0.022216913874860543,
+          "dates_with_observed_ic": 246,
+          "forecast_rows": 429067,
+          "observed_label_rows": 418130
+        }
+      },
+      "mean_full_cohort_kendall_lower_nonboundary": -0.0011541091144135149,
+      "mean_full_cohort_kendall_upper_nonboundary": 0.002409113496840212,
+      "mean_full_cohort_kendall_lower_all_dates": -0.013043812027868995,
+      "mean_full_cohort_kendall_upper_all_dates": 0.014283875881933469,
+      "forecast_rows": 820028,
+      "observed_label_rows": 808828
+    },
+    "hgb_15": {
+      "mean_observed_ic": 0.0005059429292315825,
+      "ic_interval": {
+        "metric": "mean_daily_a_minus_b",
+        "method": "paired_circular_calendar_block_bootstrap",
+        "estimate": 0.0005059429292315844,
+        "lower_95": -0.031131001784467285,
+        "upper_95": 0.0314290700547337,
+        "calendar_dates": 504,
+        "paired_dates": 498,
+        "missing_pair_dates": 6,
+        "block_sessions": 20,
+        "resamples": 1000,
+        "valid_resamples": 1000,
+        "status": "ok"
+      },
+      "years": {
+        "2009": {
+          "mean_observed_ic": -0.019206663978498278,
+          "dates_with_observed_ic": 252,
+          "forecast_rows": 390961,
+          "observed_label_rows": 390698
+        },
+        "2010": {
+          "mean_observed_ic": 0.020699345127393878,
+          "dates_with_observed_ic": 246,
+          "forecast_rows": 429067,
+          "observed_label_rows": 418130
+        }
+      },
+      "mean_full_cohort_kendall_lower_nonboundary": -0.0019790726431510174,
+      "mean_full_cohort_kendall_upper_nonboundary": 0.0015843091674023766,
+      "mean_full_cohort_kendall_lower_all_dates": -0.013859766217372081,
+      "mean_full_cohort_kendall_upper_all_dates": 0.01346970230681092,
+      "forecast_rows": 820028,
+      "observed_label_rows": 808828
+    },
+    "null_hgb_191": {
+      "mean_observed_ic": 0.007084864564959114,
+      "ic_interval": {
+        "metric": "mean_daily_a_minus_b",
+        "method": "paired_circular_calendar_block_bootstrap",
+        "estimate": 0.007084864564959114,
+        "lower_95": -0.0056529138948743915,
+        "upper_95": 0.021153790149865886,
+        "calendar_dates": 504,
+        "paired_dates": 498,
+        "missing_pair_dates": 6,
+        "block_sessions": 20,
+        "resamples": 1000,
+        "valid_resamples": 1000,
+        "status": "ok"
+      },
+      "years": {
+        "2009": {
+          "mean_observed_ic": 0.025677471469310865,
+          "dates_with_observed_ic": 252,
+          "forecast_rows": 390961,
+          "observed_label_rows": 390698
+        },
+        "2010": {
+          "mean_observed_ic": -0.01196122055657195,
+          "dates_with_observed_ic": 246,
+          "forecast_rows": 429067,
+          "observed_label_rows": 418130
+        }
+      },
+      "mean_full_cohort_kendall_lower_nonboundary": 0.0031415186233201215,
+      "mean_full_cohort_kendall_upper_nonboundary": 0.006697180774079029,
+      "mean_full_cohort_kendall_lower_all_dates": -0.008760727485676382,
+      "mean_full_cohort_kendall_upper_all_dates": 0.018482299509296973,
+      "forecast_rows": 820028,
+      "observed_label_rows": 808828
+    },
+    "null_hgb_727": {
+      "mean_observed_ic": -0.007067183376078814,
+      "ic_interval": {
+        "metric": "mean_daily_a_minus_b",
+        "method": "paired_circular_calendar_block_bootstrap",
+        "estimate": -0.007067183376078814,
+        "lower_95": -0.015193881386511406,
+        "upper_95": 0.001577544434478712,
+        "calendar_dates": 504,
+        "paired_dates": 498,
+        "missing_pair_dates": 6,
+        "block_sessions": 20,
+        "resamples": 1000,
+        "valid_resamples": 1000,
+        "status": "ok"
+      },
+      "years": {
+        "2009": {
+          "mean_observed_ic": -0.007501189223523535,
+          "dates_with_observed_ic": 252,
+          "forecast_rows": 390961,
+          "observed_label_rows": 390698
+        },
+        "2010": {
+          "mean_observed_ic": -0.0066225920201598305,
+          "dates_with_observed_ic": 246,
+          "forecast_rows": 429067,
+          "observed_label_rows": 418130
+        }
+      },
+      "mean_full_cohort_kendall_lower_nonboundary": -0.006580588604911049,
+      "mean_full_cohort_kendall_upper_nonboundary": -0.0030279718304164465,
+      "mean_full_cohort_kendall_lower_all_dates": -0.018350638945198762,
+      "mean_full_cohort_kendall_upper_all_dates": 0.008856466134101354,
+      "forecast_rows": 820028,
+      "observed_label_rows": 808828
+    },
+    "null_hgb_2027": {
+      "mean_observed_ic": -0.0018321001946982915,
+      "ic_interval": {
+        "metric": "mean_daily_a_minus_b",
+        "method": "paired_circular_calendar_block_bootstrap",
+        "estimate": -0.0018321001946982915,
+        "lower_95": -0.012627294731361568,
+        "upper_95": 0.00737887731234811,
+        "calendar_dates": 504,
+        "paired_dates": 498,
+        "missing_pair_dates": 6,
+        "block_sessions": 20,
+        "resamples": 1000,
+        "valid_resamples": 1000,
+        "status": "ok"
+      },
+      "years": {
+        "2009": {
+          "mean_observed_ic": -0.0026278484250557223,
+          "dates_with_observed_ic": 252,
+          "forecast_rows": 390961,
+          "observed_label_rows": 390698
+        },
+        "2010": {
+          "mean_observed_ic": -0.0010169434709175079,
+          "dates_with_observed_ic": 246,
+          "forecast_rows": 429067,
+          "observed_label_rows": 418130
+        }
+      },
+      "mean_full_cohort_kendall_lower_nonboundary": -0.0028688076489449153,
+      "mean_full_cohort_kendall_upper_nonboundary": 0.0006692025867815069,
+      "mean_full_cohort_kendall_lower_all_dates": -0.014711472744576685,
+      "mean_full_cohort_kendall_upper_all_dates": 0.012538053456962838,
+      "forecast_rows": 820028,
+      "observed_label_rows": 808828
+    },
+    "momentum21": {
+      "mean_observed_ic": -0.018632992959921754,
+      "ic_interval": {
+        "metric": "mean_daily_a_minus_b",
+        "method": "paired_circular_calendar_block_bootstrap",
+        "estimate": -0.018632992959921754,
+        "lower_95": -0.04887878193761064,
+        "upper_95": 0.014293529725881503,
+        "calendar_dates": 504,
+        "paired_dates": 498,
+        "missing_pair_dates": 6,
+        "block_sessions": 20,
+        "resamples": 1000,
+        "valid_resamples": 1000,
+        "status": "ok"
+      },
+      "years": {
+        "2009": {
+          "mean_observed_ic": -0.017860634743703856,
+          "dates_with_observed_ic": 252,
+          "forecast_rows": 390961,
+          "observed_label_rows": 390698
+        },
+        "2010": {
+          "mean_observed_ic": -0.019424189181413264,
+          "dates_with_observed_ic": 246,
+          "forecast_rows": 429067,
+          "observed_label_rows": 418130
+        }
+      },
+      "mean_full_cohort_kendall_lower_nonboundary": -0.014878590767506823,
+      "mean_full_cohort_kendall_upper_nonboundary": -0.011315147390840859,
+      "mean_full_cohort_kendall_lower_all_dates": -0.026606209204690628,
+      "mean_full_cohort_kendall_upper_all_dates": 0.0007243012625137501,
+      "forecast_rows": 820028,
+      "observed_label_rows": 808828
+    },
+    "reversal5": {
+      "mean_observed_ic": 0.0272870058655405,
+      "ic_interval": {
+        "metric": "mean_daily_a_minus_b",
+        "method": "paired_circular_calendar_block_bootstrap",
+        "estimate": 0.0272870058655405,
+        "lower_95": 0.007897863879777074,
+        "upper_95": 0.04877232558549325,
+        "calendar_dates": 504,
+        "paired_dates": 498,
+        "missing_pair_dates": 6,
+        "block_sessions": 20,
+        "resamples": 1000,
+        "valid_resamples": 1000,
+        "status": "ok"
+      },
+      "years": {
+        "2009": {
+          "mean_observed_ic": 0.02284406064325537,
+          "dates_with_observed_ic": 252,
+          "forecast_rows": 390961,
+          "observed_label_rows": 390698
+        },
+        "2010": {
+          "mean_observed_ic": 0.03183831560544234,
+          "dates_with_observed_ic": 246,
+          "forecast_rows": 429067,
+          "observed_label_rows": 418130
+        }
+      },
+      "mean_full_cohort_kendall_lower_nonboundary": 0.017265251242109897,
+      "mean_full_cohort_kendall_upper_nonboundary": 0.020828687225340398,
+      "mean_full_cohort_kendall_lower_all_dates": 0.005154996865118404,
+      "mean_full_cohort_kendall_upper_all_dates": 0.032485442334862245,
+      "forecast_rows": 820028,
+      "observed_label_rows": 808828
+    },
+    "composite_mom63_rev5": {
+      "mean_observed_ic": 0.009281330192968076,
+      "ic_interval": {
+        "metric": "mean_daily_a_minus_b",
+        "method": "paired_circular_calendar_block_bootstrap",
+        "estimate": 0.009281330192968076,
+        "lower_95": -0.012203390328245882,
+        "upper_95": 0.03098207746777007,
+        "calendar_dates": 504,
+        "paired_dates": 498,
+        "missing_pair_dates": 6,
+        "block_sessions": 20,
+        "resamples": 1000,
+        "valid_resamples": 1000,
+        "status": "ok"
+      },
+      "years": {
+        "2009": {
+          "mean_observed_ic": -0.008415364091141552,
+          "dates_with_observed_ic": 252,
+          "forecast_rows": 390961,
+          "observed_label_rows": 390698
+        },
+        "2010": {
+          "mean_observed_ic": 0.02740965116693404,
+          "dates_with_observed_ic": 246,
+          "forecast_rows": 429067,
+          "observed_label_rows": 418130
+        }
+      },
+      "mean_full_cohort_kendall_lower_nonboundary": 0.004738280912653852,
+      "mean_full_cohort_kendall_upper_nonboundary": 0.008300976275211465,
+      "mean_full_cohort_kendall_lower_all_dates": -0.007220252161029494,
+      "mean_full_cohort_kendall_upper_all_dates": 0.020104280096658315,
+      "forecast_rows": 820028,
+      "observed_label_rows": 808828
+    }
+  },
+  "primary_paired_ic_difference": {
+    "metric": "mean_daily_a_minus_b",
+    "method": "paired_circular_calendar_block_bootstrap",
+    "estimate": 0.010665615590577257,
+    "lower_95": 0.002377893866278494,
+    "upper_95": 0.01832770883316389,
+    "calendar_dates": 504,
+    "paired_dates": 498,
+    "missing_pair_dates": 6,
+    "block_sessions": 20,
+    "resamples": 1000,
+    "valid_resamples": 1000,
+    "status": "ok"
+  },
+  "primary_paired_ic_difference_by_year": {
+    "2009": 0.004286810229889568,
+    "2010": 0.017200001569818307
+  },
+  "development_selected_candidate": "hgb_7",
+  "selection_is_not_confirmatory": true,
+  "null_control_means": {
+    "null_hgb_191": 0.007084864564959114,
+    "null_hgb_727": -0.007067183376078814,
+    "null_hgb_2027": -0.0018321001946982915
+  },
+  "evidence_checks": {
+    "fixed_primary_delta_ci_excludes_zero_positive": true,
+    "fixed_primary_ic_ci_excludes_zero_positive": false,
+    "fixed_primary_exceeds_all_permuted_training_means": false,
+    "missing_outcome_kendall_lower_positive_nonboundary": false
+  },
+  "model_or_trading_promotion_authorized": false,
+  "net_sharpe_computed": false,
+  "reserved_performance_computed": false,
+  "coverage_by_score_decile": [
+    {
+      "model": "composite_mom63_rev5",
+      "decile": 1,
+      "predicted_rows": 81787,
+      "observed_rows": 80696,
+      "missing_rows": 1091,
+      "boundary_rows": 1044,
+      "coverage": 0.9866604717131084,
+      "coverage_excluding_fixed_boundary": 0.9994179061962027
+    },
+    {
+      "model": "composite_mom63_rev5",
+      "decile": 2,
+      "predicted_rows": 82007,
+      "observed_rows": 80917,
+      "missing_rows": 1090,
+      "boundary_rows": 1047,
+      "coverage": 0.9867084517175363,
+      "coverage_excluding_fixed_boundary": 0.9994688735177866
+    },
+    {
+      "model": "composite_mom63_rev5",
+      "decile": 3,
+      "predicted_rows": 81983,
+      "observed_rows": 80884,
+      "missing_rows": 1099,
+      "boundary_rows": 1047,
+      "coverage": 0.9865947818450167,
+      "coverage_excluding_fixed_boundary": 0.999357517050509
+    },
+    {
+      "model": "composite_mom63_rev5",
+      "decile": 4,
+      "predicted_rows": 82039,
+      "observed_rows": 80937,
+      "missing_rows": 1102,
+      "boundary_rows": 1046,
+      "coverage": 0.986567364302344,
+      "coverage_excluding_fixed_boundary": 0.9993085822231551
+    },
+    {
+      "model": "composite_mom63_rev5",
+      "decile": 5,
+      "predicted_rows": 82085,
+      "observed_rows": 80991,
+      "missing_rows": 1094,
+      "boundary_rows": 1051,
+      "coverage": 0.9866723518304197,
+      "coverage_excluding_fixed_boundary": 0.9994693585408594
+    },
+    {
+      "model": "composite_mom63_rev5",
+      "decile": 6,
+      "predicted_rows": 81893,
+      "observed_rows": 80808,
+      "missing_rows": 1085,
+      "boundary_rows": 1041,
+      "coverage": 0.9867510043593469,
+      "coverage_excluding_fixed_boundary": 0.9994557957749963
+    },
+    {
+      "model": "composite_mom63_rev5",
+      "decile": 7,
+      "predicted_rows": 82004,
+      "observed_rows": 80876,
+      "missing_rows": 1128,
+      "boundary_rows": 1049,
+      "coverage": 0.9862445734354421,
+      "coverage_excluding_fixed_boundary": 0.9990241492187018
+    },
+    {
+      "model": "composite_mom63_rev5",
+      "decile": 8,
+      "predicted_rows": 82010,
+      "observed_rows": 80898,
+      "missing_rows": 1112,
+      "boundary_rows": 1048,
+      "coverage": 0.9864406779661017,
+      "coverage_excluding_fixed_boundary": 0.9992095056940293
+    },
+    {
+      "model": "composite_mom63_rev5",
+      "decile": 9,
+      "predicted_rows": 81995,
+      "observed_rows": 80852,
+      "missing_rows": 1143,
+      "boundary_rows": 1046,
+      "coverage": 0.9860601256174157,
+      "coverage_excluding_fixed_boundary": 0.9988017146598476
+    },
+    {
+      "model": "composite_mom63_rev5",
+      "decile": 10,
+      "predicted_rows": 82225,
+      "observed_rows": 80969,
+      "missing_rows": 1256,
+      "boundary_rows": 1050,
+      "coverage": 0.9847248403770142,
+      "coverage_excluding_fixed_boundary": 0.9974622728672621
+    },
+    {
+      "model": "hgb_15",
+      "decile": 1,
+      "predicted_rows": 81777,
+      "observed_rows": 80669,
+      "missing_rows": 1108,
+      "boundary_rows": 1044,
+      "coverage": 0.9864509580933515,
+      "coverage_excluding_fixed_boundary": 0.9992072634486517
+    },
+    {
+      "model": "hgb_15",
+      "decile": 2,
+      "predicted_rows": 82039,
+      "observed_rows": 80941,
+      "missing_rows": 1098,
+      "boundary_rows": 1046,
+      "coverage": 0.9866161216007021,
+      "coverage_excluding_fixed_boundary": 0.9993579692072154
+    },
+    {
+      "model": "hgb_15",
+      "decile": 3,
+      "predicted_rows": 81959,
+      "observed_rows": 80863,
+      "missing_rows": 1096,
+      "boundary_rows": 1048,
+      "coverage": 0.9866274600714992,
+      "coverage_excluding_fixed_boundary": 0.999406755570936
+    },
+    {
+      "model": "hgb_15",
+      "decile": 4,
+      "predicted_rows": 82040,
+      "observed_rows": 80944,
+      "missing_rows": 1096,
+      "boundary_rows": 1046,
+      "coverage": 0.986640663091175,
+      "coverage_excluding_fixed_boundary": 0.9993826703212584
+    },
+    {
+      "model": "hgb_15",
+      "decile": 5,
+      "predicted_rows": 82068,
+      "observed_rows": 80988,
+      "missing_rows": 1080,
+      "boundary_rows": 1049,
+      "coverage": 0.9868401813130575,
+      "coverage_excluding_fixed_boundary": 0.9996173737024648
+    },
+    {
+      "model": "hgb_15",
+      "decile": 6,
+      "predicted_rows": 81933,
+      "observed_rows": 80847,
+      "missing_rows": 1086,
+      "boundary_rows": 1046,
+      "coverage": 0.9867452674746439,
+      "coverage_excluding_fixed_boundary": 0.9995054829577065
+    },
+    {
+      "model": "hgb_15",
+      "decile": 7,
+      "predicted_rows": 81990,
+      "observed_rows": 80900,
+      "missing_rows": 1090,
+      "boundary_rows": 1047,
+      "coverage": 0.986705695816563,
+      "coverage_excluding_fixed_boundary": 0.9994687619682987
+    },
+    {
+      "model": "hgb_15",
+      "decile": 8,
+      "predicted_rows": 82013,
+      "observed_rows": 80911,
+      "missing_rows": 1102,
+      "boundary_rows": 1047,
+      "coverage": 0.9865631058490727,
+      "coverage_excluding_fixed_boundary": 0.9993207025171059
+    },
+    {
+      "model": "hgb_15",
+      "decile": 9,
+      "predicted_rows": 81982,
+      "observed_rows": 80878,
+      "missing_rows": 1104,
+      "boundary_rows": 1046,
+      "coverage": 0.9865336293332683,
+      "coverage_excluding_fixed_boundary": 0.9992833844024909
+    },
+    {
+      "model": "hgb_15",
+      "decile": 10,
+      "predicted_rows": 82227,
+      "observed_rows": 80887,
+      "missing_rows": 1340,
+      "boundary_rows": 1050,
+      "coverage": 0.9837036496527904,
+      "coverage_excluding_fixed_boundary": 0.9964275595304088
+    },
+    {
+      "model": "hgb_7",
+      "decile": 1,
+      "predicted_rows": 81779,
+      "observed_rows": 80670,
+      "missing_rows": 1109,
+      "boundary_rows": 1044,
+      "coverage": 0.9864390613727241,
+      "coverage_excluding_fixed_boundary": 0.9991948968848703
+    },
+    {
+      "model": "hgb_7",
+      "decile": 2,
+      "predicted_rows": 82039,
+      "observed_rows": 80943,
+      "missing_rows": 1096,
+      "boundary_rows": 1046,
+      "coverage": 0.9866405002498811,
+      "coverage_excluding_fixed_boundary": 0.9993826626992456
+    },
+    {
+      "model": "hgb_7",
+      "decile": 3,
+      "predicted_rows": 81953,
+      "observed_rows": 80855,
+      "missing_rows": 1098,
+      "boundary_rows": 1048,
+      "coverage": 0.9866020768001171,
+      "coverage_excluding_fixed_boundary": 0.9993819912242754
+    },
+    {
+      "model": "hgb_7",
+      "decile": 4,
+      "predicted_rows": 82050,
+      "observed_rows": 80955,
+      "missing_rows": 1095,
+      "boundary_rows": 1046,
+      "coverage": 0.986654478976234,
+      "coverage_excluding_fixed_boundary": 0.9993950916004148
+    },
+    {
+      "model": "hgb_7",
+      "decile": 5,
+      "predicted_rows": 82065,
+      "observed_rows": 80960,
+      "missing_rows": 1105,
+      "boundary_rows": 1050,
+      "coverage": 0.9865350636690429,
+      "coverage_excluding_fixed_boundary": 0.9993211133740665
+    },
+    {
+      "model": "hgb_7",
+      "decile": 6,
+      "predicted_rows": 81933,
+      "observed_rows": 80837,
+      "missing_rows": 1096,
+      "boundary_rows": 1045,
+      "coverage": 0.9866232165305798,
+      "coverage_excluding_fixed_boundary": 0.9993694985659183
+    },
+    {
+      "model": "hgb_7",
+      "decile": 7,
+      "predicted_rows": 81979,
+      "observed_rows": 80887,
+      "missing_rows": 1092,
+      "boundary_rows": 1047,
+      "coverage": 0.9866795154856731,
+      "coverage_excluding_fixed_boundary": 0.9994439776602579
+    },
+    {
+      "model": "hgb_7",
+      "decile": 8,
+      "predicted_rows": 82025,
+      "observed_rows": 80931,
+      "missing_rows": 1094,
+      "boundary_rows": 1046,
+      "coverage": 0.9866626028649802,
+      "coverage_excluding_fixed_boundary": 0.9994072537324492
+    },
+    {
+      "model": "hgb_7",
+      "decile": 9,
+      "predicted_rows": 81978,
+      "observed_rows": 80856,
+      "missing_rows": 1122,
+      "boundary_rows": 1047,
+      "coverage": 0.9863134011564079,
+      "coverage_excluding_fixed_boundary": 0.999073284649887
+    },
+    {
+      "model": "hgb_7",
+      "decile": 10,
+      "predicted_rows": 82227,
+      "observed_rows": 80934,
+      "missing_rows": 1293,
+      "boundary_rows": 1050,
+      "coverage": 0.9842752380604911,
+      "coverage_excluding_fixed_boundary": 0.9970065412616874
+    },
+    {
+      "model": "momentum21",
+      "decile": 1,
+      "predicted_rows": 81776,
+      "observed_rows": 80672,
+      "missing_rows": 1104,
+      "boundary_rows": 1044,
+      "coverage": 0.986499706515359,
+      "coverage_excluding_fixed_boundary": 0.9992568002774612
+    },
+    {
+      "model": "momentum21",
+      "decile": 2,
+      "predicted_rows": 82039,
+      "observed_rows": 80918,
+      "missing_rows": 1121,
+      "boundary_rows": 1046,
+      "coverage": 0.986335767135143,
+      "coverage_excluding_fixed_boundary": 0.9990739940488684
+    },
+    {
+      "model": "momentum21",
+      "decile": 3,
+      "predicted_rows": 81960,
+      "observed_rows": 80842,
+      "missing_rows": 1118,
+      "boundary_rows": 1048,
+      "coverage": 0.9863591996095656,
+      "coverage_excluding_fixed_boundary": 0.9991348625667392
+    },
+    {
+      "model": "momentum21",
+      "decile": 4,
+      "predicted_rows": 82042,
+      "observed_rows": 80924,
+      "missing_rows": 1118,
+      "boundary_rows": 1046,
+      "coverage": 0.9863728334267814,
+      "coverage_excluding_fixed_boundary": 0.9991110672131958
+    },
+    {
+      "model": "momentum21",
+      "decile": 5,
+      "predicted_rows": 82073,
+      "observed_rows": 80963,
+      "missing_rows": 1110,
+      "boundary_rows": 1050,
+      "coverage": 0.9864754547780634,
+      "coverage_excluding_fixed_boundary": 0.9992594695333424
+    },
+    {
+      "model": "momentum21",
+      "decile": 6,
+      "predicted_rows": 81931,
+      "observed_rows": 80821,
+      "missing_rows": 1110,
+      "boundary_rows": 1045,
+      "coverage": 0.9864520145000061,
+      "coverage_excluding_fixed_boundary": 0.999196399871424
+    },
+    {
+      "model": "momentum21",
+      "decile": 7,
+      "predicted_rows": 81981,
+      "observed_rows": 80865,
+      "missing_rows": 1116,
+      "boundary_rows": 1046,
+      "coverage": 0.9863870896915139,
+      "coverage_excluding_fixed_boundary": 0.9991351084203373
+    },
+    {
+      "model": "momentum21",
+      "decile": 8,
+      "predicted_rows": 82022,
+      "observed_rows": 80910,
+      "missing_rows": 1112,
+      "boundary_rows": 1048,
+      "coverage": 0.986442661724903,
+      "coverage_excluding_fixed_boundary": 0.9992096228418998
+    },
+    {
+      "model": "momentum21",
+      "decile": 9,
+      "predicted_rows": 81974,
+      "observed_rows": 80836,
+      "missing_rows": 1138,
+      "boundary_rows": 1046,
+      "coverage": 0.9861175494669041,
+      "coverage_excluding_fixed_boundary": 0.9988631870304469
+    },
+    {
+      "model": "momentum21",
+      "decile": 10,
+      "predicted_rows": 82230,
+      "observed_rows": 81077,
+      "missing_rows": 1153,
+      "boundary_rows": 1050,
+      "coverage": 0.9859783533990027,
+      "coverage_excluding_fixed_boundary": 0.9987312145848731
+    },
+    {
+      "model": "null_hgb_191",
+      "decile": 1,
+      "predicted_rows": 81790,
+      "observed_rows": 80636,
+      "missing_rows": 1154,
+      "boundary_rows": 1043,
+      "coverage": 0.985890695684069,
+      "coverage_excluding_fixed_boundary": 0.998625335925793
+    },
+    {
+      "model": "null_hgb_191",
+      "decile": 2,
+      "predicted_rows": 82012,
+      "observed_rows": 80901,
+      "missing_rows": 1111,
+      "boundary_rows": 1048,
+      "coverage": 0.9864532019704434,
+      "coverage_excluding_fixed_boundary": 0.9992218763895064
+    },
+    {
+      "model": "null_hgb_191",
+      "decile": 3,
+      "predicted_rows": 81748,
+      "observed_rows": 80630,
+      "missing_rows": 1118,
+      "boundary_rows": 1051,
+      "coverage": 0.9863238244360718,
+      "coverage_excluding_fixed_boundary": 0.9991697336951807
+    },
+    {
+      "model": "null_hgb_191",
+      "decile": 4,
+      "predicted_rows": 83887,
+      "observed_rows": 82853,
+      "missing_rows": 1034,
+      "boundary_rows": 994,
+      "coverage": 0.9876738946439854,
+      "coverage_excluding_fixed_boundary": 0.9995174502068932
+    },
+    {
+      "model": "null_hgb_191",
+      "decile": 5,
+      "predicted_rows": 79215,
+      "observed_rows": 78088,
+      "missing_rows": 1127,
+      "boundary_rows": 1098,
+      "coverage": 0.9857728965473711,
+      "coverage_excluding_fixed_boundary": 0.9996287619852273
+    },
+    {
+      "model": "null_hgb_191",
+      "decile": 6,
+      "predicted_rows": 83064,
+      "observed_rows": 81984,
+      "missing_rows": 1080,
+      "boundary_rows": 1040,
+      "coverage": 0.986997977463161,
+      "coverage_excluding_fixed_boundary": 0.999512337852336
+    },
+    {
+      "model": "null_hgb_191",
+      "decile": 7,
+      "predicted_rows": 82191,
+      "observed_rows": 81098,
+      "missing_rows": 1093,
+      "boundary_rows": 1048,
+      "coverage": 0.9867017069995498,
+      "coverage_excluding_fixed_boundary": 0.9994454235115783
+    },
+    {
+      "model": "null_hgb_191",
+      "decile": 8,
+      "predicted_rows": 81830,
+      "observed_rows": 80718,
+      "missing_rows": 1112,
+      "boundary_rows": 1050,
+      "coverage": 0.9864108517658561,
+      "coverage_excluding_fixed_boundary": 0.9992324832879426
+    },
+    {
+      "model": "null_hgb_191",
+      "decile": 9,
+      "predicted_rows": 82506,
+      "observed_rows": 81381,
+      "missing_rows": 1125,
+      "boundary_rows": 1055,
+      "coverage": 0.9863646280270526,
+      "coverage_excluding_fixed_boundary": 0.9991405875925403
+    },
+    {
+      "model": "null_hgb_191",
+      "decile": 10,
+      "predicted_rows": 81785,
+      "observed_rows": 80539,
+      "missing_rows": 1246,
+      "boundary_rows": 1042,
+      "coverage": 0.9847649324448249,
+      "coverage_excluding_fixed_boundary": 0.9974734651920291
+    },
+    {
+      "model": "null_hgb_2027",
+      "decile": 1,
+      "predicted_rows": 81730,
+      "observed_rows": 80484,
+      "missing_rows": 1246,
+      "boundary_rows": 1044,
+      "coverage": 0.9847546800440474,
+      "coverage_excluding_fixed_boundary": 0.9974964677887118
+    },
+    {
+      "model": "null_hgb_2027",
+      "decile": 2,
+      "predicted_rows": 81698,
+      "observed_rows": 80592,
+      "missing_rows": 1106,
+      "boundary_rows": 1043,
+      "coverage": 0.9864623368993121,
+      "coverage_excluding_fixed_boundary": 0.999218895294774
+    },
+    {
+      "model": "null_hgb_2027",
+      "decile": 3,
+      "predicted_rows": 80913,
+      "observed_rows": 79820,
+      "missing_rows": 1093,
+      "boundary_rows": 1048,
+      "coverage": 0.9864916638859021,
+      "coverage_excluding_fixed_boundary": 0.9994365491767357
+    },
+    {
+      "model": "null_hgb_2027",
+      "decile": 4,
+      "predicted_rows": 83657,
+      "observed_rows": 82534,
+      "missing_rows": 1123,
+      "boundary_rows": 1057,
+      "coverage": 0.9865761382789247,
+      "coverage_excluding_fixed_boundary": 0.9992009685230024
+    },
+    {
+      "model": "null_hgb_2027",
+      "decile": 5,
+      "predicted_rows": 77254,
+      "observed_rows": 76162,
+      "missing_rows": 1092,
+      "boundary_rows": 1040,
+      "coverage": 0.9858648095891475,
+      "coverage_excluding_fixed_boundary": 0.9993177106568347
+    },
+    {
+      "model": "null_hgb_2027",
+      "decile": 6,
+      "predicted_rows": 88442,
+      "observed_rows": 87300,
+      "missing_rows": 1142,
+      "boundary_rows": 1075,
+      "coverage": 0.9870875828226409,
+      "coverage_excluding_fixed_boundary": 0.999233120056772
+    },
+    {
+      "model": "null_hgb_2027",
+      "decile": 7,
+      "predicted_rows": 80137,
+      "observed_rows": 79072,
+      "missing_rows": 1065,
+      "boundary_rows": 1023,
+      "coverage": 0.986710258682007,
+      "coverage_excluding_fixed_boundary": 0.9994691205096443
+    },
+    {
+      "model": "null_hgb_2027",
+      "decile": 8,
+      "predicted_rows": 82067,
+      "observed_rows": 80980,
+      "missing_rows": 1087,
+      "boundary_rows": 1044,
+      "coverage": 0.9867547247980308,
+      "coverage_excluding_fixed_boundary": 0.9994692864988953
+    },
+    {
+      "model": "null_hgb_2027",
+      "decile": 9,
+      "predicted_rows": 81953,
+      "observed_rows": 80867,
+      "missing_rows": 1086,
+      "boundary_rows": 1045,
+      "coverage": 0.9867485021902798,
+      "coverage_excluding_fixed_boundary": 0.9994932515944035
+    },
+    {
+      "model": "null_hgb_2027",
+      "decile": 10,
+      "predicted_rows": 82177,
+      "observed_rows": 81017,
+      "missing_rows": 1160,
+      "boundary_rows": 1050,
+      "coverage": 0.9858841281623812,
+      "coverage_excluding_fixed_boundary": 0.9986441012240068
+    },
+    {
+      "model": "null_hgb_727",
+      "decile": 1,
+      "predicted_rows": 81792,
+      "observed_rows": 80620,
+      "missing_rows": 1172,
+      "boundary_rows": 1042,
+      "coverage": 0.9856709702660407,
+      "coverage_excluding_fixed_boundary": 0.998390092879257
+    },
+    {
+      "model": "null_hgb_727",
+      "decile": 2,
+      "predicted_rows": 81946,
+      "observed_rows": 80845,
+      "missing_rows": 1101,
+      "boundary_rows": 1050,
+      "coverage": 0.9865643228467528,
+      "coverage_excluding_fixed_boundary": 0.9993695609177216
+    },
+    {
+      "model": "null_hgb_727",
+      "decile": 3,
+      "predicted_rows": 82056,
+      "observed_rows": 80972,
+      "missing_rows": 1084,
+      "boundary_rows": 1044,
+      "coverage": 0.9867895096031978,
+      "coverage_excluding_fixed_boundary": 0.9995062459882487
+    },
+    {
+      "model": "null_hgb_727",
+      "decile": 4,
+      "predicted_rows": 81975,
+      "observed_rows": 80875,
+      "missing_rows": 1100,
+      "boundary_rows": 1055,
+      "coverage": 0.986581274778896,
+      "coverage_excluding_fixed_boundary": 0.9994438952051409
+    },
+    {
+      "model": "null_hgb_727",
+      "decile": 5,
+      "predicted_rows": 82258,
+      "observed_rows": 81197,
+      "missing_rows": 1061,
+      "boundary_rows": 1026,
+      "coverage": 0.9871015585110263,
+      "coverage_excluding_fixed_boundary": 0.9995691353161316
+    },
+    {
+      "model": "null_hgb_727",
+      "decile": 6,
+      "predicted_rows": 80967,
+      "observed_rows": 79853,
+      "missing_rows": 1114,
+      "boundary_rows": 1057,
+      "coverage": 0.9862413081872862,
+      "coverage_excluding_fixed_boundary": 0.9992866975347265
+    },
+    {
+      "model": "null_hgb_727",
+      "decile": 7,
+      "predicted_rows": 77274,
+      "observed_rows": 76150,
+      "missing_rows": 1124,
+      "boundary_rows": 1083,
+      "coverage": 0.9854543572223516,
+      "coverage_excluding_fixed_boundary": 0.9994618786995839
+    },
+    {
+      "model": "null_hgb_727",
+      "decile": 8,
+      "predicted_rows": 86136,
+      "observed_rows": 85110,
+      "missing_rows": 1026,
+      "boundary_rows": 972,
+      "coverage": 0.9880886040679855,
+      "coverage_excluding_fixed_boundary": 0.999365929265887
+    },
+    {
+      "model": "null_hgb_727",
+      "decile": 9,
+      "predicted_rows": 83379,
+      "observed_rows": 82229,
+      "missing_rows": 1150,
+      "boundary_rows": 1093,
+      "coverage": 0.9862075582580746,
+      "coverage_excluding_fixed_boundary": 0.9993072940718956
+    },
+    {
+      "model": "null_hgb_727",
+      "decile": 10,
+      "predicted_rows": 82245,
+      "observed_rows": 80977,
+      "missing_rows": 1268,
+      "boundary_rows": 1047,
+      "coverage": 0.9845826494011795,
+      "coverage_excluding_fixed_boundary": 0.9972782580851746
+    },
+    {
+      "model": "reversal5",
+      "decile": 1,
+      "predicted_rows": 81776,
+      "observed_rows": 80654,
+      "missing_rows": 1122,
+      "boundary_rows": 1044,
+      "coverage": 0.9862795930346312,
+      "coverage_excluding_fixed_boundary": 0.9990338403606996
+    },
+    {
+      "model": "reversal5",
+      "decile": 2,
+      "predicted_rows": 82040,
+      "observed_rows": 80902,
+      "missing_rows": 1138,
+      "boundary_rows": 1046,
+      "coverage": 0.9861287176986836,
+      "coverage_excluding_fixed_boundary": 0.9988641133911154
+    },
+    {
+      "model": "reversal5",
+      "decile": 3,
+      "predicted_rows": 81956,
+      "observed_rows": 80850,
+      "missing_rows": 1106,
+      "boundary_rows": 1048,
+      "coverage": 0.9865049538776904,
+      "coverage_excluding_fixed_boundary": 0.9992831364018391
+    },
+    {
+      "model": "reversal5",
+      "decile": 4,
+      "predicted_rows": 82045,
+      "observed_rows": 80922,
+      "missing_rows": 1123,
+      "boundary_rows": 1046,
+      "coverage": 0.9863123895423244,
+      "coverage_excluding_fixed_boundary": 0.9990493709798887
+    },
+    {
+      "model": "reversal5",
+      "decile": 5,
+      "predicted_rows": 82072,
+      "observed_rows": 80969,
+      "missing_rows": 1103,
+      "boundary_rows": 1050,
+      "coverage": 0.9865605809533093,
+      "coverage_excluding_fixed_boundary": 0.9993458566809015
+    },
+    {
+      "model": "reversal5",
+      "decile": 6,
+      "predicted_rows": 81930,
+      "observed_rows": 80826,
+      "missing_rows": 1104,
+      "boundary_rows": 1045,
+      "coverage": 0.9865250823874039,
+      "coverage_excluding_fixed_boundary": 0.999270569326822
+    },
+    {
+      "model": "reversal5",
+      "decile": 7,
+      "predicted_rows": 81981,
+      "observed_rows": 80865,
+      "missing_rows": 1116,
+      "boundary_rows": 1046,
+      "coverage": 0.9863870896915139,
+      "coverage_excluding_fixed_boundary": 0.9991351084203373
+    },
+    {
+      "model": "reversal5",
+      "decile": 8,
+      "predicted_rows": 82022,
+      "observed_rows": 80897,
+      "missing_rows": 1125,
+      "boundary_rows": 1048,
+      "coverage": 0.9862841676623345,
+      "coverage_excluding_fixed_boundary": 0.9990490774816608
+    },
+    {
+      "model": "reversal5",
+      "decile": 9,
+      "predicted_rows": 81977,
+      "observed_rows": 80822,
+      "missing_rows": 1155,
+      "boundary_rows": 1046,
+      "coverage": 0.9859106822645376,
+      "coverage_excluding_fixed_boundary": 0.998653173691169
+    },
+    {
+      "model": "reversal5",
+      "decile": 10,
+      "predicted_rows": 82229,
+      "observed_rows": 81121,
+      "missing_rows": 1108,
+      "boundary_rows": 1050,
+      "coverage": 0.9865254350654878,
+      "coverage_excluding_fixed_boundary": 0.9992855295088632
+    },
+    {
+      "model": "ridge_10",
+      "decile": 1,
+      "predicted_rows": 81777,
+      "observed_rows": 80688,
+      "missing_rows": 1089,
+      "boundary_rows": 1044,
+      "coverage": 0.9866832972596207,
+      "coverage_excluding_fixed_boundary": 0.9994426071123332
+    },
+    {
+      "model": "ridge_10",
+      "decile": 2,
+      "predicted_rows": 82038,
+      "observed_rows": 80951,
+      "missing_rows": 1087,
+      "boundary_rows": 1046,
+      "coverage": 0.9867500426631561,
+      "coverage_excluding_fixed_boundary": 0.9994937771631766
+    },
+    {
+      "model": "ridge_10",
+      "decile": 3,
+      "predicted_rows": 81960,
+      "observed_rows": 80867,
+      "missing_rows": 1093,
+      "boundary_rows": 1048,
+      "coverage": 0.9866642264519278,
+      "coverage_excluding_fixed_boundary": 0.9994438402214751
+    },
+    {
+      "model": "ridge_10",
+      "decile": 4,
+      "predicted_rows": 82042,
+      "observed_rows": 80951,
+      "missing_rows": 1091,
+      "boundary_rows": 1046,
+      "coverage": 0.9867019331561883,
+      "coverage_excluding_fixed_boundary": 0.9994444170082473
+    },
+    {
+      "model": "ridge_10",
+      "decile": 5,
+      "predicted_rows": 82073,
+      "observed_rows": 80974,
+      "missing_rows": 1099,
+      "boundary_rows": 1050,
+      "coverage": 0.9866094818027853,
+      "coverage_excluding_fixed_boundary": 0.9993952334522296
+    },
+    {
+      "model": "ridge_10",
+      "decile": 6,
+      "predicted_rows": 81931,
+      "observed_rows": 80829,
+      "missing_rows": 1102,
+      "boundary_rows": 1045,
+      "coverage": 0.9865496576387448,
+      "coverage_excluding_fixed_boundary": 0.9992953045026334
+    },
+    {
+      "model": "ridge_10",
+      "decile": 7,
+      "predicted_rows": 81979,
+      "observed_rows": 80862,
+      "missing_rows": 1117,
+      "boundary_rows": 1046,
+      "coverage": 0.9863745593383672,
+      "coverage_excluding_fixed_boundary": 0.9991227311479866
+    },
+    {
+      "model": "ridge_10",
+      "decile": 8,
+      "predicted_rows": 82023,
+      "observed_rows": 80912,
+      "missing_rows": 1111,
+      "boundary_rows": 1048,
+      "coverage": 0.9864550187142631,
+      "coverage_excluding_fixed_boundary": 0.9992219820932386
+    },
+    {
+      "model": "ridge_10",
+      "decile": 9,
+      "predicted_rows": 81975,
+      "observed_rows": 80818,
+      "missing_rows": 1157,
+      "boundary_rows": 1046,
+      "coverage": 0.9858859408356206,
+      "coverage_excluding_fixed_boundary": 0.9986284273869688
+    },
+    {
+      "model": "ridge_10",
+      "decile": 10,
+      "predicted_rows": 82230,
+      "observed_rows": 80976,
+      "missing_rows": 1254,
+      "boundary_rows": 1050,
+      "coverage": 0.9847500912075885,
+      "coverage_excluding_fixed_boundary": 0.9974870657797487
+    },
+    {
+      "model": "ridge_100",
+      "decile": 1,
+      "predicted_rows": 81777,
+      "observed_rows": 80688,
+      "missing_rows": 1089,
+      "boundary_rows": 1044,
+      "coverage": 0.9866832972596207,
+      "coverage_excluding_fixed_boundary": 0.9994426071123332
+    },
+    {
+      "model": "ridge_100",
+      "decile": 2,
+      "predicted_rows": 82038,
+      "observed_rows": 80950,
+      "missing_rows": 1088,
+      "boundary_rows": 1046,
+      "coverage": 0.9867378531899851,
+      "coverage_excluding_fixed_boundary": 0.9994814302647175
+    },
+    {
+      "model": "ridge_100",
+      "decile": 3,
+      "predicted_rows": 81960,
+      "observed_rows": 80870,
+      "missing_rows": 1090,
+      "boundary_rows": 1048,
+      "coverage": 0.9867008296730112,
+      "coverage_excluding_fixed_boundary": 0.9994809175400435
+    },
+    {
+      "model": "ridge_100",
+      "decile": 4,
+      "predicted_rows": 82042,
+      "observed_rows": 80949,
+      "missing_rows": 1093,
+      "boundary_rows": 1046,
+      "coverage": 0.9866775553984545,
+      "coverage_excluding_fixed_boundary": 0.999419724430836
+    },
+    {
+      "model": "ridge_100",
+      "decile": 5,
+      "predicted_rows": 82073,
+      "observed_rows": 80973,
+      "missing_rows": 1100,
+      "boundary_rows": 1050,
+      "coverage": 0.9865972975278106,
+      "coverage_excluding_fixed_boundary": 0.9993828912777853
+    },
+    {
+      "model": "ridge_100",
+      "decile": 6,
+      "predicted_rows": 81931,
+      "observed_rows": 80833,
+      "missing_rows": 1098,
+      "boundary_rows": 1045,
+      "coverage": 0.9865984792081142,
+      "coverage_excluding_fixed_boundary": 0.999344756818238
+    },
+    {
+      "model": "ridge_100",
+      "decile": 7,
+      "predicted_rows": 81979,
+      "observed_rows": 80860,
+      "missing_rows": 1119,
+      "boundary_rows": 1046,
+      "coverage": 0.9863501628465826,
+      "coverage_excluding_fixed_boundary": 0.9990980193493384
+    },
+    {
+      "model": "ridge_100",
+      "decile": 8,
+      "predicted_rows": 82023,
+      "observed_rows": 80915,
+      "missing_rows": 1108,
+      "boundary_rows": 1048,
+      "coverage": 0.9864915938212453,
+      "coverage_excluding_fixed_boundary": 0.9992590305649892
+    },
+    {
+      "model": "ridge_100",
+      "decile": 9,
+      "predicted_rows": 81975,
+      "observed_rows": 80820,
+      "missing_rows": 1155,
+      "boundary_rows": 1046,
+      "coverage": 0.9859103385178408,
+      "coverage_excluding_fixed_boundary": 0.9986531404070235
+    },
+    {
+      "model": "ridge_100",
+      "decile": 10,
+      "predicted_rows": 82230,
+      "observed_rows": 80970,
+      "missing_rows": 1260,
+      "boundary_rows": 1050,
+      "coverage": 0.9846771251368114,
+      "coverage_excluding_fixed_boundary": 0.9974131559497413
+    }
+  ],
+  "limitations": [
+    "Historical common-stock/security-type and exchange membership are not qualified; snapshot classifications are not eligibility inputs",
+    "Vendor adjustment ratios define a price-return proxy, not fully qualified cash-distribution total return",
+    "Missing terminal payouts and merger consideration remain unresolved; missing labels are not assumed zero",
+    "Source revision/publication timestamps are not qualified",
+    "The 2011 data received coverage auditing but no prediction-performance evaluation; it is not described as never accessed"
+  ],
+  "interval_scope": "Calendar-block intervals conditional on this vintage/universe; do not correct selection or data defects",
+  "runtime_seconds": 33.69611697399978,
+  "completed_model_fits": 14,
+  "prepared_dimensions": {
+    "assets": 11220,
+    "dates": 1008,
+    "features": 12,
+    "rows": 1530082
+  },
+  "prepared_label_status_counts": {
+    "complete": 1517764,
+    "internal_gap": 87,
+    "invalid_proxy": 0,
+    "missing_entry": 317,
+    "missing_exit": 1445,
+    "right_boundary": 10469,
+    "unresolved_action": 0
+  },
+  "test_label_status_counts": {
+    "complete": 808828,
+    "missing_entry": 126,
+    "missing_exit": 551,
+    "internal_gap": 54,
+    "right_boundary": 10469,
+    "unresolved_action": 0,
+    "invalid_proxy": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "checked_on_singapore_date": "2026-10-30",
+  "pytest": {
+    "command": "LOKY_MAX_CPU_COUNT=2 .venv/bin/pytest",
+    "passed": 540,
+    "failed": 0,
+    "warnings": 0,
+    "seconds": 17.20
+  },
+  "incremental_stats_tests": 35,
+  "portable_release_verifier_tests": 67,
+  "ruff_check_passed": true,
+  "ruff_format_passed": true,
+  "frozen_daily_ic_reproduced_to_absolute_tolerance_1e_14": ["hgb_7", "reversal5", "momentum21", "ridge_100"],
+  "diagnostic_calendar_sessions": 504,
+  "diagnostic_scopes": 5,
+  "aggregate_daily_rows": 2520,
+  "engineering_retry": {
+    "failed_attempts": 1,
+    "completed_attempts": 1,
+    "failed_before_summary_statistics": true,
+    "reason": "Pandas 2.x Index.equals treats identical midnight sessions at seconds/nanoseconds resolution as unequal",
+    "fix": "Normalize date units to nanoseconds without adding, dropping, joining or filtering dates",
+    "same_scientific_protocol": true,
+    "failure_records_retained": true,
+    "new_model_fits": 0
+  },
+  "reserved_2011_prediction_performance_computed": false,
+  "assurance_limit": "Engineering tests and checksums do not prove profitable alpha, scientific validity or absence of every defect"
+}

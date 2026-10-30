@@ -1,0 +1,86 @@
+{
+  "verified_on": "2026-10-30",
+  "scope": "Alternative access routes; free QuantRocket learning bundle acquired and a separate 2009-2010 provisional price-proxy prediction study completed, not full historical-equity return qualification",
+  "account_created": true,
+  "account_creation_actor": "user",
+  "subscription_purchased": false,
+  "prior_fixed_panel_models_or_reserved_performance_reevaluated": false,
+  "wide_development_model_study_completed": true,
+  "reserved_2011_prediction_performance_evaluated": false,
+  "routes": [
+    {
+      "provider": "QuantRocket Learning and Evaluation",
+      "access": "Free, no credit card; account/license activation and local platform required",
+      "advertised_history": "2007-2011 daily all-US-stock learning bundle, including later-delisted names",
+      "tested": "Ingested 2007-01-03 through 2011-12-30: 11220 securities, 1260 sessions, 9236681 observed closes; aggregate audit completed",
+      "environment": "Docker Desktop 4.97.0 arm64 and research-only QuantRocket 2.12.0 installed; web interface bound to 127.0.0.1:1969",
+      "derived_audit": "artifacts/quantrocket-learning-20261030-v1/learning_bundle_audit.json",
+      "raw_data_location": "Docker named volume equity-alpha-qr_db, used by QuantRocket; not exported to Git",
+      "fully_qualified_model_ready": false,
+      "provisional_prediction_study": {
+        "protocol": "configs/wide_ml_v1.json",
+        "aggregate_results": "artifacts/wide-ml-v1-development/summary.json",
+        "forecast_years": [2009, 2010],
+        "completed_model_fits": 14,
+        "scope": "Past-price/liquidity-selected equity securities, including non-common-stock instruments; vendor-adjusted price-return proxy, not fully qualified terminal wealth",
+        "corporate_action_mechanics": "Causal split/dividend ratio and unresolved-action handling checked; exact cash-distribution total returns and action completeness remain unqualified",
+        "standalone_ml_advantage_established": false,
+        "portfolio_pnl_or_executable_sharpe_computed": false
+      },
+      "restrictions": [
+        "Included data must be used with additional QuantRocket functionality, not solely as an export pipe",
+        "Static analytical reports are permitted subject to terms; raw redistribution is not",
+        "No live or paper trading in free tier",
+        "Different time period requires an explicitly separate study, not replacement of previous holdout"
+      ],
+      "next_step": "Preserve the frozen development study and 2011 performance reservation; qualify historical security types, source revisions and terminal payouts before stronger equity-alpha or executable-return claims",
+      "sources": [
+        "https://www.quantrocket.com/pricing/",
+        "https://www.quantrocket.com/codeload/quant-finance-lectures/quant_finance_lectures/Part1-Data-USStock-Sample.ipynb.html",
+        "https://www.quantrocket.com/terms/"
+      ]
+    },
+    {
+      "provider": "Sharadar direct",
+      "access": "Public AAPL test key works; broader historical stocks require paid entitlement",
+      "price_reference_usd": {
+        "prices_full_history_monthly": 39,
+        "bundle_full_history_monthly": 69
+      },
+      "tested": "AAPL demo HTTP and OHLCV schema verified; demo history is truncated",
+      "restrictions": [
+        "Do not infer full historical entitlement from successful HTTP status or accepted date parameters",
+        "Personal-use terms exclude professional/institutional uses and contain publication restrictions",
+        "Confirm independent academic research and public code/derived reports in writing before subscribing",
+        "No raw-data redistribution; raw caches/extracts must be deleted within 30 days after termination under current personal terms",
+        "Active/delisted coverage is advertised, not an independently audited complete terminal-return ledger"
+      ],
+      "next_step": "User approves budget and obtains appropriate use/retention rights; do not paste personal API keys into chat or Git",
+      "sources": [
+        "https://sharadar.com/subscribe",
+        "https://sharadar.com/docs/auth",
+        "https://sharadar.com/docs/stocks",
+        "https://sharadar.com/docs/actions",
+        "https://sharadar.com/terms"
+      ]
+    },
+    {
+      "provider": "BaoStock plus Chinese exchange registries",
+      "access": "Free anonymous service; no private credentials used in small live tests",
+      "tested": "Historical universe queries and bars for LeTV and Wuhan Steel succeeded; delisting dates cross-checked against exchange registries",
+      "restrictions": [
+        "China A-shares: requires user approval for a separate asset-class branch",
+        "Historical membership results can contain current/post-delisting names; do not treat metadata as PIT",
+        "Stale suspended/non-trading terminal rows are not economic delisting returns",
+        "Historical completeness, corporate-action returns and redistribution permissions remain unqualified"
+      ],
+      "next_step": "Only if user chooses an A-share study: implement historical-universe, raw-price and adjustment ingestion with explicit terminal-event gaps",
+      "sources": [
+        "https://pypi.org/project/baostock/",
+        "https://www.sse.com.cn/assortment/stock/list/delisting/",
+        "https://www.szse.cn/market/stock/suspend/index.html",
+        "https://www.baostock.com/disclaimer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+name: Research correctness
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  temporal-and-accounting-checks:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.11", "3.14"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - run: uv sync --frozen --extra dev
+      - run: uv run ruff check src tests infra/quantrocket/research
+      - run: uv run ruff format --check src tests infra/quantrocket/research
+      - run: uv run pytest
+        env:
+          MPLBACKEND: Agg
+          LOKY_MAX_CPU_COUNT: "2"
+      - run: uv run python -m equity_alpha.release_verify --release artifacts/wide-ml-v1-development
+      - run: uv run python -m equity_alpha.release_verify --release artifacts/wide-incremental-diagnostics-v1

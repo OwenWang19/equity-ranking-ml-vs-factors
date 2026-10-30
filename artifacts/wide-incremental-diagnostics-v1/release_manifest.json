@@ -1,0 +1,54 @@
+{
+  "schema": "wide_ml_public_subset_manifest_v1",
+  "released_on": "2026-10-30",
+  "native_run_id": "diagnostic_ba7511a08425489496d7df46987554e2",
+  "source_model_run_id": "wide_e0f795afd46f4f1e95a950ab8181ca7c",
+  "native_artifact_inventory_digest": "d95b94f057d50a48cccd8029b20dbc000751a5117556a0f03dc2ed33581db2ca",
+  "scope": "Aggregate diagnostics/code/provenance; zero model refits, no 2011 prediction-performance evaluation",
+  "native_copy_and_registry_checks": {
+    "native_artifacts_byte_matched": 14,
+    "registry_event_count": 6,
+    "registry_bindings_verified": true,
+    "failed_attempt_metadata_bound": true
+  },
+  "public_subset_hashes": {
+    "analysis_registry.jsonl": "d47709fdbaa635e7d25bc471de04d57e73101d35ae97c7bf2bcfd1083c4ea371",
+    "analysis_started.json": "d3755a0c88fa8f2d4cd1bd43965e6671b66ad30b714b03d7d22b44b47292b90b",
+    "config.json": "0ed124c327ec1cd804605726dad6f3514915d7267b363be55ff97ceabf8a8a3a",
+    "daily_incremental_metrics.csv": "b07fb49d4342755add4990925041ab1823f6cd20407539aacb8f99fedc29ae48",
+    "engineering_checks.json": "05527868c6c7f613e172d10382dc7fd87acaa2b6862995f06d24810325267fae",
+    "failed_attempt/FAILURE.json": "d2f25341c6e9185d4eaca694ac8efec9bc850b81d6e29e063c4ae5a0bdcd9832",
+    "failed_attempt/analysis_started.json": "d80f6d126f611397f7717a8597c17c02529adcce0664af8db68c10181d9a198e",
+    "failed_attempt/config.json": "0ed124c327ec1cd804605726dad6f3514915d7267b363be55ff97ceabf8a8a3a",
+    "incremental_diagnostics.png": "48ba9a58fe44118c308759d70ba407121a88220bbfe71f81f2fa6784bc2450d6",
+    "native_artifact_hashes.json": "3bd4090315447bcee4a19d08381a4059f5e7a5705751c76b7772ddb4802b3be6",
+    "release_review.json": "7562d0e2a44d8f671159d2759236c4bd15d922779fb57bcd2d224ba54503a2a7",
+    "report.html": "2d48befeb4139396a9722603c9a65729d699c5d7d89cf3ff2f05e4d94785fcc3",
+    "runtime_provenance.json": "eb54fb88174b8e65921065018df0e44a20d4aac4187fb915e3c099f90eda1b2d",
+    "source_snapshot/incremental_stats.py": "080748f7aee643e30630a8a969457af149210c377abadbd92b98147e3e0b6cf5",
+    "source_snapshot/integrity.py": "231fb67199b30ae1ca7c92da1b054fdccdb6bb16ede5cdb6b3a136891b44997d",
+    "source_snapshot/registry.py": "d45ce4fe6b489be061c1327d50cf506115c5ec4d862706af8b18f154837b4d61",
+    "source_snapshot/wide_data.py": "93098e0fec352fe91bf464870bac1f9d2b95c82f29614d22f04de316d748be3c",
+    "source_snapshot/wide_diagnostics.py": "3a5c15d63d6edc5dac8467654bd56fcaa044ace81e1ee028f327ecf1ecda3c28",
+    "source_snapshot/wide_experiment.py": "dca6f164af0be3af6b0b3e0e0bf275ae295b23fbaf41b3ceb29d2cdea0bbe539",
+    "source_snapshot/wide_stats.py": "73d5bea687471b89d260696d3dabb67b927b4aa7fd6dd34a5f0fd7d65af1ec3e",
+    "source_snapshot/wide_verify.py": "95fb8706dacf8e381e1c26fc2c6fe655464a9792f2370927f97881b93366d31e",
+    "summary.json": "4d7f434d71ed339d0656439419899183d171f85b50eb878303f57ef26c58831d"
+  },
+  "post_run_working_source_hashes": {
+    "src/equity_alpha/wide_diagnostics.py": "3a5c15d63d6edc5dac8467654bd56fcaa044ace81e1ee028f327ecf1ecda3c28",
+    "src/equity_alpha/incremental_stats.py": "080748f7aee643e30630a8a969457af149210c377abadbd92b98147e3e0b6cf5",
+    "src/equity_alpha/release_verify.py": "d307623ca32170b0a21f39534c651c09cfd9a3b5b38240cb1db4a0c53ce203a9"
+  },
+  "manifest_self_excluded": true,
+  "frozen_run_modified": false,
+  "reserved_2011_performance_evaluated": false,
+  "private_excluded": [
+    "Raw vendor data",
+    "Per-security feature/target cache",
+    "Frozen per-security forecasts",
+    "Fitted model binaries"
+  ],
+  "engineering_retry_disclosure": "One pre-summary datetime-unit compatibility failure and one explicit same-protocol recovery, both retained; no refits or metric-driven retries.",
+  "assurance": "Local internal consistency only, not external immutability, authenticity or scientific validity"
+}

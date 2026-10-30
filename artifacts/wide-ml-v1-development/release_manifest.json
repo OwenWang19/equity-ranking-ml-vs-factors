@@ -1,0 +1,51 @@
+{
+  "schema": "wide_ml_public_subset_manifest_v1",
+  "released_on": "2026-10-30",
+  "native_run_id": "wide_e0f795afd46f4f1e95a950ab8181ca7c",
+  "native_artifact_inventory_digest": "cccfaf6a749510dee368538436fc31425f6c0275c3af7932e7f29b4c5aee0032",
+  "scope": "Aggregate analytical/code/provenance subset, not the complete native run",
+  "copy_validation": {
+    "frozen_artifacts_byte_matched": 17,
+    "html_local_links_valid": true,
+    "reported_model_means_match_frozen_summary": true
+  },
+  "public_subset_hashes": {
+    "config.json": "8ecfbe940c104dd398b71772293a4ef731110d0c00dc38348a0760bb48518b2d",
+    "daily_forecast_metrics.csv": "c7364de31bc00b53e87af71725e1f962de820d36959b3e9c0a69e442a9f7995d",
+    "daily_score_decile_coverage.csv": "9f8b7176f1cededdbf392c1f95c1c01f50f76d43d6b58bc71a61722ffd23da06",
+    "diagnostics.png": "b0abaf86f1038845509e8f1be4ab57be391eceb354da961746781113812a27dc",
+    "engineering_checks.json": "f3f328616b681fb60289c27a2f25faea2d6386d697fc5510c5718b88aebbdf66",
+    "fit_lifecycle.jsonl": "8e7f55896282e49fe2e06f0cdbffc4de376ca4a35a9a7e00ce31d34d4b8de8de",
+    "full_run_artifact_hashes.json": "e7336610d85f9f7983354847821cf0aeee5aafd3708c465bf98205737c7b0226",
+    "original_report.html": "0da4ed0ccf22b341ae949a8345af5bd7a7a68ca31799ef203df158213db417fe",
+    "release_review.json": "6726faf64f28c0515aa4feaa68c17432feb19729d204225d3451990cb33b1ee7",
+    "report.html": "2c4818e46de03cc9c07038cbc40ec686e3a39ddf03c78c6a5242f986d5059cda",
+    "run_started.json": "6d2a55b70f9e3bf51f9a21a2911f9d56398f77527ed24716a5253b3e18cb02fc",
+    "source_snapshot/integrity.py": "231fb67199b30ae1ca7c92da1b054fdccdb6bb16ede5cdb6b3a136891b44997d",
+    "source_snapshot/registry.py": "d45ce4fe6b489be061c1327d50cf506115c5ec4d862706af8b18f154837b4d61",
+    "source_snapshot/wide_data.py": "93098e0fec352fe91bf464870bac1f9d2b95c82f29614d22f04de316d748be3c",
+    "source_snapshot/wide_experiment.py": "5eb872ec38b32ea1dae12c02e5b6b7326d6d07f271277c41a296984508fefa46",
+    "source_snapshot/wide_models.py": "376e6ad14679e57e0f1885e99c2a3c0d6cf7e4ddb0fa75919af6faa32084aa34",
+    "source_snapshot/wide_stats.py": "73d5bea687471b89d260696d3dabb67b927b4aa7fd6dd34a5f0fd7d65af1ec3e",
+    "summary.json": "b0c0ed5389182165fe8fc83a1ec476bc64e46432a2588aa3fcbcd2d1e24570a8",
+    "training_split_2009.json": "62c46d4e83b7f6854396b509905b3a5afa12b4792df61cb4d3d98c3489d2448d",
+    "training_split_2010.json": "7551ce693812e045c6046851fb24b7c21450faa25ea53fd19b4bf382ddf60a9c",
+    "trial_ledger.json": "2672673c99c08b724bb2722e64e10c5e853c9eba80d6e13cacab30feb265ba5a",
+    "verification.json": "d925dc509e1a19241f0d84bc89710233e727cd77f72382d581aa8c7fd7e10ccc"
+  },
+  "post_run_working_source_hashes": {
+    "src/equity_alpha/wide_experiment.py": "dca6f164af0be3af6b0b3e0e0bf275ae295b23fbaf41b3ceb29d2cdea0bbe539",
+    "src/equity_alpha/wide_verify.py": "95fb8706dacf8e381e1c26fc2c6fe655464a9792f2370927f97881b93366d31e",
+    "tests/test_wide_verify.py": "afc618decd78b113d199c632a32a91874648ac5ae1f81d61476909a6d87c81c7"
+  },
+  "manifest_self_excluded": true,
+  "private_excluded": [
+    "Raw vendor data",
+    "Per-security feature/target cache and cache manifest",
+    "private_predictions.npz",
+    "models/*.joblib"
+  ],
+  "frozen_run_modified": false,
+  "reserved_2011_performance_evaluated": false,
+  "assurance": "Local internal consistency only; no external immutability, scientific validity or trading promotion claim"
+}

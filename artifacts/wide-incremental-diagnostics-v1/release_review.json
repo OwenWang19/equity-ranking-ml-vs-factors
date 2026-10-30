@@ -1,0 +1,39 @@
+{
+  "review_date": "2026-10-30",
+  "delivery_status": "Complete bounded, auditable research deliverable; not an alpha-ready or production-ready system",
+  "source_model_run": "wide_e0f795afd46f4f1e95a950ab8181ca7c",
+  "diagnostic_run": "diagnostic_ba7511a08425489496d7df46987554e2",
+  "analysis_status": "Post-hoc exploratory diagnostics of frozen 2009-2010 forecasts; original V1 aggregate results had already been observed",
+  "scientific_verdict": "No robust positive ML increment beyond reversal/momentum established",
+  "hgb7_minus_reversal5_daily_ic": {
+    "mean": -0.025640953861753545,
+    "lower_95": -0.05577304337150433,
+    "upper_95": 0.0034572962927218328
+  },
+  "hgb7_partial_rank_correlation": {
+    "mean": -0.004073852190261224,
+    "lower_95": -0.030932851342413158,
+    "upper_95": 0.020924471475897304,
+    "definition": "Linear SVD projection of both observed score/outcome ranks on intercept plus reversal5/momentum21 ranks; descriptive only"
+  },
+  "pointwise_intervals_not_selection_or_multiplicity_adjusted": true,
+  "all_fixed_scopes_years_and_block_sensitivities_retained": true,
+  "partial_missing_outcome_bounds_claimed": false,
+  "total_original_model_fits": 14,
+  "new_model_fits_for_diagnostics": 0,
+  "diagnostic_technical_attempts": 2,
+  "failed_pre_summary_attempts_retained": 1,
+  "same_protocol_compatibility_retries": 1,
+  "frozen_original_run_modified": false,
+  "reserved_2011_prediction_performance_evaluated": false,
+  "net_pnl_or_sharpe_computed": false,
+  "promotion_authorized": false,
+  "public_release_scope": "Aggregate daily/scoped metrics, static figures/reports, code snapshots, runtime provenance and research-only registry; no row-level arrays, raw vendor bars or model binaries",
+  "remaining_data_requirements": [
+    "Historical point-in-time security classification/exchange membership and source vintage timestamps",
+    "Qualified cash distributions, terminal payouts and merger consideration",
+    "Longer, modern independent evaluation data",
+    "Executable fill, borrow, cost and capacity evidence before portfolio claims"
+  ],
+  "checksum_assurance": "Local internal consistency, not authenticity, external immutability or scientific correctness"
+}

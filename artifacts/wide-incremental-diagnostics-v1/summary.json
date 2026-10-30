@@ -1,0 +1,1445 @@
+{
+  "experiment_id": "wide_incremental_diagnostics_v1",
+  "analysis_status": "Post-hoc exploratory diagnostics; original V1 aggregate results were already observed",
+  "source_run_id": "wide_e0f795afd46f4f1e95a950ab8181ca7c",
+  "scopes": {
+    "all": {
+      "predicted_rows": 820028,
+      "observed_rows": 808828,
+      "right_boundary_rows": 10469,
+      "nonboundary_missing_rows": 731,
+      "partial_status_counts": {
+        "ok": 498,
+        "insufficient_observed": 6
+      },
+      "mean_score_rank_correlation": {
+        "reversal5": 0.3207445677332208,
+        "momentum21": -0.11369883737722147
+      },
+      "metrics": {
+        "hgb7_minus_reversal5": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": -0.025640953861753545,
+            "lower_95": -0.05577304337150433,
+            "upper_95": 0.0034572962927218328,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.025640953861753545,
+              "lower_95": -0.05394577777390482,
+              "upper_95": 0.003133699644054091,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.025640953861753545,
+              "lower_95": -0.05577304337150433,
+              "upper_95": 0.0034572962927218328,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.025640953861753545,
+              "lower_95": -0.05839987618675215,
+              "upper_95": 0.002038267901820692,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": -0.04127908808504025,
+            "2010": -0.0096214017305818
+          }
+        },
+        "hgb7_minus_momentum21": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": 0.02027904496370871,
+            "lower_95": -0.032073107073206916,
+            "upper_95": 0.06280885985382843,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.02027904496370871,
+              "lower_95": -0.02135925656118125,
+              "upper_95": 0.06250776969824852,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.02027904496370871,
+              "lower_95": -0.032073107073206916,
+              "upper_95": 0.06280885985382843,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.02027904496370871,
+              "lower_95": -0.03129800214197475,
+              "upper_95": 0.06541773524926453,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": -0.0005743926980810236,
+            "2010": 0.041641103056273804
+          }
+        },
+        "hgb7_minus_ridge_100": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": 0.010665615590577257,
+            "lower_95": 0.002377893866278494,
+            "upper_95": 0.01832770883316389,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.010665615590577257,
+              "lower_95": 0.0025521695012515984,
+              "upper_95": 0.018750419812591144,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.010665615590577257,
+              "lower_95": 0.002377893866278494,
+              "upper_95": 0.01832770883316389,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.010665615590577257,
+              "lower_95": 0.0016436548367754205,
+              "upper_95": 0.01877258251338455,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": 0.004286810229889568,
+            "2010": 0.017200001569818307
+          }
+        },
+        "hgb7_partial_rank_ic": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": -0.004073852190261224,
+            "lower_95": -0.030932851342413158,
+            "upper_95": 0.020924471475897304,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.004073852190261224,
+              "lower_95": -0.02853765631864466,
+              "upper_95": 0.01915110200679963,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.004073852190261224,
+              "lower_95": -0.030932851342413158,
+              "upper_95": 0.020924471475897304,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.004073852190261224,
+              "lower_95": -0.0339109513623768,
+              "upper_95": 0.02142791162587625,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": -0.015210454403057037,
+            "2010": 0.007334374466749121
+          }
+        }
+      },
+      "overall_partial_null_controls": {
+        "null_hgb_191": {
+          "partial_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": 0.008012972894982161,
+            "lower_95": 0.0013139615723448386,
+            "upper_95": 0.014771036809374534,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "undefined_status_counts": {
+            "ok": 498,
+            "insufficient_observed": 6
+          }
+        },
+        "null_hgb_727": {
+          "partial_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": -0.0031184477352142505,
+            "lower_95": -0.010971313537644653,
+            "upper_95": 0.004371159313119239,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "undefined_status_counts": {
+            "ok": 498,
+            "insufficient_observed": 6
+          }
+        },
+        "null_hgb_2027": {
+          "partial_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": -0.0002252436711675709,
+            "lower_95": -0.008680165821677117,
+            "upper_95": 0.0077565459538347144,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "undefined_status_counts": {
+            "ok": 498,
+            "insufficient_observed": 6
+          }
+        }
+      }
+    },
+    "low_liquidity": {
+      "predicted_rows": 410139,
+      "observed_rows": 404545,
+      "right_boundary_rows": 5235,
+      "nonboundary_missing_rows": 359,
+      "partial_status_counts": {
+        "ok": 498,
+        "insufficient_observed": 6
+      },
+      "mean_score_rank_correlation": {
+        "reversal5": 0.3121150085315713,
+        "momentum21": -0.12172985007399968
+      },
+      "metrics": {
+        "hgb7_minus_reversal5": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": -0.02691222869069884,
+            "lower_95": -0.05639977885194736,
+            "upper_95": 0.0019277877225171997,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.02691222869069884,
+              "lower_95": -0.05495221606584475,
+              "upper_95": 0.0014127818066332286,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.02691222869069884,
+              "lower_95": -0.05639977885194736,
+              "upper_95": 0.0019277877225171997,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.02691222869069884,
+              "lower_95": -0.0555596570046762,
+              "upper_95": 0.000480511207997666,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": -0.03941694841324782,
+            "2010": -0.014102515804185261
+          }
+        },
+        "hgb7_minus_momentum21": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": 0.017799319684993348,
+            "lower_95": -0.03336553844125306,
+            "upper_95": 0.059561423468476406,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.017799319684993348,
+              "lower_95": -0.02407421214137091,
+              "upper_95": 0.05691605082718827,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.017799319684993348,
+              "lower_95": -0.03336553844125306,
+              "upper_95": 0.059561423468476406,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.017799319684993348,
+              "lower_95": -0.03481183568572838,
+              "upper_95": 0.06160099752509624,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": -0.003965127848710394,
+            "2010": 0.04009460740244595
+          }
+        },
+        "hgb7_minus_ridge_100": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": 0.009597190311118527,
+            "lower_95": 0.0010417934009748146,
+            "upper_95": 0.01737724309586565,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.009597190311118527,
+              "lower_95": 0.0010296171949509534,
+              "upper_95": 0.01730225780192529,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.009597190311118527,
+              "lower_95": 0.0010417934009748146,
+              "upper_95": 0.01737724309586565,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.009597190311118527,
+              "lower_95": 0.0016173052062172443,
+              "upper_95": 0.01724790548735216,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": 0.0015546066312871983,
+            "2010": 0.017835934568506715
+          }
+        },
+        "hgb7_partial_rank_ic": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": -0.006253657076007333,
+            "lower_95": -0.03361753473636953,
+            "upper_95": 0.018645016558230133,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.006253657076007333,
+              "lower_95": -0.03152282254365939,
+              "upper_95": 0.01725237630197278,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.006253657076007333,
+              "lower_95": -0.03361753473636953,
+              "upper_95": 0.018645016558230133,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.006253657076007333,
+              "lower_95": -0.037073276144314944,
+              "upper_95": 0.019269987343901382,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": -0.01628255539680965,
+            "2010": 0.004019848520912113
+          }
+        }
+      },
+      "overall_partial_null_controls": {}
+    },
+    "high_liquidity": {
+      "predicted_rows": 409889,
+      "observed_rows": 404283,
+      "right_boundary_rows": 5234,
+      "nonboundary_missing_rows": 372,
+      "partial_status_counts": {
+        "ok": 498,
+        "insufficient_observed": 6
+      },
+      "mean_score_rank_correlation": {
+        "reversal5": 0.3283706604669941,
+        "momentum21": -0.10421022994396871
+      },
+      "metrics": {
+        "hgb7_minus_reversal5": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": -0.02243756545287887,
+            "lower_95": -0.0553801477014087,
+            "upper_95": 0.007545135804876785,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.02243756545287887,
+              "lower_95": -0.05259810296136884,
+              "upper_95": 0.00755962285121525,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.02243756545287887,
+              "lower_95": -0.0553801477014087,
+              "upper_95": 0.007545135804876785,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.02243756545287887,
+              "lower_95": -0.059282471977065244,
+              "upper_95": 0.0070639163061417334,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": -0.041974617223947325,
+            "2010": -0.0024240002239794725
+          }
+        },
+        "hgb7_minus_momentum21": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": 0.023191817287232956,
+            "lower_95": -0.029179003175923077,
+            "upper_95": 0.06793152888960681,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.023191817287232956,
+              "lower_95": -0.02231907201381632,
+              "upper_95": 0.0689960539499283,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.023191817287232956,
+              "lower_95": -0.029179003175923077,
+              "upper_95": 0.06793152888960681,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.023191817287232956,
+              "lower_95": -0.02895514004635872,
+              "upper_95": 0.06909009133818692,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": 0.004189073541884332,
+            "2010": 0.04265804258734618
+          }
+        },
+        "hgb7_minus_ridge_100": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": 0.01207176805789575,
+            "lower_95": 0.0017455243546027862,
+            "upper_95": 0.023205049633223597,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.01207176805789575,
+              "lower_95": 0.0016068055476073575,
+              "upper_95": 0.0224084133732641,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.01207176805789575,
+              "lower_95": 0.0017455243546027862,
+              "upper_95": 0.023205049633223597,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.01207176805789575,
+              "lower_95": 0.0006248001789417671,
+              "upper_95": 0.022902962414338347,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": 0.007593021810056488,
+            "2010": 0.01665975201909695
+          }
+        },
+        "hgb7_partial_rank_ic": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": 2.694361349933293e-05,
+            "lower_95": -0.027378506974463583,
+            "upper_95": 0.026646724646786357,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 2.694361349933293e-05,
+              "lower_95": -0.024280932407249458,
+              "upper_95": 0.023746963517430896,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 2.694361349933293e-05,
+              "lower_95": -0.027378506974463583,
+              "upper_95": 0.026646724646786357,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 2.694361349933293e-05,
+              "lower_95": -0.031759134232120165,
+              "upper_95": 0.02610092886590778,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": -0.013240803089766296,
+            "2010": 0.013618293894893392
+          }
+        }
+      },
+      "overall_partial_null_controls": {}
+    },
+    "low_volatility": {
+      "predicted_rows": 410138,
+      "observed_rows": 404380,
+      "right_boundary_rows": 5235,
+      "nonboundary_missing_rows": 523,
+      "partial_status_counts": {
+        "ok": 498,
+        "insufficient_observed": 6
+      },
+      "mean_score_rank_correlation": {
+        "reversal5": 0.44027979437950227,
+        "momentum21": -0.247389641380482
+      },
+      "metrics": {
+        "hgb7_minus_reversal5": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": -0.032772362297488755,
+            "lower_95": -0.05872336162600442,
+            "upper_95": -0.008596219949090798,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.032772362297488755,
+              "lower_95": -0.05705852392045467,
+              "upper_95": -0.009277316981864545,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.032772362297488755,
+              "lower_95": -0.05872336162600442,
+              "upper_95": -0.008596219949090798,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.032772362297488755,
+              "lower_95": -0.06193794110111668,
+              "upper_95": -0.008771859172697781,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": -0.05310439354213386,
+            "2010": -0.01194442785175474
+          }
+        },
+        "hgb7_minus_momentum21": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": 0.012536540951014658,
+            "lower_95": -0.030257377294356003,
+            "upper_95": 0.05325305099597172,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.012536540951014658,
+              "lower_95": -0.029261894048078798,
+              "upper_95": 0.053497304980137925,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.012536540951014658,
+              "lower_95": -0.030257377294356003,
+              "upper_95": 0.05325305099597172,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.012536540951014658,
+              "lower_95": -0.03158505301432444,
+              "upper_95": 0.052257086417124475,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": 0.006049476413398524,
+            "2010": 0.019181826574914115
+          }
+        },
+        "hgb7_minus_ridge_100": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": 0.009593494241949073,
+            "lower_95": -0.00412912685653559,
+            "upper_95": 0.023479833705260557,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.009593494241949073,
+              "lower_95": -0.00576622571279432,
+              "upper_95": 0.025086017076787183,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.009593494241949073,
+              "lower_95": -0.00412912685653559,
+              "upper_95": 0.023479833705260557,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.009593494241949073,
+              "lower_95": -0.0030938967148821895,
+              "upper_95": 0.020577796395845966,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": 0.0027363384307474625,
+            "2010": 0.016617897755862917
+          }
+        },
+        "hgb7_partial_rank_ic": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": -0.018539862218715873,
+            "lower_95": -0.04094463228004396,
+            "upper_95": 0.0024508177344865737,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.018539862218715873,
+              "lower_95": -0.03749917583814088,
+              "upper_95": 0.0006975497454675357,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.018539862218715873,
+              "lower_95": -0.04094463228004396,
+              "upper_95": 0.0024508177344865737,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.018539862218715873,
+              "lower_95": -0.04395089721748416,
+              "upper_95": 0.0038073857481155894,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": -0.029711395257134354,
+            "2010": -0.007095852764726212
+          }
+        }
+      },
+      "overall_partial_null_controls": {}
+    },
+    "high_volatility": {
+      "predicted_rows": 409890,
+      "observed_rows": 404448,
+      "right_boundary_rows": 5234,
+      "nonboundary_missing_rows": 208,
+      "partial_status_counts": {
+        "ok": 498,
+        "insufficient_observed": 6
+      },
+      "mean_score_rank_correlation": {
+        "reversal5": 0.24569296478754146,
+        "momentum21": 0.014269243425768885
+      },
+      "metrics": {
+        "hgb7_minus_reversal5": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": -0.005870765151941078,
+            "lower_95": -0.03296311060564029,
+            "upper_95": 0.022273989811257264,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.005870765151941078,
+              "lower_95": -0.030250920278545652,
+              "upper_95": 0.021377973077259724,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.005870765151941078,
+              "lower_95": -0.03296311060564029,
+              "upper_95": 0.022273989811257264,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": -0.005870765151941078,
+              "lower_95": -0.03448744406084114,
+              "upper_95": 0.020084856934703483,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": -0.01316283520675191,
+            "2010": 0.0015991602700602607
+          }
+        },
+        "hgb7_minus_momentum21": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": 0.026702267172056735,
+            "lower_95": -0.008183886168850482,
+            "upper_95": 0.05559867271456681,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.026702267172056735,
+              "lower_95": -0.003628368213206295,
+              "upper_95": 0.054606591984391335,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.026702267172056735,
+              "lower_95": -0.008183886168850482,
+              "upper_95": 0.05559867271456681,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.026702267172056735,
+              "lower_95": -0.006343452228196905,
+              "upper_95": 0.0534026036083328,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": 0.011919171010890768,
+            "2010": 0.041845926654226755
+          }
+        },
+        "hgb7_minus_ridge_100": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": 0.01163219907052819,
+            "lower_95": 0.0041701073318986025,
+            "upper_95": 0.019300145549840535,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.01163219907052819,
+              "lower_95": 0.00436890467226131,
+              "upper_95": 0.01890698804241344,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.01163219907052819,
+              "lower_95": 0.0041701073318986025,
+              "upper_95": 0.019300145549840535,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.01163219907052819,
+              "lower_95": 0.002704578606263522,
+              "upper_95": 0.020206269448027194,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": 0.008033623954299192,
+            "2010": 0.015318544311543262
+          }
+        },
+        "hgb7_partial_rank_ic": {
+          "primary_interval": {
+            "metric": "mean_daily_a_minus_b",
+            "method": "paired_circular_calendar_block_bootstrap",
+            "estimate": 0.010143989800498403,
+            "lower_95": -0.010804918973620561,
+            "upper_95": 0.029182008440369576,
+            "calendar_dates": 504,
+            "paired_dates": 498,
+            "missing_pair_dates": 6,
+            "block_sessions": 20,
+            "resamples": 1000,
+            "valid_resamples": 1000,
+            "status": "ok"
+          },
+          "block_sensitivity": {
+            "10": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.010143989800498403,
+              "lower_95": -0.007981352316992655,
+              "upper_95": 0.026973604708739957,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 10,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "20": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.010143989800498403,
+              "lower_95": -0.010804918973620561,
+              "upper_95": 0.029182008440369576,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 20,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            },
+            "40": {
+              "metric": "mean_daily_a_minus_b",
+              "method": "paired_circular_calendar_block_bootstrap",
+              "estimate": 0.010143989800498403,
+              "lower_95": -0.012857634825897751,
+              "upper_95": 0.02796352522605859,
+              "calendar_dates": 504,
+              "paired_dates": 498,
+              "missing_pair_dates": 6,
+              "block_sessions": 40,
+              "resamples": 1000,
+              "valid_resamples": 1000,
+              "status": "ok"
+            }
+          },
+          "years": {
+            "2009": 0.00012884398318834485,
+            "2010": 0.02040340746701114
+          }
+        }
+      },
+      "overall_partial_null_controls": {}
+    }
+  },
+  "new_model_fits": 0,
+  "reserved_performance_computed": false,
+  "promotion_authorized": false,
+  "net_pnl_computed": false,
+  "inference_limits": [
+    "Post-hoc development diagnostics; all intervals are pointwise and not selection/multiplicity adjusted",
+    "Partial rank correlation is descriptive linear projection on the common observed cohort, not a tradable forecast",
+    "Cross-sectional groups are defined before labels and are not aggregate market regimes",
+    "Missing-outcome Kendall bounds from V1 do not transfer to partial correlations",
+    "All V1 data-vintage, historical classification, corporate-action and terminal-wealth limitations remain"
+  ],
+  "runtime_seconds": 7.65293454499988
+}

@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Wide ML V1 — development evidence</title>
+<style>body{font:16px/1.6 system-ui;max-width:1100px;margin:38px auto;padding:0 22px;color:#143244}
+aside{background:#fff2cd;padding:18px;border-left:5px solid #d58b00}table{border-collapse:collapse;width:100%}
+th,td{text-align:left;padding:9px;border-bottom:1px solid #ddd}img{width:100%}small{color:#536a75}</style>
+<h1>Wide-security ML prediction: development evidence</h1><p>2009–2010 walk-forward development · 2011 reserved · No portfolio PnL</p>
+<aside><b>Qualified scope:</b> past-price/liquidity-selected US equity securities, not a verified historical
+common-stock universe. Labels are a Zipline-adjusted price return proxy, not qualified terminal wealth.
+Observed-case IC is conditional on available labels. No investable-alpha or executable-Sharpe claim is made.</aside>
+<h2>Fixed primary comparison</h2><p>HGB7 − Ridge100 daily IC: <b>0.01067</b>,
+95% calendar-block interval [0.00238, 0.01833].
+This compares fixed specifications, not the best-performing candidate from each family.</p>
+<table><tr><th>Model/control</th><th>Mean IC</th><th>95% block interval</th><th>2009 IC</th><th>2010 IC</th></tr><tr><td>ridge_10</td><td>-0.00906</td><td>[-0.04249, 0.02399]</td><td>-0.02275</td><td>0.00498</td></tr><tr><td>ridge_100</td><td>-0.00902</td><td>[-0.04250, 0.02410]</td><td>-0.02272</td><td>0.00502</td></tr><tr><td>hgb_7</td><td>0.00165</td><td>[-0.03179, 0.03315]</td><td>-0.01844</td><td>0.02222</td></tr><tr><td>hgb_15</td><td>0.00051</td><td>[-0.03113, 0.03143]</td><td>-0.01921</td><td>0.02070</td></tr><tr><td>null_hgb_191</td><td>0.00708</td><td>[-0.00565, 0.02115]</td><td>0.02568</td><td>-0.01196</td></tr><tr><td>null_hgb_727</td><td>-0.00707</td><td>[-0.01519, 0.00158]</td><td>-0.00750</td><td>-0.00662</td></tr><tr><td>null_hgb_2027</td><td>-0.00183</td><td>[-0.01263, 0.00738]</td><td>-0.00263</td><td>-0.00102</td></tr><tr><td>momentum21</td><td>-0.01863</td><td>[-0.04888, 0.01429]</td><td>-0.01786</td><td>-0.01942</td></tr><tr><td>reversal5</td><td>0.02729</td><td>[0.00790, 0.04877]</td><td>0.02284</td><td>0.03184</td></tr><tr><td>composite_mom63_rev5</td><td>0.00928</td><td>[-0.01220, 0.03098]</td><td>-0.00842</td><td>0.02741</td></tr></table>
+<p>Development-ranked candidate: <b>hgb_7</b>.
+This selection is not independent confirmation and does not release 2011.</p><img src="diagnostics.png" alt="Forecast, coverage and missing-outcome diagnostics">
+<h2>Remaining data and inference limitations</h2><ul><li>Historical common-stock/security-type and exchange membership are not qualified; snapshot classifications are not eligibility inputs</li><li>Vendor adjustment ratios define a price-return proxy, not fully qualified cash-distribution total return</li><li>Missing terminal payouts and merger consideration remain unresolved; missing labels are not assumed zero</li><li>Source revision/publication timestamps are not qualified</li><li>The 2011 data received coverage auditing but no prediction-performance evaluation; it is not described as never accessed</li></ul>
+<small>12 fixed features; four candidates; three training-label permutation controls; 14 fits.
+Raw data, row-level forecasts and fitted models remain inside the local research platform.</small></html>

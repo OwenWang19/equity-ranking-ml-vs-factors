@@ -1,0 +1,16 @@
+AxiomAlpha — Cross-Sectional Equity ML & Signal Validation
+
+Third-party material
+--------------------
+infra/quantrocket/vendor/docker-compose.2.12.0.yml is the original QuantRocket
+template, Copyright 2025 QuantRocket LLC, licensed under Apache License 2.0.
+The licence is retained in infra/quantrocket/vendor/LICENSE-2.0.txt.
+infra/quantrocket/compose.research.yml is a research-only adaptation of that
+template; its source and modifications are identified in the file comments.
+
+No raw market data or provider account settings are distributed. Access to
+QuantRocket learning data remains subject to the provider's applicable terms.
+Public result bundles contain reviewed aggregate diagnostics and provenance.
+
+This notice preserves the third-party licence; it does not apply that licence
+to all original research code or grant additional rights in vendor data.

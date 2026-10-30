@@ -1,0 +1,29 @@
+{
+  "prepared_on": "2026-10-30",
+  "purpose": "Free learning-data research environment; no trading or paid subscription",
+  "official_compose_url": "https://www.quantrocket.com/composefiles/latest/local/docker-compose.yml",
+  "official_compose_version": "2.12.0",
+  "official_compose_sha256": "196eb4de45d41a4ac5db8452d44c3913d3c1650c4397bf0926819213dbd2d147",
+  "docker_download_url": "https://desktop.docker.com/mac/main/arm64/Docker.dmg",
+  "docker_checksum_url": "https://desktop.docker.com/mac/main/arm64/244584/checksums.txt",
+  "docker_dmg_sha256": "94e4ccec4a035b7dcdf67cfff0520d4b46ee873ae04b155abc0d22b333cc90ad",
+  "docker_expected_version": "4.97.0",
+  "host_architecture": "arm64",
+  "host_memory_gib": 16,
+  "host_cpu_count": 10,
+  "host_os": "macOS 15.7.3",
+  "host_free_storage_gib_before_download": 30,
+  "policy": {
+    "broker_services_enabled": false,
+    "real_money_or_paper_trading_enabled": false,
+    "public_network_port_binding": false,
+    "anonymous_crash_reporting_enabled": false,
+    "host_docker_socket_mounted": false,
+    "source_code_mounts": "read-only, scoped project source/config/research directories only",
+    "persistent_container_data": "Docker named volumes, not Git",
+    "restart_policy": "no automatic restart at login",
+    "data_period": "2007-2011 learning bundle; a separate historical study, not current holdout evaluation",
+    "license_activation": "User enters key locally; never commit or print it",
+    "raw_data_export": "Not an export-only workflow; use in-platform research functionality"
+  }
+}

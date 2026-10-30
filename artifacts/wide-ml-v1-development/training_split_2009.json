@@ -1,0 +1,3810 @@
+{
+  "training_year": 2009,
+  "training_boundary_exclusive": "2009-01-01",
+  "label_exit_offset": 6,
+  "rows_before_maturity_purge": 710054,
+  "rows_after_maturity_purge": 701089,
+  "maturity_purged_rows": 8965,
+  "missing_label_rows": 1084,
+  "noncomplete_status_rows_after_maturity_purge": 1084,
+  "nonfinite_label_rows_after_maturity_purge": 1084,
+  "label_status_counts_after_maturity_purge": {
+    "0": 700005,
+    "1": 186,
+    "2": 865,
+    "3": 33
+  },
+  "observed_rows_before_sampling": 700005,
+  "selected_rows": 558000,
+  "sampling_removed_rows": 142005,
+  "training_dates": 372,
+  "max_training_names_per_date": 1500,
+  "min_row_date": "2007-07-05",
+  "max_row_date": "2008-12-22",
+  "max_label_exit_date": "2008-12-31",
+  "target_rank_population": "All complete observed mature rows per date, before training sampling",
+  "sampling": "blake2b(seed, decision_date, persistent_security_id); identity collision tie-break",
+  "seed": 1729,
+  "per_date": [
+    {
+      "date": "2007-07-05",
+      "label_exit_date": "2007-07-13",
+      "rows_before_maturity_purge": 1968,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1968,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1964,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-06",
+      "label_exit_date": "2007-07-16",
+      "rows_before_maturity_purge": 1946,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1946,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1941,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-09",
+      "label_exit_date": "2007-07-17",
+      "rows_before_maturity_purge": 1948,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1948,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1944,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-10",
+      "label_exit_date": "2007-07-18",
+      "rows_before_maturity_purge": 1947,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1947,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1942,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-11",
+      "label_exit_date": "2007-07-19",
+      "rows_before_maturity_purge": 1953,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1953,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1947,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-12",
+      "label_exit_date": "2007-07-20",
+      "rows_before_maturity_purge": 1947,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1947,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1943,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-13",
+      "label_exit_date": "2007-07-23",
+      "rows_before_maturity_purge": 1940,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1940,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1937,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-16",
+      "label_exit_date": "2007-07-24",
+      "rows_before_maturity_purge": 1926,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1926,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1924,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-17",
+      "label_exit_date": "2007-07-25",
+      "rows_before_maturity_purge": 1933,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1933,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1930,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-18",
+      "label_exit_date": "2007-07-26",
+      "rows_before_maturity_purge": 1941,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1941,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1939,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-19",
+      "label_exit_date": "2007-07-27",
+      "rows_before_maturity_purge": 1936,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1936,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1934,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-20",
+      "label_exit_date": "2007-07-30",
+      "rows_before_maturity_purge": 1946,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1946,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1943,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-23",
+      "label_exit_date": "2007-07-31",
+      "rows_before_maturity_purge": 1915,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1915,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1911,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-24",
+      "label_exit_date": "2007-08-01",
+      "rows_before_maturity_purge": 1930,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1930,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1925,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-25",
+      "label_exit_date": "2007-08-02",
+      "rows_before_maturity_purge": 1940,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1940,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 1933,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-26",
+      "label_exit_date": "2007-08-03",
+      "rows_before_maturity_purge": 1956,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1956,
+      "missing_label_rows": 9,
+      "observed_rows_before_sampling": 1947,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-27",
+      "label_exit_date": "2007-08-06",
+      "rows_before_maturity_purge": 1984,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1984,
+      "missing_label_rows": 9,
+      "observed_rows_before_sampling": 1975,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-30",
+      "label_exit_date": "2007-08-07",
+      "rows_before_maturity_purge": 1990,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1990,
+      "missing_label_rows": 8,
+      "observed_rows_before_sampling": 1982,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-07-31",
+      "label_exit_date": "2007-08-08",
+      "rows_before_maturity_purge": 2000,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2000,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 1993,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-01",
+      "label_exit_date": "2007-08-09",
+      "rows_before_maturity_purge": 2045,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2045,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 2038,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-02",
+      "label_exit_date": "2007-08-10",
+      "rows_before_maturity_purge": 2062,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2062,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 2058,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-03",
+      "label_exit_date": "2007-08-13",
+      "rows_before_maturity_purge": 2074,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2074,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 2071,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-06",
+      "label_exit_date": "2007-08-14",
+      "rows_before_maturity_purge": 2089,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2089,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 2087,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-07",
+      "label_exit_date": "2007-08-15",
+      "rows_before_maturity_purge": 2109,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2109,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 2107,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-08",
+      "label_exit_date": "2007-08-16",
+      "rows_before_maturity_purge": 2158,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2158,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 2155,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-09",
+      "label_exit_date": "2007-08-17",
+      "rows_before_maturity_purge": 2219,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2219,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 2217,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-10",
+      "label_exit_date": "2007-08-20",
+      "rows_before_maturity_purge": 2251,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2251,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 2248,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-13",
+      "label_exit_date": "2007-08-21",
+      "rows_before_maturity_purge": 2266,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2266,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 2261,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-14",
+      "label_exit_date": "2007-08-22",
+      "rows_before_maturity_purge": 2255,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2255,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 2250,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-15",
+      "label_exit_date": "2007-08-23",
+      "rows_before_maturity_purge": 2265,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2265,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 2258,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-16",
+      "label_exit_date": "2007-08-24",
+      "rows_before_maturity_purge": 2287,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2287,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 2280,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-17",
+      "label_exit_date": "2007-08-27",
+      "rows_before_maturity_purge": 2299,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2299,
+      "missing_label_rows": 9,
+      "observed_rows_before_sampling": 2290,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-20",
+      "label_exit_date": "2007-08-28",
+      "rows_before_maturity_purge": 2300,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2300,
+      "missing_label_rows": 8,
+      "observed_rows_before_sampling": 2292,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-21",
+      "label_exit_date": "2007-08-29",
+      "rows_before_maturity_purge": 2284,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2284,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 2279,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-22",
+      "label_exit_date": "2007-08-30",
+      "rows_before_maturity_purge": 2271,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2271,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 2267,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-23",
+      "label_exit_date": "2007-08-31",
+      "rows_before_maturity_purge": 2250,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2250,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 2246,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-24",
+      "label_exit_date": "2007-09-04",
+      "rows_before_maturity_purge": 2235,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2235,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 2229,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-27",
+      "label_exit_date": "2007-09-05",
+      "rows_before_maturity_purge": 2218,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2218,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 2214,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-28",
+      "label_exit_date": "2007-09-06",
+      "rows_before_maturity_purge": 2198,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2198,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 2193,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-29",
+      "label_exit_date": "2007-09-07",
+      "rows_before_maturity_purge": 2179,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2179,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 2173,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-30",
+      "label_exit_date": "2007-09-10",
+      "rows_before_maturity_purge": 2149,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2149,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 2142,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-08-31",
+      "label_exit_date": "2007-09-11",
+      "rows_before_maturity_purge": 2122,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2122,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 2116,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-04",
+      "label_exit_date": "2007-09-12",
+      "rows_before_maturity_purge": 2090,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2090,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 2086,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-05",
+      "label_exit_date": "2007-09-13",
+      "rows_before_maturity_purge": 2056,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2056,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 2052,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-06",
+      "label_exit_date": "2007-09-14",
+      "rows_before_maturity_purge": 1996,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1996,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1992,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-07",
+      "label_exit_date": "2007-09-17",
+      "rows_before_maturity_purge": 1932,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1932,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1928,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-10",
+      "label_exit_date": "2007-09-18",
+      "rows_before_maturity_purge": 1878,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1878,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1875,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-11",
+      "label_exit_date": "2007-09-19",
+      "rows_before_maturity_purge": 1870,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1870,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1867,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-12",
+      "label_exit_date": "2007-09-20",
+      "rows_before_maturity_purge": 1859,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1859,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1856,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-13",
+      "label_exit_date": "2007-09-21",
+      "rows_before_maturity_purge": 1842,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1842,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1838,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-14",
+      "label_exit_date": "2007-09-24",
+      "rows_before_maturity_purge": 1802,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1802,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1798,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-17",
+      "label_exit_date": "2007-09-25",
+      "rows_before_maturity_purge": 1772,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1772,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1768,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-18",
+      "label_exit_date": "2007-09-26",
+      "rows_before_maturity_purge": 1787,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1787,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1782,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-19",
+      "label_exit_date": "2007-09-27",
+      "rows_before_maturity_purge": 1802,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1802,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1796,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-20",
+      "label_exit_date": "2007-09-28",
+      "rows_before_maturity_purge": 1796,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1796,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1790,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-21",
+      "label_exit_date": "2007-10-01",
+      "rows_before_maturity_purge": 1808,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1808,
+      "missing_label_rows": 8,
+      "observed_rows_before_sampling": 1800,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-24",
+      "label_exit_date": "2007-10-02",
+      "rows_before_maturity_purge": 1814,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1814,
+      "missing_label_rows": 12,
+      "observed_rows_before_sampling": 1802,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-25",
+      "label_exit_date": "2007-10-03",
+      "rows_before_maturity_purge": 1824,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1824,
+      "missing_label_rows": 11,
+      "observed_rows_before_sampling": 1813,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-26",
+      "label_exit_date": "2007-10-04",
+      "rows_before_maturity_purge": 1829,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1829,
+      "missing_label_rows": 11,
+      "observed_rows_before_sampling": 1818,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-27",
+      "label_exit_date": "2007-10-05",
+      "rows_before_maturity_purge": 1837,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1837,
+      "missing_label_rows": 10,
+      "observed_rows_before_sampling": 1827,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-09-28",
+      "label_exit_date": "2007-10-08",
+      "rows_before_maturity_purge": 1852,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1852,
+      "missing_label_rows": 11,
+      "observed_rows_before_sampling": 1841,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-01",
+      "label_exit_date": "2007-10-09",
+      "rows_before_maturity_purge": 1859,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1859,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1853,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-02",
+      "label_exit_date": "2007-10-10",
+      "rows_before_maturity_purge": 1859,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1859,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1855,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-03",
+      "label_exit_date": "2007-10-11",
+      "rows_before_maturity_purge": 1862,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1862,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1857,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-04",
+      "label_exit_date": "2007-10-12",
+      "rows_before_maturity_purge": 1867,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1867,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1862,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-05",
+      "label_exit_date": "2007-10-15",
+      "rows_before_maturity_purge": 1872,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1872,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1866,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-08",
+      "label_exit_date": "2007-10-16",
+      "rows_before_maturity_purge": 1866,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1866,
+      "missing_label_rows": 8,
+      "observed_rows_before_sampling": 1858,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-09",
+      "label_exit_date": "2007-10-17",
+      "rows_before_maturity_purge": 1870,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1870,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 1863,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-10",
+      "label_exit_date": "2007-10-18",
+      "rows_before_maturity_purge": 1875,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1875,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1869,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-11",
+      "label_exit_date": "2007-10-19",
+      "rows_before_maturity_purge": 1899,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1899,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1893,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-12",
+      "label_exit_date": "2007-10-22",
+      "rows_before_maturity_purge": 1897,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1897,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1892,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-15",
+      "label_exit_date": "2007-10-23",
+      "rows_before_maturity_purge": 1891,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1891,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1887,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-16",
+      "label_exit_date": "2007-10-24",
+      "rows_before_maturity_purge": 1873,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1873,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1871,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-17",
+      "label_exit_date": "2007-10-25",
+      "rows_before_maturity_purge": 1863,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1863,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1860,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-18",
+      "label_exit_date": "2007-10-26",
+      "rows_before_maturity_purge": 1863,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1863,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1858,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-19",
+      "label_exit_date": "2007-10-29",
+      "rows_before_maturity_purge": 1865,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1865,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1859,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-22",
+      "label_exit_date": "2007-10-30",
+      "rows_before_maturity_purge": 1879,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1879,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1873,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-23",
+      "label_exit_date": "2007-10-31",
+      "rows_before_maturity_purge": 1884,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1884,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1879,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-24",
+      "label_exit_date": "2007-11-01",
+      "rows_before_maturity_purge": 1890,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1890,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1884,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-25",
+      "label_exit_date": "2007-11-02",
+      "rows_before_maturity_purge": 1892,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1892,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1887,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-26",
+      "label_exit_date": "2007-11-05",
+      "rows_before_maturity_purge": 1886,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1886,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1882,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-29",
+      "label_exit_date": "2007-11-06",
+      "rows_before_maturity_purge": 1884,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1884,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1882,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-30",
+      "label_exit_date": "2007-11-07",
+      "rows_before_maturity_purge": 1884,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1884,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1880,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-10-31",
+      "label_exit_date": "2007-11-08",
+      "rows_before_maturity_purge": 1906,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1906,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1901,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-01",
+      "label_exit_date": "2007-11-09",
+      "rows_before_maturity_purge": 1916,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1916,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1911,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-02",
+      "label_exit_date": "2007-11-12",
+      "rows_before_maturity_purge": 1927,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1927,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1922,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-05",
+      "label_exit_date": "2007-11-13",
+      "rows_before_maturity_purge": 1936,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1936,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1931,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-06",
+      "label_exit_date": "2007-11-14",
+      "rows_before_maturity_purge": 1950,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1950,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 1943,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-07",
+      "label_exit_date": "2007-11-15",
+      "rows_before_maturity_purge": 1964,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1964,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1958,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-08",
+      "label_exit_date": "2007-11-16",
+      "rows_before_maturity_purge": 1978,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1978,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 1971,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-09",
+      "label_exit_date": "2007-11-19",
+      "rows_before_maturity_purge": 1991,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1991,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 1984,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-12",
+      "label_exit_date": "2007-11-20",
+      "rows_before_maturity_purge": 1992,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1992,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 1985,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-13",
+      "label_exit_date": "2007-11-21",
+      "rows_before_maturity_purge": 2002,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2002,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 1995,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-14",
+      "label_exit_date": "2007-11-23",
+      "rows_before_maturity_purge": 2002,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2002,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 1995,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-15",
+      "label_exit_date": "2007-11-26",
+      "rows_before_maturity_purge": 2002,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2002,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1996,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-16",
+      "label_exit_date": "2007-11-27",
+      "rows_before_maturity_purge": 2008,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2008,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 2004,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-19",
+      "label_exit_date": "2007-11-28",
+      "rows_before_maturity_purge": 2008,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2008,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 2005,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-20",
+      "label_exit_date": "2007-11-29",
+      "rows_before_maturity_purge": 2019,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2019,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 2016,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-21",
+      "label_exit_date": "2007-11-30",
+      "rows_before_maturity_purge": 2012,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2012,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 2009,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-23",
+      "label_exit_date": "2007-12-03",
+      "rows_before_maturity_purge": 1977,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1977,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1976,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-26",
+      "label_exit_date": "2007-12-04",
+      "rows_before_maturity_purge": 1964,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1964,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1962,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-27",
+      "label_exit_date": "2007-12-05",
+      "rows_before_maturity_purge": 1965,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1965,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1963,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-28",
+      "label_exit_date": "2007-12-06",
+      "rows_before_maturity_purge": 1975,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1975,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1973,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-29",
+      "label_exit_date": "2007-12-07",
+      "rows_before_maturity_purge": 1961,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1961,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1959,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-11-30",
+      "label_exit_date": "2007-12-10",
+      "rows_before_maturity_purge": 1953,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1953,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1952,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-03",
+      "label_exit_date": "2007-12-11",
+      "rows_before_maturity_purge": 1932,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1932,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1930,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-04",
+      "label_exit_date": "2007-12-12",
+      "rows_before_maturity_purge": 1927,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1927,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1927,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-05",
+      "label_exit_date": "2007-12-13",
+      "rows_before_maturity_purge": 1922,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1922,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1922,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-06",
+      "label_exit_date": "2007-12-14",
+      "rows_before_maturity_purge": 1919,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1919,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1918,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-07",
+      "label_exit_date": "2007-12-17",
+      "rows_before_maturity_purge": 1887,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1887,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1884,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-10",
+      "label_exit_date": "2007-12-18",
+      "rows_before_maturity_purge": 1870,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1870,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1867,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-11",
+      "label_exit_date": "2007-12-19",
+      "rows_before_maturity_purge": 1868,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1868,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1866,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-12",
+      "label_exit_date": "2007-12-20",
+      "rows_before_maturity_purge": 1862,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1862,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1858,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-13",
+      "label_exit_date": "2007-12-21",
+      "rows_before_maturity_purge": 1863,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1863,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 1856,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-14",
+      "label_exit_date": "2007-12-24",
+      "rows_before_maturity_purge": 1857,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1857,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 1850,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-17",
+      "label_exit_date": "2007-12-26",
+      "rows_before_maturity_purge": 1843,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1843,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1837,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-18",
+      "label_exit_date": "2007-12-27",
+      "rows_before_maturity_purge": 1846,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1846,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1840,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-19",
+      "label_exit_date": "2007-12-28",
+      "rows_before_maturity_purge": 1839,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1839,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 1832,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-20",
+      "label_exit_date": "2007-12-31",
+      "rows_before_maturity_purge": 1841,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1841,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1836,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-21",
+      "label_exit_date": "2008-01-02",
+      "rows_before_maturity_purge": 1888,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1888,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1885,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-24",
+      "label_exit_date": "2008-01-03",
+      "rows_before_maturity_purge": 1876,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1876,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1874,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-26",
+      "label_exit_date": "2008-01-04",
+      "rows_before_maturity_purge": 1866,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1866,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1864,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-27",
+      "label_exit_date": "2008-01-07",
+      "rows_before_maturity_purge": 1859,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1859,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1857,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-28",
+      "label_exit_date": "2008-01-08",
+      "rows_before_maturity_purge": 1848,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1848,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1847,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2007-12-31",
+      "label_exit_date": "2008-01-09",
+      "rows_before_maturity_purge": 1834,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1834,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1833,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-02",
+      "label_exit_date": "2008-01-10",
+      "rows_before_maturity_purge": 1842,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1842,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1842,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-03",
+      "label_exit_date": "2008-01-11",
+      "rows_before_maturity_purge": 1840,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1840,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1840,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-04",
+      "label_exit_date": "2008-01-14",
+      "rows_before_maturity_purge": 1839,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1839,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1838,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-07",
+      "label_exit_date": "2008-01-15",
+      "rows_before_maturity_purge": 1847,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1847,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1846,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-08",
+      "label_exit_date": "2008-01-16",
+      "rows_before_maturity_purge": 1850,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1850,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1849,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-09",
+      "label_exit_date": "2008-01-17",
+      "rows_before_maturity_purge": 1869,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1869,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1867,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-10",
+      "label_exit_date": "2008-01-18",
+      "rows_before_maturity_purge": 1880,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1880,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1878,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-11",
+      "label_exit_date": "2008-01-22",
+      "rows_before_maturity_purge": 1881,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1881,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1879,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-14",
+      "label_exit_date": "2008-01-23",
+      "rows_before_maturity_purge": 1879,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1879,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1878,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-15",
+      "label_exit_date": "2008-01-24",
+      "rows_before_maturity_purge": 1883,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1883,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1882,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-16",
+      "label_exit_date": "2008-01-25",
+      "rows_before_maturity_purge": 1904,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1904,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1903,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-17",
+      "label_exit_date": "2008-01-28",
+      "rows_before_maturity_purge": 1900,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1900,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1899,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-18",
+      "label_exit_date": "2008-01-29",
+      "rows_before_maturity_purge": 1916,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1916,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1913,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-22",
+      "label_exit_date": "2008-01-30",
+      "rows_before_maturity_purge": 1927,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1927,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1922,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-23",
+      "label_exit_date": "2008-01-31",
+      "rows_before_maturity_purge": 1928,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1928,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1923,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-24",
+      "label_exit_date": "2008-02-01",
+      "rows_before_maturity_purge": 1956,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1956,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1950,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-25",
+      "label_exit_date": "2008-02-04",
+      "rows_before_maturity_purge": 1966,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1966,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1960,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-28",
+      "label_exit_date": "2008-02-05",
+      "rows_before_maturity_purge": 1977,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1977,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1972,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-29",
+      "label_exit_date": "2008-02-06",
+      "rows_before_maturity_purge": 1992,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1992,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1989,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-30",
+      "label_exit_date": "2008-02-07",
+      "rows_before_maturity_purge": 1994,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1994,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1993,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-01-31",
+      "label_exit_date": "2008-02-08",
+      "rows_before_maturity_purge": 2007,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2007,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 2006,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-01",
+      "label_exit_date": "2008-02-11",
+      "rows_before_maturity_purge": 2019,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2019,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 2019,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-04",
+      "label_exit_date": "2008-02-12",
+      "rows_before_maturity_purge": 2023,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2023,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 2023,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-05",
+      "label_exit_date": "2008-02-13",
+      "rows_before_maturity_purge": 2009,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2009,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 2009,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-06",
+      "label_exit_date": "2008-02-14",
+      "rows_before_maturity_purge": 2001,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 2001,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 2000,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-07",
+      "label_exit_date": "2008-02-15",
+      "rows_before_maturity_purge": 1994,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1994,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1993,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-08",
+      "label_exit_date": "2008-02-19",
+      "rows_before_maturity_purge": 1987,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1987,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1986,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-11",
+      "label_exit_date": "2008-02-20",
+      "rows_before_maturity_purge": 1983,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1983,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1980,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-12",
+      "label_exit_date": "2008-02-21",
+      "rows_before_maturity_purge": 1981,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1981,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1978,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-13",
+      "label_exit_date": "2008-02-22",
+      "rows_before_maturity_purge": 1997,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1997,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1994,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-14",
+      "label_exit_date": "2008-02-25",
+      "rows_before_maturity_purge": 1987,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1987,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1984,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-15",
+      "label_exit_date": "2008-02-26",
+      "rows_before_maturity_purge": 1981,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1981,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1975,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-19",
+      "label_exit_date": "2008-02-27",
+      "rows_before_maturity_purge": 1958,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1958,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1953,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-20",
+      "label_exit_date": "2008-02-28",
+      "rows_before_maturity_purge": 1935,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1935,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1932,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-21",
+      "label_exit_date": "2008-02-29",
+      "rows_before_maturity_purge": 1916,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1916,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1911,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-22",
+      "label_exit_date": "2008-03-03",
+      "rows_before_maturity_purge": 1914,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1914,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1910,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-25",
+      "label_exit_date": "2008-03-04",
+      "rows_before_maturity_purge": 1917,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1917,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1913,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-26",
+      "label_exit_date": "2008-03-05",
+      "rows_before_maturity_purge": 1921,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1921,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1919,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-27",
+      "label_exit_date": "2008-03-06",
+      "rows_before_maturity_purge": 1927,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1927,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1925,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-28",
+      "label_exit_date": "2008-03-07",
+      "rows_before_maturity_purge": 1929,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1929,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1927,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-02-29",
+      "label_exit_date": "2008-03-10",
+      "rows_before_maturity_purge": 1916,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1916,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1915,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-03",
+      "label_exit_date": "2008-03-11",
+      "rows_before_maturity_purge": 1924,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1924,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1922,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-04",
+      "label_exit_date": "2008-03-12",
+      "rows_before_maturity_purge": 1937,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1937,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1935,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-05",
+      "label_exit_date": "2008-03-13",
+      "rows_before_maturity_purge": 1939,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1939,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1937,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-06",
+      "label_exit_date": "2008-03-14",
+      "rows_before_maturity_purge": 1935,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1935,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1933,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-07",
+      "label_exit_date": "2008-03-17",
+      "rows_before_maturity_purge": 1926,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1926,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1923,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-10",
+      "label_exit_date": "2008-03-18",
+      "rows_before_maturity_purge": 1919,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1919,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1917,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-11",
+      "label_exit_date": "2008-03-19",
+      "rows_before_maturity_purge": 1932,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1932,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1931,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-12",
+      "label_exit_date": "2008-03-20",
+      "rows_before_maturity_purge": 1931,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1931,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1930,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-13",
+      "label_exit_date": "2008-03-24",
+      "rows_before_maturity_purge": 1934,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1934,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1933,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-14",
+      "label_exit_date": "2008-03-25",
+      "rows_before_maturity_purge": 1938,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1938,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1937,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-17",
+      "label_exit_date": "2008-03-26",
+      "rows_before_maturity_purge": 1933,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1933,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1933,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-18",
+      "label_exit_date": "2008-03-27",
+      "rows_before_maturity_purge": 1950,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1950,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1950,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-19",
+      "label_exit_date": "2008-03-28",
+      "rows_before_maturity_purge": 1948,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1948,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1948,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-20",
+      "label_exit_date": "2008-03-31",
+      "rows_before_maturity_purge": 1978,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1978,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1977,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-24",
+      "label_exit_date": "2008-04-01",
+      "rows_before_maturity_purge": 1980,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1980,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1979,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-25",
+      "label_exit_date": "2008-04-02",
+      "rows_before_maturity_purge": 1980,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1980,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1978,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-26",
+      "label_exit_date": "2008-04-03",
+      "rows_before_maturity_purge": 1972,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1972,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1970,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-27",
+      "label_exit_date": "2008-04-04",
+      "rows_before_maturity_purge": 1964,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1964,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1962,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-28",
+      "label_exit_date": "2008-04-07",
+      "rows_before_maturity_purge": 1955,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1955,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1953,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-03-31",
+      "label_exit_date": "2008-04-08",
+      "rows_before_maturity_purge": 1955,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1955,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1954,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-01",
+      "label_exit_date": "2008-04-09",
+      "rows_before_maturity_purge": 1958,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1958,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1957,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-02",
+      "label_exit_date": "2008-04-10",
+      "rows_before_maturity_purge": 1953,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1953,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1953,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-03",
+      "label_exit_date": "2008-04-11",
+      "rows_before_maturity_purge": 1948,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1948,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1947,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-04",
+      "label_exit_date": "2008-04-14",
+      "rows_before_maturity_purge": 1949,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1949,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1948,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-07",
+      "label_exit_date": "2008-04-15",
+      "rows_before_maturity_purge": 1950,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1950,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1950,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-08",
+      "label_exit_date": "2008-04-16",
+      "rows_before_maturity_purge": 1943,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1943,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1942,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-09",
+      "label_exit_date": "2008-04-17",
+      "rows_before_maturity_purge": 1918,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1918,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1917,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-10",
+      "label_exit_date": "2008-04-18",
+      "rows_before_maturity_purge": 1910,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1910,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1909,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-11",
+      "label_exit_date": "2008-04-21",
+      "rows_before_maturity_purge": 1899,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1899,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1897,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-14",
+      "label_exit_date": "2008-04-22",
+      "rows_before_maturity_purge": 1883,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1883,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1879,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-15",
+      "label_exit_date": "2008-04-23",
+      "rows_before_maturity_purge": 1880,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1880,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1876,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-16",
+      "label_exit_date": "2008-04-24",
+      "rows_before_maturity_purge": 1875,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1875,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1872,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-17",
+      "label_exit_date": "2008-04-25",
+      "rows_before_maturity_purge": 1869,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1869,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1867,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-18",
+      "label_exit_date": "2008-04-28",
+      "rows_before_maturity_purge": 1840,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1840,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1838,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-21",
+      "label_exit_date": "2008-04-29",
+      "rows_before_maturity_purge": 1818,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1818,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1816,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-22",
+      "label_exit_date": "2008-04-30",
+      "rows_before_maturity_purge": 1809,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1809,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1808,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-23",
+      "label_exit_date": "2008-05-01",
+      "rows_before_maturity_purge": 1809,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1809,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1808,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-24",
+      "label_exit_date": "2008-05-02",
+      "rows_before_maturity_purge": 1826,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1826,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1824,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-25",
+      "label_exit_date": "2008-05-05",
+      "rows_before_maturity_purge": 1830,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1830,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1826,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-28",
+      "label_exit_date": "2008-05-06",
+      "rows_before_maturity_purge": 1825,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1825,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1822,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-29",
+      "label_exit_date": "2008-05-07",
+      "rows_before_maturity_purge": 1825,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1825,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1823,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-04-30",
+      "label_exit_date": "2008-05-08",
+      "rows_before_maturity_purge": 1839,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1839,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1836,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-01",
+      "label_exit_date": "2008-05-09",
+      "rows_before_maturity_purge": 1848,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1848,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1845,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-02",
+      "label_exit_date": "2008-05-12",
+      "rows_before_maturity_purge": 1850,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1850,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1848,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-05",
+      "label_exit_date": "2008-05-13",
+      "rows_before_maturity_purge": 1851,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1851,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1850,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-06",
+      "label_exit_date": "2008-05-14",
+      "rows_before_maturity_purge": 1862,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1862,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1861,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-07",
+      "label_exit_date": "2008-05-15",
+      "rows_before_maturity_purge": 1866,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1866,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1864,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-08",
+      "label_exit_date": "2008-05-16",
+      "rows_before_maturity_purge": 1875,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1875,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1873,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-09",
+      "label_exit_date": "2008-05-19",
+      "rows_before_maturity_purge": 1877,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1877,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1876,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-12",
+      "label_exit_date": "2008-05-20",
+      "rows_before_maturity_purge": 1883,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1883,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1882,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-13",
+      "label_exit_date": "2008-05-21",
+      "rows_before_maturity_purge": 1891,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1891,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1890,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-14",
+      "label_exit_date": "2008-05-22",
+      "rows_before_maturity_purge": 1886,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1886,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1885,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-15",
+      "label_exit_date": "2008-05-23",
+      "rows_before_maturity_purge": 1882,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1882,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1882,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-16",
+      "label_exit_date": "2008-05-27",
+      "rows_before_maturity_purge": 1885,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1885,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1882,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-19",
+      "label_exit_date": "2008-05-28",
+      "rows_before_maturity_purge": 1889,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1889,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1884,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-20",
+      "label_exit_date": "2008-05-29",
+      "rows_before_maturity_purge": 1885,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1885,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1879,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-21",
+      "label_exit_date": "2008-05-30",
+      "rows_before_maturity_purge": 1889,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1889,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1883,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-22",
+      "label_exit_date": "2008-06-02",
+      "rows_before_maturity_purge": 1890,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1890,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 1883,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-23",
+      "label_exit_date": "2008-06-03",
+      "rows_before_maturity_purge": 1880,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1880,
+      "missing_label_rows": 8,
+      "observed_rows_before_sampling": 1872,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-27",
+      "label_exit_date": "2008-06-04",
+      "rows_before_maturity_purge": 1868,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1868,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1863,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-28",
+      "label_exit_date": "2008-06-05",
+      "rows_before_maturity_purge": 1867,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1867,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1864,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-29",
+      "label_exit_date": "2008-06-06",
+      "rows_before_maturity_purge": 1857,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1857,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1855,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-05-30",
+      "label_exit_date": "2008-06-09",
+      "rows_before_maturity_purge": 1849,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1849,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1846,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-02",
+      "label_exit_date": "2008-06-10",
+      "rows_before_maturity_purge": 1836,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1836,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1833,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-03",
+      "label_exit_date": "2008-06-11",
+      "rows_before_maturity_purge": 1842,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1842,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1839,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-04",
+      "label_exit_date": "2008-06-12",
+      "rows_before_maturity_purge": 1853,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1853,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1850,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-05",
+      "label_exit_date": "2008-06-13",
+      "rows_before_maturity_purge": 1843,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1843,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1840,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-06",
+      "label_exit_date": "2008-06-16",
+      "rows_before_maturity_purge": 1837,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1837,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1835,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-09",
+      "label_exit_date": "2008-06-17",
+      "rows_before_maturity_purge": 1844,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1844,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1843,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-10",
+      "label_exit_date": "2008-06-18",
+      "rows_before_maturity_purge": 1849,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1849,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1849,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-11",
+      "label_exit_date": "2008-06-19",
+      "rows_before_maturity_purge": 1857,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1857,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1857,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-12",
+      "label_exit_date": "2008-06-20",
+      "rows_before_maturity_purge": 1853,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1853,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1853,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-13",
+      "label_exit_date": "2008-06-23",
+      "rows_before_maturity_purge": 1855,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1855,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1855,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-16",
+      "label_exit_date": "2008-06-24",
+      "rows_before_maturity_purge": 1853,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1853,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1853,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-17",
+      "label_exit_date": "2008-06-25",
+      "rows_before_maturity_purge": 1850,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1850,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1850,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-18",
+      "label_exit_date": "2008-06-26",
+      "rows_before_maturity_purge": 1844,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1844,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1843,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-19",
+      "label_exit_date": "2008-06-27",
+      "rows_before_maturity_purge": 1841,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1841,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1839,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-20",
+      "label_exit_date": "2008-06-30",
+      "rows_before_maturity_purge": 1855,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1855,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1853,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-23",
+      "label_exit_date": "2008-07-01",
+      "rows_before_maturity_purge": 1850,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1850,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1847,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-24",
+      "label_exit_date": "2008-07-02",
+      "rows_before_maturity_purge": 1856,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1856,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1853,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-25",
+      "label_exit_date": "2008-07-03",
+      "rows_before_maturity_purge": 1867,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1867,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1863,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-26",
+      "label_exit_date": "2008-07-07",
+      "rows_before_maturity_purge": 1858,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1858,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1856,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-27",
+      "label_exit_date": "2008-07-08",
+      "rows_before_maturity_purge": 1884,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1884,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1882,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-06-30",
+      "label_exit_date": "2008-07-09",
+      "rows_before_maturity_purge": 1883,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1883,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1881,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-01",
+      "label_exit_date": "2008-07-10",
+      "rows_before_maturity_purge": 1887,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1887,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1885,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-02",
+      "label_exit_date": "2008-07-11",
+      "rows_before_maturity_purge": 1885,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1885,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1883,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-03",
+      "label_exit_date": "2008-07-14",
+      "rows_before_maturity_purge": 1863,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1863,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1862,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-07",
+      "label_exit_date": "2008-07-15",
+      "rows_before_maturity_purge": 1871,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1871,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1870,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-08",
+      "label_exit_date": "2008-07-16",
+      "rows_before_maturity_purge": 1888,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1888,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1886,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-09",
+      "label_exit_date": "2008-07-17",
+      "rows_before_maturity_purge": 1889,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1889,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1887,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-10",
+      "label_exit_date": "2008-07-18",
+      "rows_before_maturity_purge": 1877,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1877,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1876,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-11",
+      "label_exit_date": "2008-07-21",
+      "rows_before_maturity_purge": 1877,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1877,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1876,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-14",
+      "label_exit_date": "2008-07-22",
+      "rows_before_maturity_purge": 1883,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1883,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1882,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-15",
+      "label_exit_date": "2008-07-23",
+      "rows_before_maturity_purge": 1902,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1902,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1901,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-16",
+      "label_exit_date": "2008-07-24",
+      "rows_before_maturity_purge": 1924,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1924,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1924,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-17",
+      "label_exit_date": "2008-07-25",
+      "rows_before_maturity_purge": 1936,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1936,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1935,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-18",
+      "label_exit_date": "2008-07-28",
+      "rows_before_maturity_purge": 1944,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1944,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1943,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-21",
+      "label_exit_date": "2008-07-29",
+      "rows_before_maturity_purge": 1918,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1918,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1916,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-22",
+      "label_exit_date": "2008-07-30",
+      "rows_before_maturity_purge": 1931,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1931,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1929,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-23",
+      "label_exit_date": "2008-07-31",
+      "rows_before_maturity_purge": 1937,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1937,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1934,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-24",
+      "label_exit_date": "2008-08-01",
+      "rows_before_maturity_purge": 1932,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1932,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1929,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-25",
+      "label_exit_date": "2008-08-04",
+      "rows_before_maturity_purge": 1929,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1929,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1927,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-28",
+      "label_exit_date": "2008-08-05",
+      "rows_before_maturity_purge": 1893,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1893,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1890,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-29",
+      "label_exit_date": "2008-08-06",
+      "rows_before_maturity_purge": 1899,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1899,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1897,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-30",
+      "label_exit_date": "2008-08-07",
+      "rows_before_maturity_purge": 1902,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1902,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1900,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-07-31",
+      "label_exit_date": "2008-08-08",
+      "rows_before_maturity_purge": 1903,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1903,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1901,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-01",
+      "label_exit_date": "2008-08-11",
+      "rows_before_maturity_purge": 1920,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1920,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1918,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-04",
+      "label_exit_date": "2008-08-12",
+      "rows_before_maturity_purge": 1921,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1921,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1919,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-05",
+      "label_exit_date": "2008-08-13",
+      "rows_before_maturity_purge": 1925,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1925,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1924,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-06",
+      "label_exit_date": "2008-08-14",
+      "rows_before_maturity_purge": 1922,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1922,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1921,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-07",
+      "label_exit_date": "2008-08-15",
+      "rows_before_maturity_purge": 1924,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1924,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1923,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-08",
+      "label_exit_date": "2008-08-18",
+      "rows_before_maturity_purge": 1927,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1927,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1927,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-11",
+      "label_exit_date": "2008-08-19",
+      "rows_before_maturity_purge": 1944,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1944,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1943,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-12",
+      "label_exit_date": "2008-08-20",
+      "rows_before_maturity_purge": 1933,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1933,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1932,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-13",
+      "label_exit_date": "2008-08-21",
+      "rows_before_maturity_purge": 1929,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1929,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1928,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-14",
+      "label_exit_date": "2008-08-22",
+      "rows_before_maturity_purge": 1926,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1926,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1924,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-15",
+      "label_exit_date": "2008-08-25",
+      "rows_before_maturity_purge": 1926,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1926,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1924,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-18",
+      "label_exit_date": "2008-08-26",
+      "rows_before_maturity_purge": 1927,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1927,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1924,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-19",
+      "label_exit_date": "2008-08-27",
+      "rows_before_maturity_purge": 1911,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1911,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1909,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-20",
+      "label_exit_date": "2008-08-28",
+      "rows_before_maturity_purge": 1899,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1899,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1897,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-21",
+      "label_exit_date": "2008-08-29",
+      "rows_before_maturity_purge": 1876,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1876,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1874,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-22",
+      "label_exit_date": "2008-09-02",
+      "rows_before_maturity_purge": 1869,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1869,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1868,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-25",
+      "label_exit_date": "2008-09-03",
+      "rows_before_maturity_purge": 1856,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1856,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1855,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-26",
+      "label_exit_date": "2008-09-04",
+      "rows_before_maturity_purge": 1851,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1851,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1851,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-27",
+      "label_exit_date": "2008-09-05",
+      "rows_before_maturity_purge": 1833,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1833,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1833,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-28",
+      "label_exit_date": "2008-09-08",
+      "rows_before_maturity_purge": 1823,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1823,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1823,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-08-29",
+      "label_exit_date": "2008-09-09",
+      "rows_before_maturity_purge": 1816,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1816,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1816,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-02",
+      "label_exit_date": "2008-09-10",
+      "rows_before_maturity_purge": 1816,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1816,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1816,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-03",
+      "label_exit_date": "2008-09-11",
+      "rows_before_maturity_purge": 1813,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1813,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1813,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-04",
+      "label_exit_date": "2008-09-12",
+      "rows_before_maturity_purge": 1811,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1811,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1811,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-05",
+      "label_exit_date": "2008-09-15",
+      "rows_before_maturity_purge": 1812,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1812,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1811,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-08",
+      "label_exit_date": "2008-09-16",
+      "rows_before_maturity_purge": 1808,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1808,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1807,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-09",
+      "label_exit_date": "2008-09-17",
+      "rows_before_maturity_purge": 1813,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1813,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1810,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-10",
+      "label_exit_date": "2008-09-18",
+      "rows_before_maturity_purge": 1801,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1801,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1798,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-11",
+      "label_exit_date": "2008-09-19",
+      "rows_before_maturity_purge": 1799,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1799,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1796,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-12",
+      "label_exit_date": "2008-09-22",
+      "rows_before_maturity_purge": 1807,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1807,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1804,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-15",
+      "label_exit_date": "2008-09-23",
+      "rows_before_maturity_purge": 1802,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1802,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1799,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-16",
+      "label_exit_date": "2008-09-24",
+      "rows_before_maturity_purge": 1828,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1828,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1825,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-17",
+      "label_exit_date": "2008-09-25",
+      "rows_before_maturity_purge": 1851,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1851,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1849,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-18",
+      "label_exit_date": "2008-09-26",
+      "rows_before_maturity_purge": 1900,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1900,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1898,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-19",
+      "label_exit_date": "2008-09-29",
+      "rows_before_maturity_purge": 1957,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1957,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1956,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-22",
+      "label_exit_date": "2008-09-30",
+      "rows_before_maturity_purge": 1960,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1960,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1958,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-23",
+      "label_exit_date": "2008-10-01",
+      "rows_before_maturity_purge": 1965,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1965,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1964,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-24",
+      "label_exit_date": "2008-10-02",
+      "rows_before_maturity_purge": 1964,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1964,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1962,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-25",
+      "label_exit_date": "2008-10-03",
+      "rows_before_maturity_purge": 1978,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1978,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1976,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-26",
+      "label_exit_date": "2008-10-06",
+      "rows_before_maturity_purge": 1980,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1980,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1978,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-29",
+      "label_exit_date": "2008-10-07",
+      "rows_before_maturity_purge": 1975,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1975,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1970,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-09-30",
+      "label_exit_date": "2008-10-08",
+      "rows_before_maturity_purge": 1977,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1977,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1974,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-01",
+      "label_exit_date": "2008-10-09",
+      "rows_before_maturity_purge": 1966,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1966,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1964,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-02",
+      "label_exit_date": "2008-10-10",
+      "rows_before_maturity_purge": 1956,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1956,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1953,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-03",
+      "label_exit_date": "2008-10-13",
+      "rows_before_maturity_purge": 1942,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1942,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1940,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-06",
+      "label_exit_date": "2008-10-14",
+      "rows_before_maturity_purge": 1935,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1935,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1933,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-07",
+      "label_exit_date": "2008-10-15",
+      "rows_before_maturity_purge": 1910,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1910,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1908,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-08",
+      "label_exit_date": "2008-10-16",
+      "rows_before_maturity_purge": 1910,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1910,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1908,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-09",
+      "label_exit_date": "2008-10-17",
+      "rows_before_maturity_purge": 1890,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1890,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1888,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-10",
+      "label_exit_date": "2008-10-20",
+      "rows_before_maturity_purge": 1906,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1906,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1905,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-13",
+      "label_exit_date": "2008-10-21",
+      "rows_before_maturity_purge": 1928,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1928,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1927,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-14",
+      "label_exit_date": "2008-10-22",
+      "rows_before_maturity_purge": 1905,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1905,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1903,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-15",
+      "label_exit_date": "2008-10-23",
+      "rows_before_maturity_purge": 1864,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1864,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1863,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-16",
+      "label_exit_date": "2008-10-24",
+      "rows_before_maturity_purge": 1832,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1832,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1831,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-17",
+      "label_exit_date": "2008-10-27",
+      "rows_before_maturity_purge": 1786,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1786,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1785,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-20",
+      "label_exit_date": "2008-10-28",
+      "rows_before_maturity_purge": 1789,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1789,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1787,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-21",
+      "label_exit_date": "2008-10-29",
+      "rows_before_maturity_purge": 1768,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1768,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1765,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-22",
+      "label_exit_date": "2008-10-30",
+      "rows_before_maturity_purge": 1758,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1758,
+      "missing_label_rows": 4,
+      "observed_rows_before_sampling": 1754,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-23",
+      "label_exit_date": "2008-10-31",
+      "rows_before_maturity_purge": 1750,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1750,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1745,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-24",
+      "label_exit_date": "2008-11-03",
+      "rows_before_maturity_purge": 1731,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1731,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1725,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-27",
+      "label_exit_date": "2008-11-04",
+      "rows_before_maturity_purge": 1707,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1707,
+      "missing_label_rows": 7,
+      "observed_rows_before_sampling": 1700,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-28",
+      "label_exit_date": "2008-11-05",
+      "rows_before_maturity_purge": 1717,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1717,
+      "missing_label_rows": 6,
+      "observed_rows_before_sampling": 1711,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-29",
+      "label_exit_date": "2008-11-06",
+      "rows_before_maturity_purge": 1721,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1721,
+      "missing_label_rows": 5,
+      "observed_rows_before_sampling": 1716,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-30",
+      "label_exit_date": "2008-11-07",
+      "rows_before_maturity_purge": 1731,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1731,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1728,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-10-31",
+      "label_exit_date": "2008-11-10",
+      "rows_before_maturity_purge": 1740,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1740,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1738,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-03",
+      "label_exit_date": "2008-11-11",
+      "rows_before_maturity_purge": 1707,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1707,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1706,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-04",
+      "label_exit_date": "2008-11-12",
+      "rows_before_maturity_purge": 1717,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1717,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1717,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-05",
+      "label_exit_date": "2008-11-13",
+      "rows_before_maturity_purge": 1699,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1699,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1699,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-06",
+      "label_exit_date": "2008-11-14",
+      "rows_before_maturity_purge": 1673,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1673,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1672,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-07",
+      "label_exit_date": "2008-11-17",
+      "rows_before_maturity_purge": 1650,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1650,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1649,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-10",
+      "label_exit_date": "2008-11-18",
+      "rows_before_maturity_purge": 1616,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1616,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1614,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-11",
+      "label_exit_date": "2008-11-19",
+      "rows_before_maturity_purge": 1595,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1595,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1593,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-12",
+      "label_exit_date": "2008-11-20",
+      "rows_before_maturity_purge": 1570,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1570,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1568,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-13",
+      "label_exit_date": "2008-11-21",
+      "rows_before_maturity_purge": 1586,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1586,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1584,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-14",
+      "label_exit_date": "2008-11-24",
+      "rows_before_maturity_purge": 1563,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1563,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1561,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-17",
+      "label_exit_date": "2008-11-25",
+      "rows_before_maturity_purge": 1553,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1553,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1550,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-18",
+      "label_exit_date": "2008-11-26",
+      "rows_before_maturity_purge": 1550,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1550,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1548,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-19",
+      "label_exit_date": "2008-11-28",
+      "rows_before_maturity_purge": 1529,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1529,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1527,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-20",
+      "label_exit_date": "2008-12-01",
+      "rows_before_maturity_purge": 1507,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1507,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1504,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-21",
+      "label_exit_date": "2008-12-02",
+      "rows_before_maturity_purge": 1517,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1517,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1514,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-24",
+      "label_exit_date": "2008-12-03",
+      "rows_before_maturity_purge": 1553,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1553,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1551,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-25",
+      "label_exit_date": "2008-12-04",
+      "rows_before_maturity_purge": 1548,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1548,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1547,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-26",
+      "label_exit_date": "2008-12-05",
+      "rows_before_maturity_purge": 1549,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1549,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1548,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-11-28",
+      "label_exit_date": "2008-12-08",
+      "rows_before_maturity_purge": 1538,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1538,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1536,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-01",
+      "label_exit_date": "2008-12-09",
+      "rows_before_maturity_purge": 1511,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1511,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1510,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-02",
+      "label_exit_date": "2008-12-10",
+      "rows_before_maturity_purge": 1514,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1514,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1513,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-03",
+      "label_exit_date": "2008-12-11",
+      "rows_before_maturity_purge": 1519,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1519,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1518,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-04",
+      "label_exit_date": "2008-12-12",
+      "rows_before_maturity_purge": 1511,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1511,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1510,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-05",
+      "label_exit_date": "2008-12-15",
+      "rows_before_maturity_purge": 1508,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1508,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1507,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-08",
+      "label_exit_date": "2008-12-16",
+      "rows_before_maturity_purge": 1526,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1526,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1526,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-09",
+      "label_exit_date": "2008-12-17",
+      "rows_before_maturity_purge": 1531,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1531,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1531,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-10",
+      "label_exit_date": "2008-12-18",
+      "rows_before_maturity_purge": 1538,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1538,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 1538,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-11",
+      "label_exit_date": "2008-12-19",
+      "rows_before_maturity_purge": 1538,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1538,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1537,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-12",
+      "label_exit_date": "2008-12-22",
+      "rows_before_maturity_purge": 1531,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1531,
+      "missing_label_rows": 1,
+      "observed_rows_before_sampling": 1530,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-15",
+      "label_exit_date": "2008-12-23",
+      "rows_before_maturity_purge": 1531,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1531,
+      "missing_label_rows": 2,
+      "observed_rows_before_sampling": 1529,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-16",
+      "label_exit_date": "2008-12-24",
+      "rows_before_maturity_purge": 1542,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1542,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1539,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-17",
+      "label_exit_date": "2008-12-26",
+      "rows_before_maturity_purge": 1539,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1539,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1536,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-18",
+      "label_exit_date": "2008-12-29",
+      "rows_before_maturity_purge": 1540,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1540,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1537,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-19",
+      "label_exit_date": "2008-12-30",
+      "rows_before_maturity_purge": 1552,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1552,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1549,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-22",
+      "label_exit_date": "2008-12-31",
+      "rows_before_maturity_purge": 1541,
+      "maturity_purged_rows": 0,
+      "rows_after_maturity_purge": 1541,
+      "missing_label_rows": 3,
+      "observed_rows_before_sampling": 1538,
+      "selected_rows": 1500
+    },
+    {
+      "date": "2008-12-23",
+      "label_exit_date": "2009-01-02",
+      "rows_before_maturity_purge": 1521,
+      "maturity_purged_rows": 1521,
+      "rows_after_maturity_purge": 0,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 0,
+      "selected_rows": 0
+    },
+    {
+      "date": "2008-12-24",
+      "label_exit_date": "2009-01-05",
+      "rows_before_maturity_purge": 1495,
+      "maturity_purged_rows": 1495,
+      "rows_after_maturity_purge": 0,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 0,
+      "selected_rows": 0
+    },
+    {
+      "date": "2008-12-26",
+      "label_exit_date": "2009-01-06",
+      "rows_before_maturity_purge": 1484,
+      "maturity_purged_rows": 1484,
+      "rows_after_maturity_purge": 0,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 0,
+      "selected_rows": 0
+    },
+    {
+      "date": "2008-12-29",
+      "label_exit_date": "2009-01-07",
+      "rows_before_maturity_purge": 1492,
+      "maturity_purged_rows": 1492,
+      "rows_after_maturity_purge": 0,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 0,
+      "selected_rows": 0
+    },
+    {
+      "date": "2008-12-30",
+      "label_exit_date": "2009-01-08",
+      "rows_before_maturity_purge": 1491,
+      "maturity_purged_rows": 1491,
+      "rows_after_maturity_purge": 0,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 0,
+      "selected_rows": 0
+    },
+    {
+      "date": "2008-12-31",
+      "label_exit_date": "2009-01-09",
+      "rows_before_maturity_purge": 1482,
+      "maturity_purged_rows": 1482,
+      "rows_after_maturity_purge": 0,
+      "missing_label_rows": 0,
+      "observed_rows_before_sampling": 0,
+      "selected_rows": 0
+    }
+  ]
+}

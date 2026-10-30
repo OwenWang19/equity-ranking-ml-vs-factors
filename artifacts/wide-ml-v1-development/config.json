@@ -1,0 +1,78 @@
+{
+  "experiment_id": "wide_ml_v1",
+  "bundle": "usstock-learn-1d",
+  "authorized_start": "2007-01-03",
+  "development_end_exclusive": "2011-01-01",
+  "reserved_start": "2011-01-01",
+  "prediction_years": [
+    2009,
+    2010
+  ],
+  "warmup_sessions": 126,
+  "chunk_size": 256,
+  "max_assets_per_date": 2500,
+  "min_price": 5.0,
+  "min_adv20": 10000000.0,
+  "max_cache_bytes": 2000000000,
+  "min_free_disk_bytes": 8000000000,
+  "max_training_names_per_date": 1500,
+  "execution_delay_sessions": 1,
+  "horizon_sessions": 5,
+  "label_exit_offset": 6,
+  "target_name": "Zipline-adjusted close return proxy, rank-normalized within observed training cohorts",
+  "universe_name": "Past-price/liquidity-selected US equity securities, including non-common-stock instruments",
+  "classification_used_for_eligibility": false,
+  "end_date_or_auto_close_used_for_eligibility": false,
+  "models": [
+    "ridge_10",
+    "ridge_100",
+    "hgb_7",
+    "hgb_15"
+  ],
+  "primary_linear": "ridge_100",
+  "primary_nonlinear": "hgb_7",
+  "seed": 1729,
+  "permutation_seeds": [
+    191,
+    727,
+    2027
+  ],
+  "hgb_max_iter": 80,
+  "hgb_learning_rate": 0.05,
+  "hgb_l2_regularization": 10.0,
+  "hgb_min_samples_leaf": 150,
+  "early_stopping": false,
+  "threads": 2,
+  "max_total_model_fits": 14,
+  "max_runtime_seconds": 1800,
+  "bootstrap_samples": 1000,
+  "bootstrap_block_sessions": 20,
+  "bundle_reference_hash": "f9e4e64b10367f64dc7dc00cdce6ad3a9520916d9c0735b3123a91e5f43947d1",
+  "reserved_performance_enabled": false,
+  "original_2025_protocol_modified": false,
+  "primary_metric": "Equal-weighted daily observed-case Spearman IC in 2009-2010 development predictions",
+  "primary_comparison": "Fixed hgb_7 minus fixed ridge_100, not a best-of-grid comparison",
+  "baselines": [
+    "momentum21",
+    "reversal5",
+    "composite_mom63_rev5"
+  ],
+  "model_selection": "Development-only candidate ranking; not a confirmatory result or automatic holdout release",
+  "missing_outcome_policy": "Predict all eligible rows; retain missing labels and report coverage plus Kendall tau-a completion bounds",
+  "label_boundaries": "No label may use any price or adjustment on/after 2011-01-01; last six development sessions remain forecasted but boundary-censored",
+  "data_scope_limitations": [
+    "Historical common-stock/security-type and exchange membership are not qualified; snapshot classifications are not eligibility inputs",
+    "Vendor adjustment ratios define a price-return proxy, not fully qualified cash-distribution total return",
+    "Missing terminal payouts and merger consideration remain unresolved; missing labels are not assumed zero",
+    "Source revision/publication timestamps are not qualified",
+    "The 2011 data received coverage auditing but no prediction-performance evaluation; it is not described as never accessed"
+  ],
+  "excluded_claims": [
+    "executable Sharpe",
+    "investable alpha",
+    "survivorship-free common-stock universe",
+    "capacity",
+    "production readiness"
+  ],
+  "data_export_policy": "Raw bars, feature cache, per-security targets and forecasts remain inside QuantRocket; only code and aggregate analytical results may be shared"
+}

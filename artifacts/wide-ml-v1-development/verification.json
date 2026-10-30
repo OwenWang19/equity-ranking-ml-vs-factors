@@ -1,0 +1,17 @@
+{
+  "status": "verified",
+  "run_id": "wide_e0f795afd46f4f1e95a950ab8181ca7c",
+  "experiment_id": "wide_ml_v1",
+  "artifact_count": 32,
+  "source_file_count": 6,
+  "model_file_count": 14,
+  "completed_model_fits": 14,
+  "bound_cache_file_count": 8,
+  "cache_verified": true,
+  "registry_verified": true,
+  "config_sha256": "162bd4771b56e6c1e8be141b517c0bca702267c2ffa0a1f96d7373a5d8e7749d",
+  "data_digest": "ab909d557b238d6afcf0b19f486c908c7030c95e0b41762699289fdcf4aaa5eb",
+  "source_digest": "2d6ef5771e1fd0a62d691b67e920168f6bea0854a39227e32460b5272d5bed1a",
+  "artifact_inventory_digest": "cccfaf6a749510dee368538436fc31425f6c0275c3af7932e7f29b4c5aee0032",
+  "assurance": "internal_consistency_only_not_authorship_scientific_validation_or_promotion"
+}

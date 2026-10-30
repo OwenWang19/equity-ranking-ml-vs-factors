@@ -1,0 +1,4 @@
+{
+  "type": "ValueError",
+  "error": "Each scope must retain the exact full calendar"
+}
