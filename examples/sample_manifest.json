@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "origin": "SYNTHETIC ONLY: deterministic formulas, not sampled from vendor or real security observations",
+  "purpose": "Tiny field/adjustment-convention examples; not evidence for historical performance or alpha",
+  "assets": 3,
+  "date_labels": 140,
+  "date_range": [
+    "2008-01-02",
+    "2008-07-15"
+  ],
+  "calendar": "Weekdays only; no NYSE holiday/session completeness or real-trading-calendar claim",
+  "contains_vendor_data": false,
+  "used_for_reported_market_results": false,
+  "sufficient_for_registered_model_training": false,
+  "sample_adjustments": {
+    "split": "SYNTHETIC-001 raw price halves and raw volume doubles from the effective date",
+    "dividend": "SYNTHETIC-002 raw price scale changes by 0.995; amount and prior close satisfy ratio = 1 - amount/previous_close",
+    "cash_total_return_qualified": false
+  },
+  "files": {
+    "daily_bars.csv": {
+      "rows": 420,
+      "fields": [
+        {
+          "name": "date",
+          "type": "ISO-8601 date string",
+          "units_or_meaning": "synthetic weekday label; timezone-naive UTC midnight convention"
+        },
+        {
+          "name": "asset_id",
+          "type": "string",
+          "units_or_meaning": "invented persistent security identity"
+        },
+        {
+          "name": "open",
+          "type": "float64",
+          "units_or_meaning": "synthetic USD per share, unadjusted"
+        },
+        {
+          "name": "high",
+          "type": "float64",
+          "units_or_meaning": "synthetic USD per share, unadjusted"
+        },
+        {
+          "name": "low",
+          "type": "float64",
+          "units_or_meaning": "synthetic USD per share, unadjusted"
+        },
+        {
+          "name": "close",
+          "type": "float64",
+          "units_or_meaning": "synthetic USD per share, unadjusted"
+        },
+        {
+          "name": "volume",
+          "type": "int64",
+          "units_or_meaning": "synthetic shares traded"
+        }
+      ],
+      "bytes": 34061,
+      "sha256": "03c65a1b45477ff1f8d85877cba9c44d66e4a880fb957b8cba1798dbbffa38d4"
+    },
+    "assets.csv": {
+      "rows": 3,
+      "fields": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "units_or_meaning": "invented persistent identity; joins daily_bars.asset_id"
+        },
+        {
+          "name": "sid",
+          "type": "int64",
+          "units_or_meaning": "invented bundle-local identity; joins action tables"
+        },
+        {
+          "name": "symbol",
+          "type": "string",
+          "units_or_meaning": "invented display label, not an eligibility input"
+        }
+      ],
+      "bytes": 107,
+      "sha256": "d7af0fd845c042727610de60fb3fd83daf671f96066454e54f98f8abf667d333"
+    },
+    "split_ratios.csv": {
+      "rows": 1,
+      "fields": [
+        {
+          "name": "sid",
+          "type": "int64",
+          "units_or_meaning": "local identity joining assets.sid"
+        },
+        {
+          "name": "effective_date",
+          "type": "ISO-8601 date string",
+          "units_or_meaning": "synthetic UTC-midnight effective date"
+        },
+        {
+          "name": "ratio",
+          "type": "float64",
+          "units_or_meaning": "positive adjustment factor; 0.5 denotes the sample 2-for-1 split"
+        }
+      ],
+      "bytes": 47,
+      "sha256": "f2c4e0bb0b66a69ce4c4f411bae70f973aad8bff61a4193d4c823c8f0e49db0b"
+    },
+    "dividend_ratios.csv": {
+      "rows": 1,
+      "fields": [
+        {
+          "name": "sid",
+          "type": "int64",
+          "units_or_meaning": "local identity joining assets.sid"
+        },
+        {
+          "name": "effective_date",
+          "type": "ISO-8601 date string",
+          "units_or_meaning": "synthetic UTC-midnight ex-date"
+        },
+        {
+          "name": "ratio",
+          "type": "float64",
+          "units_or_meaning": "1 minus amount / previous synthetic close; price-return proxy convention"
+        }
+      ],
+      "bytes": 49,
+      "sha256": "06d8935c0393446b2abb75eaaab90f1d17c26e99fca0124c8ed661963eefae00"
+    },
+    "merger_ratios.csv": {
+      "rows": 0,
+      "fields": [
+        {
+          "name": "sid",
+          "type": "int64",
+          "units_or_meaning": "local identity joining assets.sid"
+        },
+        {
+          "name": "effective_date",
+          "type": "ISO-8601 date string",
+          "units_or_meaning": "synthetic UTC-midnight effective date"
+        },
+        {
+          "name": "ratio",
+          "type": "float64",
+          "units_or_meaning": "positive price-adjustment factor; no sample merger is invented"
+        }
+      ],
+      "bytes": 25,
+      "sha256": "e98f818af807f4af99f4680a1c2670645d866c917b3e8637dd8416505bff22d1"
+    },
+    "dividend_payouts.csv": {
+      "rows": 1,
+      "fields": [
+        {
+          "name": "sid",
+          "type": "int64",
+          "units_or_meaning": "local identity joining assets.sid"
+        },
+        {
+          "name": "ex_date",
+          "type": "ISO-8601 date string",
+          "units_or_meaning": "synthetic UTC-midnight ex-date"
+        },
+        {
+          "name": "amount",
+          "type": "float64",
+          "units_or_meaning": "synthetic USD per share; matching core consumes sid/ex_date only"
+        }
+      ],
+      "bytes": 50,
+      "sha256": "61ff469a19ebf6f20f0f8b65458b437c139914742221426c37805100b304a07c"
+    }
+  }
+}

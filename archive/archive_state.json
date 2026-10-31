@@ -1,0 +1,58 @@
+{
+  "archived_on": "2026-10-31",
+  "project_title": "Cross-Sectional Equity Ranking: ML vs. Momentum and Reversal",
+  "canonical_folder": "equity-ranking-ml-vs-factors",
+  "repository": "OwenWang19/equity-ranking-ml-vs-factors",
+  "purpose": "Small, frozen portfolio/CV archive; no further research by default",
+  "retained": [
+    "Source, tests, configuration and documentation",
+    "Two frozen aggregate research releases and their manifests",
+    "Small historical data-qualification audit and fingerprints",
+    "420 synthetic OHLCV example rows with tiny action tables",
+    "Git history; raw market data were never committed"
+  ],
+  "synthetic_example": {
+    "assets": 3,
+    "weekday_labels": 140,
+    "ohlcv_rows": 420,
+    "csv_total_bytes": 34339,
+    "vendor_derived": false,
+    "used_for_reported_market_results": false
+  },
+  "removed_locally": [
+    "Original duplicate Equity-Alpha-Research folder after all 83 source files were accounted for",
+    "Qlib archive and other downloaded provider demonstrations",
+    "Docker installer and project screenshots",
+    "Original project virtual environment and temporary Python/test caches",
+    "Full learning bundle, feature/target caches and row-level forecasts",
+    "Fitted model binaries and unneeded private pilot outputs",
+    "11 project Docker containers, 11 project images and all 5 project volumes"
+  ],
+  "scope_safeguards": {
+    "source_and_aggregate_evidence_preserved": true,
+    "two_aggregate_manifests_still_verify": true,
+    "last_native_full_run_verified_before_removal": true,
+    "unrelated_projects_or_original_course_folder_modified": false,
+    "docker_desktop_application_uninstalled": false,
+    "github_visibility_changed": false
+  },
+  "storage_observation": {
+    "original_local_folder_kib_before": 1385928,
+    "docker_images_reported_gb_before": 11.45,
+    "docker_volumes_reported_gb_before": 1.752,
+    "docker_images_containers_volumes_after": 0,
+    "host_available_kib_before": 18060112,
+    "host_available_kib_after_observation": 33202672,
+    "note": "Host free-space movement is an observation, not exact per-project physical-byte attribution. Docker Desktop itself remains installed."
+  },
+  "verification_before_runtime_removal": {
+    "tests_passed": 545,
+    "test_warnings": 0,
+    "ruff_check_and_format_passed": true,
+    "synthetic_fixture_regeneration_verified": true
+  },
+  "recoverability": "Code and aggregate evidence remain locally and on GitHub. Deleted native data, caches, private predictions and models are not locally recoverable; native replay needs reacquiring the same entitled vintage, which is not guaranteed to remain available.",
+  "reserved_2011_prediction_performance_evaluated": false,
+  "new_market_data_model_fits": 0,
+  "frozen_results_modified": false
+}

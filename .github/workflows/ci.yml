@@ -17,8 +17,9 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - run: uv sync --frozen --extra dev
-      - run: uv run ruff check src tests infra/quantrocket/research
-      - run: uv run ruff format --check src tests infra/quantrocket/research
+      - run: uv run ruff check src tests infra/quantrocket/research examples
+      - run: uv run ruff format --check src tests infra/quantrocket/research examples
+      - run: uv run python examples/generate_sample.py --check
       - run: uv run pytest
         env:
           MPLBACKEND: Agg

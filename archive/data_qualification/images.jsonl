@@ -1,0 +1,11 @@
+{"tags":["quantrocket/codeload:2.12.0"],"digests":["quantrocket/codeload@sha256:4e7a07e7354237276ae2d430995cd3a3455f5b43e817a77de95f29f5e552e7a6"],"architecture":"arm64"}
+{"tags":["quantrocket/db:2.12.0"],"digests":["quantrocket/db@sha256:1f353b43fc04eddb51a6e5e9fa8afcc652e4c11ed46f4be0b6e148236e228d43"],"architecture":"arm64"}
+{"tags":["quantrocket/flightlog:2.12.0"],"digests":["quantrocket/flightlog@sha256:eb091d636e26e4ff6b872b9a514b2bde3c3e56b8cc9a6e7a2287e679d578b9e7"],"architecture":"arm64"}
+{"tags":["quantrocket/fundamental:2.12.0"],"digests":["quantrocket/fundamental@sha256:778feb6c441fe2eb19544ef28601c617907c4a38b70a16184c90838081b00057"],"architecture":"arm64"}
+{"tags":["quantrocket/history:2.12.0"],"digests":["quantrocket/history@sha256:22e38ebd3479076a4949a48c279bc0aa0ec4fccc0ef7a381dcaec7eef3d90251"],"architecture":"arm64"}
+{"tags":["quantrocket/houston:2.12.0"],"digests":["quantrocket/houston@sha256:97fa73b71e9b60f6bda0315b81a680a401a4979bc91a9b8bdaee37b06dd4dd36"],"architecture":"arm64"}
+{"tags":["quantrocket/jupyter:2.12.0"],"digests":["quantrocket/jupyter@sha256:85dbdf0a544b2d246095662627e9371ce76c8e095b7b421bafc6908c4d5e00e2"],"architecture":"arm64"}
+{"tags":["quantrocket/license-service:2.12.0"],"digests":["quantrocket/license-service@sha256:54a0bff31793aaebdb463a9fe4511416ac77e52d022c53875079e4566e1bebaa"],"architecture":"arm64"}
+{"tags":["quantrocket/master:2.12.0"],"digests":["quantrocket/master@sha256:1b0b2b2e1843c13ce6ab8cd9bbf576bdb61a1b8a67614f37c01e48fd403be42e"],"architecture":"arm64"}
+{"tags":["quantrocket/postgres:2.12.0"],"digests":["quantrocket/postgres@sha256:38abef26c88a5af9fdd5d7abaf867af364a0660b82976abde88971c2e29265bb"],"architecture":"arm64"}
+{"tags":["quantrocket/zipline:2.12.0"],"digests":["quantrocket/zipline@sha256:6492075912c4dfc4abf61c283146dda0d64050abc09a745bcb737b203a98a038"],"architecture":"arm64"}

@@ -1,10 +1,30 @@
-# AxiomAlpha
+# Cross-Sectional Equity Ranking
 
-**Cross-Sectional Equity ML & Signal Validation**
+**ML vs. Momentum and Reversal**
 
 An auditable research engine for testing nonlinear equity forecasts against
 simple factors, with leakage controls, missing-outcome diagnostics and preserved
 negative findings. The Python package remains `equity_alpha` for compatibility.
+
+## Lightweight archive — 2026-10-31
+
+Research is complete and this repository is retained for portfolio/CV review.
+Full market datasets, private row-level caches/forecasts, fitted models, project
+containers/images/volumes, installers and the local virtual environment have been
+removed. Source, tests, frozen aggregate evidence and qualification metadata remain.
+Historical paths in frozen reports describe the original execution environment,
+not currently available files on this computer.
+
+Only a **420-row synthetic OHLCV example** (3 invented assets × 140 weekday
+labels) and tiny corporate-action tables are retained under [examples](examples/).
+They are not provider-derived observations and were not used for reported market
+results. Exact fields, types, units and archive rules are in [`agent.md`](agent.md)
+and [the sample manifest](examples/sample_manifest.json). The six CSVs total about
+34 KB. The separate original course-data folder is not modified.
+
+Portable aggregate verification still works; full native replay requires
+reacquiring the same entitled data vintage. Do not recreate the runtime or
+download data just to polish résumé wording.
 
 **Research question:** Does nonlinear machine learning improve five-session
 cross-sectional equity forecasts beyond momentum, reversal and a regularized
@@ -105,11 +125,11 @@ performance remains disabled.** Its earlier coverage audit is disclosed. No
 portfolio/PnL, trading costs or executable Sharpe is computed for this study;
 the older pilot's accounting does not transfer automatically to this dataset.
 
-Raw bars, feature/target caches, row-level forecasts and model binaries stay
-inside the local QuantRocket platform. The repository release contains only
-aggregate diagnostics, code snapshots and provenance. The full native run is
-`/codeload/equity-alpha-wide/run-wide-v1-20261030`. Verify it without loading
-serialized models:
+Raw bars, feature/target caches, row-level forecasts and model binaries were kept
+inside the local platform and have now been removed locally. The repository
+contains only aggregate diagnostics, snapshots and provenance. The historical
+native run path was `/codeload/equity-alpha-wide/run-wide-v1-20261030`.
+The following is a historical reference command, not runnable with this archive:
 
 ```bash
 docker compose \
@@ -121,7 +141,7 @@ docker compose \
   --registry /codeload/equity-alpha-wide/registry.jsonl
 ```
 
-The dedicated wide verifier checks the exact 32-artifact inventory, six frozen
+At the original run, the dedicated wide verifier checked the exact 32-artifact inventory, six frozen
 source files, eight bound cache files, 14 fit/forecast lifecycles and local registry
 bindings. Checksums establish internal consistency, not scientific validity or
 external immutability. The older `equity-alpha verify` command is for pilot runs,
@@ -206,10 +226,9 @@ treated as point-in-time selection attributes.
 
 The research-only deployment is in `infra/quantrocket/compose.research.yml`.
 It publishes only `127.0.0.1:1969`, has no broker/order services, and mounts project
-source read-only. The raw bundle stays in QuantRocket's Docker volume; it is not
-exported to this repository. Only an aggregate audit with limited identity
-diagnostics is retained under
-`artifacts/quantrocket-learning-20261030-v1/learning_bundle_audit.json`.
+source read-only. The raw bundle was used inside Docker and never exported to
+this repository. It has now been removed locally. The historical aggregate audit
+and fingerprints are retained under [archive/data_qualification](archive/data_qualification/).
 
 This resolves access to a broader historical learning panel. The subsequent
 wide study validated causal split/dividend adjustment mechanics and explicitly

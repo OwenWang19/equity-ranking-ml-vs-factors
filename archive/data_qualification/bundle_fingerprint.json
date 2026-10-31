@@ -1,0 +1,3920 @@
+{
+  "bundle": "usstock-learn-1d",
+  "root": "/var/lib/quantrocket/zipline/data/usstock-learn-1d/2020-01-01T00;00;00",
+  "file_count": 782,
+  "total_bytes": 161195795,
+  "tree_sha256": "f9e4e64b10367f64dc7dc00cdce6ad3a9520916d9c0735b3123a91e5f43947d1",
+  "raw_data_exported": false,
+  "file_hashes": [
+    {
+      "path": "adjustments.sqlite",
+      "bytes": 55590912,
+      "sha256": "83a004738e19b41b22e88ff8bbf90cf6f779c282bd1d0205830677c6978b0d5a"
+    },
+    {
+      "path": "assets-8.sqlite",
+      "bytes": 6799360,
+      "sha256": "f13c6d814408ad1bc1f0a4ac5719d5343f9c4d0fe17e36ecdbdb05ad2fed341d"
+    },
+    {
+      "path": "daily_equities.bcolz/__attrs__",
+      "bytes": 525060,
+      "sha256": "63de4d09ba9042d55efd1d1d8f1bbbaa479414b787014973f2cec799bbe45292"
+    },
+    {
+      "path": "daily_equities.bcolz/__rootdirs__",
+      "bytes": 67,
+      "sha256": "609913ba3cd8235dd1fca98b179d4f8792ebf18788c9fcfd24868bb4347b08f2"
+    },
+    {
+      "path": "daily_equities.bcolz/close/__attrs__",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__0.blp",
+      "bytes": 176123,
+      "sha256": "ef11224221e4c5f42a3189ae901b92fd8de3773dc0eb5b86caaa878075258b74"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__1.blp",
+      "bytes": 181469,
+      "sha256": "1399c8c2e383d19f840b0fbee033d96cc95efd5da3d8e00c379097099c25125e"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__10.blp",
+      "bytes": 179439,
+      "sha256": "ba973cff5b1b514ccbaace6f0a06527f4a6951d2e19d2c048324eacf3151187f"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__100.blp",
+      "bytes": 182029,
+      "sha256": "80e0203cbea0a1fce328cfe4965640f7a5bb9095b6df6a5c287e5cb0a9c06409"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__101.blp",
+      "bytes": 168670,
+      "sha256": "bee1334482e06aeceec3c47e1531adeab5a9b36bfe21104b972e5d7117585982"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__102.blp",
+      "bytes": 157704,
+      "sha256": "6dbc457620a99a58a38c30a718bab59164c38cd0e6dee42ac6ca484af07b37c4"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__103.blp",
+      "bytes": 167993,
+      "sha256": "8421af373d7a91a484d4d6becb364d9fa86b74f813f873ee647484def8d48df9"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__104.blp",
+      "bytes": 182814,
+      "sha256": "a3f393872041cb280370a6c8ecdbdeec11cac6838c8cf63af14b8aac24175c6e"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__105.blp",
+      "bytes": 176571,
+      "sha256": "5d9ce422fa8d38bf8a25d468f6a9d016adc9f6d91770b30b9f9b2491d34c33aa"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__106.blp",
+      "bytes": 168017,
+      "sha256": "8dfa1c3077b8ce6a786834e148ce500d6bef37521d2df82e47531e58d89d9e2f"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__107.blp",
+      "bytes": 97885,
+      "sha256": "b3f49f0b057c1d1758c4d245e52284f323b89240f9e478f9d463846ba328f4f5"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__11.blp",
+      "bytes": 163537,
+      "sha256": "04259093d0290d2e56a392bf7360b999b499be53818e138bca429d4c35cd1c28"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__12.blp",
+      "bytes": 157880,
+      "sha256": "cec53728b3a01bfa0501492f75f1b73c1590013040c0ee3543b707e442330964"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__13.blp",
+      "bytes": 128052,
+      "sha256": "dfd11502d36ed8d3060fe932eeb20600b21533661feda6de9b4977c43d56f6f0"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__14.blp",
+      "bytes": 160622,
+      "sha256": "65180e4e185b35adbb8ffe573effcfdcc5e38fa70aaa1a1e1ea9659a892dedae"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__15.blp",
+      "bytes": 170927,
+      "sha256": "d175611902580ce090bf39c17418b56dbf4bd136d4398db8ff00ba108b4f1cc7"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__16.blp",
+      "bytes": 171321,
+      "sha256": "8aeb49cc5709b83c67ee47782c5de37e60ddf38f2b84d8ff5859d97566647274"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__17.blp",
+      "bytes": 158260,
+      "sha256": "fd227efc2d85758e711efb2ab41467b57efd207eab335d0e25ea83436b3477cf"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__18.blp",
+      "bytes": 174350,
+      "sha256": "2af9b7a13c90b49eb895fa724138192b7693cdfc1259aeabda6ca855c98dd61d"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__19.blp",
+      "bytes": 169831,
+      "sha256": "62936ae527a737aa37485f01f3cc235a037934f553bc74909be6ac17c24b770f"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__2.blp",
+      "bytes": 155531,
+      "sha256": "12c8900b82447abfe2db5c18edb878dc3cbd8d0fb02c06054894fe69df818a8c"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__20.blp",
+      "bytes": 169429,
+      "sha256": "2c3b54dd46305976df21dfb95dc27511f3820b4176bbbf309fb55ca5541df819"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__21.blp",
+      "bytes": 171979,
+      "sha256": "2964dc0b51ffc163e1edc34cb507889883f57c62236616a07d63e47d4e20bec9"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__22.blp",
+      "bytes": 182675,
+      "sha256": "eaf1bbf5691f8bcd4bfec85cf79b68d8daba05f93682801d8319e03cc0de1185"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__23.blp",
+      "bytes": 158639,
+      "sha256": "73c911cb3523c63362d609239919581e5b46d480ac598bbab08d977869d650af"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__24.blp",
+      "bytes": 163810,
+      "sha256": "776226e07ca9566936d68d1dbd7d341d11ac758d121f29ca63584fada21453fd"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__25.blp",
+      "bytes": 172907,
+      "sha256": "2a1b48b913f2095b41e76d16352ecaca0a59108834de5e89f80ea774bf4e5302"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__26.blp",
+      "bytes": 157256,
+      "sha256": "a54f97a8329bfe301138db58cab93841019d6b22a268363ef801d1a7245f5298"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__27.blp",
+      "bytes": 173445,
+      "sha256": "51da7282c1f4ea7f27c226c78106264d923b02dbd540462781debb94613e86be"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__28.blp",
+      "bytes": 136224,
+      "sha256": "a9b943d362afc0b50d31bf86ec99c5e6e722f519e2cb2688f2988c7ce187ec6c"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__29.blp",
+      "bytes": 144668,
+      "sha256": "c13d76f089bc71cc7bbec0bd091ee343bfe676f478621d445a0ee43a0a268100"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__3.blp",
+      "bytes": 176646,
+      "sha256": "ccaaf9589d4c03f23176bbfa453ee08ae481d3051f45ca693a1a322476152900"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__30.blp",
+      "bytes": 142898,
+      "sha256": "429d87476470a85ebd49584bb8c4350570c9fd2f74aa8bc3d8e39004e6c4252f"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__31.blp",
+      "bytes": 168126,
+      "sha256": "22ffebf3da713edc63ffbe0f41697ad31c7e0c385544e93dc5e27493ace7a6d2"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__32.blp",
+      "bytes": 180773,
+      "sha256": "108b362dc33ce4c2ffd36bafae7d300bb9875bd4872379a5306aabeaa9b303b3"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__33.blp",
+      "bytes": 177009,
+      "sha256": "c9a41da621997c34fec1de4c8e6e58596e35fe4d175d6a791cba04e480fb3162"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__34.blp",
+      "bytes": 174183,
+      "sha256": "0cb3b9da2e50591ec6742510f3522c31ba4c15968fef04ea0e2c21a7cd04e995"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__35.blp",
+      "bytes": 160277,
+      "sha256": "4df4cc53a40d84a204d7effb7be250d47d29bb4a54dd0093e81932635efe2e79"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__36.blp",
+      "bytes": 147625,
+      "sha256": "87c186bc8cb7303a0695487bee71a5a7c1bf12f94296b9b765f36a8295d03945"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__37.blp",
+      "bytes": 155857,
+      "sha256": "55e9730440713640736fed6552f64d6477fc33a152035d0ab19abbcd2ac21455"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__38.blp",
+      "bytes": 168752,
+      "sha256": "ae56500267d990370a545a5ecabdf3c63ea515bbd000cfb7f5eb3b89dd9731b8"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__39.blp",
+      "bytes": 171591,
+      "sha256": "af3f759868278d829d79e9046d750ef540f8c6a07aefa4a7005a594cbd954160"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__4.blp",
+      "bytes": 161970,
+      "sha256": "27f58a334dc41dfd6937ee48c5366792a5bdbde24dbaa6088a74fb1fe2aa6223"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__40.blp",
+      "bytes": 164305,
+      "sha256": "032072eead67c7f1c09d591b426858b994d84391faa30ac0ade0f05f60291b1f"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__41.blp",
+      "bytes": 155724,
+      "sha256": "ef1df76f0c24ebead272c6bcc62d68c8a48071535684813fe8ccac7012eb70b6"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__42.blp",
+      "bytes": 157634,
+      "sha256": "f4d724095c8b8149c08758019b5a691ee6ff24312c2bd34580ee87604678549a"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__43.blp",
+      "bytes": 169353,
+      "sha256": "0227fc50b6476861190a8f95c11521d39d9d7d8858efaca6ab8c3c06a9898849"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__44.blp",
+      "bytes": 138252,
+      "sha256": "9d1bfe01ccc2e98cdd152b16651075c5c486339a7773c022dcd0eef801069cc1"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__45.blp",
+      "bytes": 181186,
+      "sha256": "60294f4a9e030c8871f1313f780ea0ca6d2c615a33613ea0450db0699972a002"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__46.blp",
+      "bytes": 188877,
+      "sha256": "d6008098671d7d8b11269155c8fd12b0adb28343a283e09d0f87f0b773c783a7"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__47.blp",
+      "bytes": 178197,
+      "sha256": "cc4fee2cc0c9fc41116bfb8528084b0aae2c7749f728cdc084f92e2b5604e7f6"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__48.blp",
+      "bytes": 181051,
+      "sha256": "0ba3ed7f19b125bbb12688265b85edc28b32a39afb95a8fde2d6871cad1f9201"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__49.blp",
+      "bytes": 161920,
+      "sha256": "c19ab6b52065f299628a4d50d5b0ae74466e894019e57714f6d7d3f2698c9971"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__5.blp",
+      "bytes": 171073,
+      "sha256": "1007e45d04065085cd1f8094fa5c2694c5a871dba5a02200c27944dadfed7ccc"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__50.blp",
+      "bytes": 162471,
+      "sha256": "63bcb989d07e877513ae89fc32f1368eb663443efc3975977a0fb66155cbc29c"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__51.blp",
+      "bytes": 193209,
+      "sha256": "e1b152fcb991b299456d03611d537a17704d1e479a9b1c9399a184f8cd1736de"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__52.blp",
+      "bytes": 205453,
+      "sha256": "fd89e2be8dee8f50f5d27c47d8af3d9a6f5a47f4cf8dd5b17d843228ce949cb3"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__53.blp",
+      "bytes": 182675,
+      "sha256": "e4b289702ddcb68a6cc01951899d4d5e1a6ed26087d2ff245baab02dfe8508d5"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__54.blp",
+      "bytes": 170160,
+      "sha256": "d11c007e8238a655de74ee3a4427bc458c92fa57a6af120fdbb0315c7f03a306"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__55.blp",
+      "bytes": 174435,
+      "sha256": "46813b1d7f46834ddd8496b4769fd4cf4cc5915744145855f1e287fafa2d10e1"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__56.blp",
+      "bytes": 170231,
+      "sha256": "edb4e46b841e616abacc9a04e3aeb6fe8e24b58d894b980a503f5613058ea4f5"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__57.blp",
+      "bytes": 164273,
+      "sha256": "97189f767cc7a71b0ec3e53b08cc9efe1b928da0ff28e8e8e67766a2c62ccd2f"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__58.blp",
+      "bytes": 173147,
+      "sha256": "cbc5a7623930277298bb0435c45a4c5706ce2d3bfc2640c58ead18b589ab3e86"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__59.blp",
+      "bytes": 161855,
+      "sha256": "d0a4c92ec0ca0a2dca96f9f505ebbc1829b5a008fc2de3de89d2c91a937ff3f2"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__6.blp",
+      "bytes": 173103,
+      "sha256": "1ca3bca20d9b4128804b9a6943f05dfdb3ea116b12ba4d542b7b953977e24c50"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__60.blp",
+      "bytes": 171717,
+      "sha256": "0b4ce65de034cb8882c45dc6f5b9ebb0a8096f1bd4d27bf7396756e4b219800f"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__61.blp",
+      "bytes": 167671,
+      "sha256": "12d9309a0457075467a28498b0c01893bb224875f97a28c8729eb6b611fc2595"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__62.blp",
+      "bytes": 147567,
+      "sha256": "df6b9d41a1fed60505942307018fb95b56139dd340268551333d3cbeacc7217f"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__63.blp",
+      "bytes": 179138,
+      "sha256": "1dd604ea5ae442e3a5a5dab41ccf74d019bccf5ecf03c25c41248c0aaf66b5ea"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__64.blp",
+      "bytes": 178060,
+      "sha256": "b25931bd4e39ab5928ba675e29dc43ae7ff6a30b371ef21531e3c4ad472403b8"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__65.blp",
+      "bytes": 161399,
+      "sha256": "2da39e2997c3f3d42cd990a52010e3b5b80d4cb8358075eb0e7c1bdf61255929"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__66.blp",
+      "bytes": 160516,
+      "sha256": "0b25789dfd13e128c9de1b253fbc74ef806ab65f830b11dff83f1376b7a1ba93"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__67.blp",
+      "bytes": 156041,
+      "sha256": "c4e367a885bd0d02ea9dcf10bef42707bafcd1c0f53ea616b905ba40e12d8fb4"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__68.blp",
+      "bytes": 175310,
+      "sha256": "b1717a1da21f5c139ce893d0495dd6bf1033c110ce4539489df6934023fe2370"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__69.blp",
+      "bytes": 162303,
+      "sha256": "ce1c3ae5303483edeae23875ec54d75e9d7d603e51a01593fc3191532893f6ed"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__7.blp",
+      "bytes": 165423,
+      "sha256": "08dabb7ef74bd4a8ed78a288c1a2bf532e44b3413ea3d65671e2587c22eb8a9c"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__70.blp",
+      "bytes": 169881,
+      "sha256": "20c4aaac7b84bb5f1f72814dc1603f2059c3648856fb0167f2f48904adc4da5d"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__71.blp",
+      "bytes": 177186,
+      "sha256": "336d72de8488ee9dc134e41d476443dc738ed5cc247a8df8dfcf6bfab012e8e5"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__72.blp",
+      "bytes": 174016,
+      "sha256": "566f9637f6dd967b39c82fc037145d785cb4ef851402247aa32d8771cfd0cec7"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__73.blp",
+      "bytes": 170497,
+      "sha256": "4bd13fb8a8da2e6cd55ef3c85f086206364a3cdd261aae5a894a2b9830c81f09"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__74.blp",
+      "bytes": 186344,
+      "sha256": "70a5851574b6fc3078323a84993ed65b6f8e3ae03df94acb7150cd2e81baf8e9"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__75.blp",
+      "bytes": 181798,
+      "sha256": "a25f6ca89e932ab6cf8c597c47971b64c63565608806c2a32bc71b5288fd2d68"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__76.blp",
+      "bytes": 187483,
+      "sha256": "d75b24e750f3899973ac130e9ed9b613a54544219959bb5a3c952f7bdd59b2f2"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__77.blp",
+      "bytes": 160147,
+      "sha256": "641f6bc64b5e360434dafe00131b5ba0572b567eba7780e0ec901fca1245436c"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__78.blp",
+      "bytes": 159872,
+      "sha256": "18784b5a70ced21b4e4cbc703411440b1c6c46f3717af91d7a26775cec5a48d3"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__79.blp",
+      "bytes": 197122,
+      "sha256": "712b1431601678677b85d7859bbdcc57b27afddaeb4d98409fab85f5ed74bf99"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__8.blp",
+      "bytes": 172829,
+      "sha256": "e168664271868261da257d054b4f8fa4eb940e0e38887685f024985ab06ee164"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__80.blp",
+      "bytes": 156071,
+      "sha256": "ecbe8a0526caee3625b9b7b710c9879411ed98ce1de7a7a4910159d3c5658d2b"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__81.blp",
+      "bytes": 165523,
+      "sha256": "39310bd39346e47a956620e8aeae4a02e7e4390ceb41c354267b989dc8c55d43"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__82.blp",
+      "bytes": 169503,
+      "sha256": "ced5a83b57b3d701dee1892f5200200834ecbf38fd7c8635d99b088c738c22b2"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__83.blp",
+      "bytes": 166435,
+      "sha256": "84acd31e2f55c418cd86ca325957be5c965c5b147b8ab4fbac9ad819a9a95024"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__84.blp",
+      "bytes": 179780,
+      "sha256": "3858fa4c8331cb41f1fedf0f06f8dbd28265bbc78ede479734f3d0260dac93f3"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__85.blp",
+      "bytes": 150443,
+      "sha256": "4aa07b053af768d2a158f7eb095faf443e2f69d0df68eee66b37c2a98ad12ee4"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__86.blp",
+      "bytes": 150585,
+      "sha256": "48a9d2fa748e15f1c9daa0e535caaf7116bdad476e671a4c1648f9d93be6ca9f"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__87.blp",
+      "bytes": 162773,
+      "sha256": "ce5a4a33b447e14088a8fe59424459cf2b93a95be2b430b4ba82a373ec0504c5"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__88.blp",
+      "bytes": 166819,
+      "sha256": "32611772f009c27e70932a7509c71add2f19d9def207222c03e456caf8dca863"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__89.blp",
+      "bytes": 171812,
+      "sha256": "0b183d680c7fd5c00f942faa09012b8a498ceb7d879ee168b768e27bf644ae99"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__9.blp",
+      "bytes": 179295,
+      "sha256": "a40ffd461d3dfb919ec3606a0f28f3ea9084ee2f4fa9c2696d4f8a76bd9e10dc"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__90.blp",
+      "bytes": 159442,
+      "sha256": "541f8e110f4a18bff3a22cc7b952f43ae94add4bdb19fc91a45f3f5c7cc45ab5"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__91.blp",
+      "bytes": 176094,
+      "sha256": "a6248ce4088178dedbb1728937df2619cee7ada02ada32c3593eeec327499f65"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__92.blp",
+      "bytes": 160964,
+      "sha256": "6f0ea773d568d6af947f9fe614a49a34a10003d4a495d5ff81e3c305e6be1715"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__93.blp",
+      "bytes": 160011,
+      "sha256": "6eff1bf7ff44140eafded691b2f5c94a32d8e64afdc458d2d7686e22f500822c"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__94.blp",
+      "bytes": 185760,
+      "sha256": "f038c9f93edf65829b7525786cdef6ed35020420f7af4f7f920acd7e7afc8112"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__95.blp",
+      "bytes": 163467,
+      "sha256": "ad1841ed6cc71c53e41da72858882e64da59ff8602c474df9b19c2b76a12ac65"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__96.blp",
+      "bytes": 161682,
+      "sha256": "dbd0fcda156141422cfcdbe73bfe409093f04df3376df63354112db16d02215e"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__97.blp",
+      "bytes": 152789,
+      "sha256": "cc2b521bd1f9fb9826251f8d4b2eb619bf67c6577da00a10f0372b99b26ab189"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__98.blp",
+      "bytes": 163304,
+      "sha256": "f7d0de6de65eb03c8340c9112fcfff445e4d24edff9a85115a7b0d93a46835f0"
+    },
+    {
+      "path": "daily_equities.bcolz/close/data/__99.blp",
+      "bytes": 175805,
+      "sha256": "ee0e02fed3c5d6a3bc767a748f3d50fe46be0788a8a72ba63309df0e120163a3"
+    },
+    {
+      "path": "daily_equities.bcolz/close/meta/sizes",
+      "bytes": 62,
+      "sha256": "d932c069474ec4b08767c626f42ed37cdb79c5bd1ce376bc1267a324184c406f"
+    },
+    {
+      "path": "daily_equities.bcolz/close/meta/storage",
+      "bytes": 147,
+      "sha256": "bc8acedede8b7ef344f050ed5c8732bfc73e3ba7616a70ffa3e54681c9b94490"
+    },
+    {
+      "path": "daily_equities.bcolz/day/__attrs__",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__0.blp",
+      "bytes": 8052,
+      "sha256": "248f823d337455a0de12c6c19f8f873c4ce289f72d7017dd116c1f1f53806445"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__1.blp",
+      "bytes": 8062,
+      "sha256": "d5752ba5bdddec4a08c37bf5b284e31e032494137bb65bafe43a3ea5506e45ca"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__10.blp",
+      "bytes": 8697,
+      "sha256": "1cebc5df4b20cb24a7d881c9384de339ebd29cd8a3f26d2b85ff8e4eeed399fa"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__100.blp",
+      "bytes": 8298,
+      "sha256": "691139584de5530bb92bcce28faaff6331352c96f6edc325b57e9b7bffe08a45"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__101.blp",
+      "bytes": 8492,
+      "sha256": "006296a6a29905199de5d1955521334f104e7713409130e535e48161cb365bd3"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__102.blp",
+      "bytes": 8292,
+      "sha256": "6daeb09cdc1cfce8ad78b0d3f93eb7b145c0893e2f37da7ab4657e2a24344c14"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__103.blp",
+      "bytes": 8262,
+      "sha256": "443b4138f46892ab4f52c1e7bdd1c21e7044c9b469d6d54a088eaa22802e5212"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__104.blp",
+      "bytes": 8334,
+      "sha256": "69b6fe34188cd0fbdff7bbc8cb615d0c02ff002ef3fa596dacdb5ab1380158a6"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__105.blp",
+      "bytes": 8244,
+      "sha256": "3fe134efe2e6186a7609d58a9fea2f18653265bb404765fafa19b15bdf91906e"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__106.blp",
+      "bytes": 8930,
+      "sha256": "4e96e42e74be2e32c94fedcb17daf31a3c3c486891b5a60c0329ee7d11d8277d"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__107.blp",
+      "bytes": 7805,
+      "sha256": "27d841da6609115e6b92d4b84621e790f0dc89957338b4a2e6f9323ea8e2ffc3"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__11.blp",
+      "bytes": 8534,
+      "sha256": "9cc1e0a4910e834e45fc35082b620dcb4156f9732079fcee97c1bb5a2ccdd7fa"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__12.blp",
+      "bytes": 8409,
+      "sha256": "88db3e0c0a7d6aba404cf403dbcf8bd0a23bbdf88fe12b215a2f05de6b5e1567"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__13.blp",
+      "bytes": 8395,
+      "sha256": "5910e377267a50b21ef54e96b91879c3d1888bafa4136deac1a3aca46a530ff2"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__14.blp",
+      "bytes": 8425,
+      "sha256": "a03bfd853576a5e126ecef2ba0f7308eb8c51ce051debdacfab14bcc6aa0daca"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__15.blp",
+      "bytes": 8392,
+      "sha256": "8e2e231470fec7c21ea0280bd7860badc5c226e9cdada125ba1dc5576d985a2e"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__16.blp",
+      "bytes": 8417,
+      "sha256": "3f3f351323e02cc0082c8ebd480b5c351ac4a8d27c8443aee420cc9ea5d49fb9"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__17.blp",
+      "bytes": 8366,
+      "sha256": "804975ea903b208bd081f508c37d31a9673134138762d3835672506e21575bb7"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__18.blp",
+      "bytes": 8389,
+      "sha256": "dd40b15b0f7d15579437a17916156ba0058053abf529194a1ba55381cbf9858d"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__19.blp",
+      "bytes": 8487,
+      "sha256": "2dec08f56c2a5c7a7d5d1ee68b7587908abaebe92e6a0ed79836643e5de74c45"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__2.blp",
+      "bytes": 8063,
+      "sha256": "26c4f1e3b057f5a41c986b10dc170c934b96d1d11de67fe034ae93ae7810b24d"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__20.blp",
+      "bytes": 8339,
+      "sha256": "9bd16ab4dca415ee6d378d7b0257b3d42ce1aba12de68b51a18d36aa656b367f"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__21.blp",
+      "bytes": 8360,
+      "sha256": "8ee99791bf9f18f0ca7143dec309b8d9a34fcc7cd21202e5081e3fe82f3328cf"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__22.blp",
+      "bytes": 8312,
+      "sha256": "4916d76b1f7ca442c54d482ce50da2a672c3734fedc8d389f2a00df87bb6d2f2"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__23.blp",
+      "bytes": 8315,
+      "sha256": "4032bfe5d74b2c0a14b4ba97b872d4bd9c6ccc0b30bd5642eb3899d24bdc03b4"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__24.blp",
+      "bytes": 8607,
+      "sha256": "2f5d362ff9a7e91c5507ed28753ff484ac85fff4f31073864981198217f94ab1"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__25.blp",
+      "bytes": 8247,
+      "sha256": "c3d258e1914fb44e474f2339ea293c35ff54fbd83fa48907689ee5183d178226"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__26.blp",
+      "bytes": 8261,
+      "sha256": "790682876b0c6576a440a673acdd694307570fbebd15c862caa97e2f652464ca"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__27.blp",
+      "bytes": 8233,
+      "sha256": "cbd69d5986bcbd196fb1622d5dd752f678871160f29953b0b402f71de5192571"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__28.blp",
+      "bytes": 8332,
+      "sha256": "dfc28e04c2d74c58acd7d76f2920eb3e1ac4bd56859f0641ea01615e5f84964f"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__29.blp",
+      "bytes": 8362,
+      "sha256": "1a950cad0c76806d74a7c815ea83f9316e732bc15e79a4a34353a2e95dfcc26c"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__3.blp",
+      "bytes": 8056,
+      "sha256": "458a039a38f69acea046d0c0e224bdb1d8e5d1e67553619a88f560eecd14099d"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__30.blp",
+      "bytes": 8426,
+      "sha256": "a3029cb875ea22a5f8340235726fa713ead2790f75ef817f960fc1d189188c9e"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__31.blp",
+      "bytes": 8190,
+      "sha256": "cd2d29023f1e145bd582961fb5c1aff03ab41bcdc0038ea9562c180deedf64b0"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__32.blp",
+      "bytes": 8273,
+      "sha256": "815f25b7b5c16a74af59271b8cf95fce902a523572dcb341e26e0c2bbd5a0ca6"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__33.blp",
+      "bytes": 8441,
+      "sha256": "b55d79066ea359ca70deb55b2270597e79e818376ec4f635dcc07fcc9df9ae3c"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__34.blp",
+      "bytes": 8198,
+      "sha256": "31a743cb23c7b1f428b20b891b0e2df19cf2cc3e344631030bab95373bcb7f31"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__35.blp",
+      "bytes": 8134,
+      "sha256": "6f6175bc170e8cf72c384cfbdc0e3085269c1369ce064f7a1cf5ea14dc3ae162"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__36.blp",
+      "bytes": 8137,
+      "sha256": "ceed7811533337c57bbd556c3772fead2eae787e59880783c7ce27db857f12d8"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__37.blp",
+      "bytes": 8149,
+      "sha256": "d8a4a30ec07e03242a25402180231bbc8eb6dccba3cd92c2a3cd748d762f2c3f"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__38.blp",
+      "bytes": 8129,
+      "sha256": "48247aa13858a7ffff97f85961a060d08388dc7912fa94c899549addcd1a454c"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__39.blp",
+      "bytes": 8081,
+      "sha256": "38fbabaa5718d73a27bf9f279c8cbe8efcfa8f2f1d3944f7092dfb448ec41870"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__4.blp",
+      "bytes": 8045,
+      "sha256": "61d6f53406188dfd6a225ebdfbac33c1a949039e788d786d685a29ebb057e96d"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__40.blp",
+      "bytes": 8401,
+      "sha256": "fbc10aaebc4da5240a64a7350fa920472f82278a13190776ea834a716bfce620"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__41.blp",
+      "bytes": 8062,
+      "sha256": "7636adc019e2cca5490844b87cf4080af93046c7e319a27cdb62b676596a0043"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__42.blp",
+      "bytes": 8051,
+      "sha256": "0c623240ddf77cda9336ab8b5bb519ea45e110cdb2f65f24ce86fcf0bd9d44b9"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__43.blp",
+      "bytes": 8267,
+      "sha256": "e249eb3c6d4d8b6c3a2ff7fa78be9bf9a3e8d3419fe07a56afbd7f50f9192904"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__44.blp",
+      "bytes": 8305,
+      "sha256": "6b52c8a0796e939e4efb77f8868aa6289e09df04f2910c8801e5f171a11c3ad1"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__45.blp",
+      "bytes": 8001,
+      "sha256": "f523c1c581357c43040c3dd84ada5a43f6256b0b1c9b1723d0d11626975b2eff"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__46.blp",
+      "bytes": 8124,
+      "sha256": "b879adcef3abed1f28a88e16f218dc99662adda1ad6f20115537884fb3edf456"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__47.blp",
+      "bytes": 8227,
+      "sha256": "0f4e9da8f8be8f3ac9f7c1b6c7af122aed26dafbe0f45c1b4920ef143bd53984"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__48.blp",
+      "bytes": 8246,
+      "sha256": "89c2605465f8f4c68ad4af16f67a297927f81f3446d5276f1e83c64f784a2540"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__49.blp",
+      "bytes": 8442,
+      "sha256": "a07878bfe8d3d8f4e449f93889328ffd61c7bb0e406de631bfc0ffcfe39290ad"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__5.blp",
+      "bytes": 8100,
+      "sha256": "ad6a101950820bc5a8afc03081b8db490922fe4857fd7dc0581e8bfb7d23444e"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__50.blp",
+      "bytes": 8437,
+      "sha256": "c6ec622ad21c2954d2dc105a3c5ba8f459420f5f8d0f76e7983fcc5cfbc9545c"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__51.blp",
+      "bytes": 8596,
+      "sha256": "a54dfa30c6be4ec7871633ef750c9699189c1b420cd72e11c551cd5c3cd36d7d"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__52.blp",
+      "bytes": 8497,
+      "sha256": "7157a362ad472c05e6e94a4eb004cd57bc8e42bedd159dcf9506a9a37e2641af"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__53.blp",
+      "bytes": 8378,
+      "sha256": "f8f258710476358e6997b015319afd0548f7321ea1cf421604a5859e8650f60a"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__54.blp",
+      "bytes": 8503,
+      "sha256": "e6da94da758da7abae6d218a9660e286324ced856fc33e5697571dd4b80f41eb"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__55.blp",
+      "bytes": 8492,
+      "sha256": "9309f0c872b0c29020e081629f6fbd188aa0e394a02caad00967586c73b79e9c"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__56.blp",
+      "bytes": 8676,
+      "sha256": "2c61cbcb2b4f0e2b165f37a26486c9a6890b04a6bf04b72d02122a732d91838a"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__57.blp",
+      "bytes": 8342,
+      "sha256": "c5220de1a5b58b61e620b552fff8dbaaffab9144351c9dee0d792106bc9d9c98"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__58.blp",
+      "bytes": 8308,
+      "sha256": "c43f8eed554f5832d0a1b8152c7a37bad466de0547a797a8952625a71930f776"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__59.blp",
+      "bytes": 8511,
+      "sha256": "2b2b4f82361f28d56b1050097890d9aae2f4ccdd803723e6bd56bcec4052cff5"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__6.blp",
+      "bytes": 8166,
+      "sha256": "048e88efe340fb5a12ca42cd40c97d0aba1a40f1b661bb44c8631aad9a25710c"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__60.blp",
+      "bytes": 8304,
+      "sha256": "9cb4f09bf56159d942e1ac8ad836054ef02f0d794009b272365c3defe5fd5401"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__61.blp",
+      "bytes": 8843,
+      "sha256": "30e18094bbf96767f439f2840f1fb575de62686371364c05c5ea42e918d7f420"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__62.blp",
+      "bytes": 8272,
+      "sha256": "94adfcd433980942ba521d372c207d8179ec041bf8de9bf77f011a215d87f0d7"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__63.blp",
+      "bytes": 8272,
+      "sha256": "51efb4b5c8eb3662bf55f849e06cc0edc2008e38a141197ff7817fd8288ab0a5"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__64.blp",
+      "bytes": 8258,
+      "sha256": "a31cb0192e6a05eb96fb61d11a79eb0cf38d96b073a1fd68e1c0c35be63b7f01"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__65.blp",
+      "bytes": 8252,
+      "sha256": "3d904054ad2a1dda69d2e173364776987757cfeb244783cffa0d41325e7d0c35"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__66.blp",
+      "bytes": 8279,
+      "sha256": "4f3bbec0b14f145d1943311d64a3d90fe02d561be444a1acb8fb9a9db5432e38"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__67.blp",
+      "bytes": 8225,
+      "sha256": "da4a970ae3da868d5f81d39a979a3a74350e5e89ec17c8b4d0d8b136158f0ee3"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__68.blp",
+      "bytes": 8711,
+      "sha256": "8347ce031f1a9073701f7cca8c099c02359c34ea2264d94d942f62a4d9107c51"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__69.blp",
+      "bytes": 8358,
+      "sha256": "6a6cc48f0bfff40aa68c20eba8935b2f132f54fb3962b50264c95e18f3894195"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__7.blp",
+      "bytes": 8321,
+      "sha256": "5f82872a6c030d040c75ceb8af8cf4f0215baa7f40cebbaf746432bf21ecf1bb"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__70.blp",
+      "bytes": 8204,
+      "sha256": "f1c6cb39a25f236061c99ee2328d27d800bc13b06c6e68beb4a30c26cec4e30d"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__71.blp",
+      "bytes": 8295,
+      "sha256": "033dfac7b1163874d4209169526bdf0ee8ff05e1b8bbe8a04da2a4ae655edc6f"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__72.blp",
+      "bytes": 8161,
+      "sha256": "1571cf3f2bf05846a8f500e7c48c8e267df92d82f973066fbd6784dcc1d55cf4"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__73.blp",
+      "bytes": 8167,
+      "sha256": "84f90e8b44f848a1dd0b81183f7e5d4f3a6e819398a7c5ddef7ef54bbafaecd8"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__74.blp",
+      "bytes": 8250,
+      "sha256": "7f896a48bfd462bc8e20ba495fc9f4574247de1f617ffe7be049252bc4414402"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__75.blp",
+      "bytes": 8317,
+      "sha256": "b717753a9b1c06380a2205b8a311f8a6f86275e69b46bf0414c15b8eb3afa0bc"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__76.blp",
+      "bytes": 8122,
+      "sha256": "00539de3e9ea924795c93ae22acf9587b8c0bd9180d6f4a73e7dc5b18e7275cf"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__77.blp",
+      "bytes": 8217,
+      "sha256": "b8f69259837880f3c4005675ec92e673ede5694f3130beb853a32a0a609dee7e"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__78.blp",
+      "bytes": 8121,
+      "sha256": "f4ea9a07de83d26e0cab40de9b2e0896dfd307a155d6496ad77836f1c28527ce"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__79.blp",
+      "bytes": 8067,
+      "sha256": "3e959ab75fc0861b8c2f767099a86ac1663d9f0ada3c78ba418e6692d7064e2c"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__8.blp",
+      "bytes": 7987,
+      "sha256": "fab6225c4fc75bef864f3ec9359e5eb553a640d0f1f6e00b45dd837ab96c433b"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__80.blp",
+      "bytes": 8183,
+      "sha256": "1d8dc23c0966ac9be4340606d87e43561a1bcce26b287b6669d1e40bc249661e"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__81.blp",
+      "bytes": 8062,
+      "sha256": "9508171e07e27ed3569d16e58e66db8c77545bac254ab328f5404d494bd463e5"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__82.blp",
+      "bytes": 8053,
+      "sha256": "b27abdedaaa6256e2e9ce3e4f66983bf24c36696a68ded5f5971db4ddd08518d"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__83.blp",
+      "bytes": 8314,
+      "sha256": "35a478079ff31ea129ea10a07192298a8858367bade7e23dc36132cfe35262e4"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__84.blp",
+      "bytes": 8180,
+      "sha256": "b3369646b0005517f0445d82ad685fc813cb2255aaafa143151c5b18f1dc68a7"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__85.blp",
+      "bytes": 8251,
+      "sha256": "38aa94480427b16ab43c152c073ee02313387eda304efc227ab284e7867b24d6"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__86.blp",
+      "bytes": 8010,
+      "sha256": "54e8614234500ba1b830f67ee1587d812040ee6ca780446cc062ae6ab7bb6925"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__87.blp",
+      "bytes": 8242,
+      "sha256": "278c9bcf6ad4cf51f331de23c3f13c0ece18d7f90ffb61476beece3b86818105"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__88.blp",
+      "bytes": 8436,
+      "sha256": "3ef7594d6e9da095ab29da624f23516021e2431d918504253fdfe66f1c6640b7"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__89.blp",
+      "bytes": 8605,
+      "sha256": "35908a4ae024fd5e278bb53ff396e2664d44bb43e58c9d1801f29a66438a6ce9"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__9.blp",
+      "bytes": 8448,
+      "sha256": "2771814f5617d7aa2ab66952d32d86126a1c5051a5d0fcb279904a180156e911"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__90.blp",
+      "bytes": 8434,
+      "sha256": "038a5454c5e93bdaf090c7789f5eadb5c93266f47b00d77c0624361ba2023da5"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__91.blp",
+      "bytes": 8954,
+      "sha256": "3466026ea26d7d8ba1c4bf37f8cec726e7ac5daa5cbd1c19bceb672f018a3c76"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__92.blp",
+      "bytes": 8404,
+      "sha256": "446444e669074b27990d3bea560751d36a4977fe021d3c8f39f22f7660fdd7e1"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__93.blp",
+      "bytes": 8546,
+      "sha256": "3ab30998a08d2ae0385bd44d39661e586a32fd5a16339be03fb6042eb057df1e"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__94.blp",
+      "bytes": 8382,
+      "sha256": "8a30d795e7d54877d10c34fc7a9e34f11be07397499ab2a0479f8ccdb3299a01"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__95.blp",
+      "bytes": 8347,
+      "sha256": "ea657a81a7bf6238f2e96ae7b24c58cbb9dc564410bae711047ba2f86011fa28"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__96.blp",
+      "bytes": 8614,
+      "sha256": "993c17efa155731e3f87b9a37c5aeee0a286e53d7630c91576f0a7321dde67c6"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__97.blp",
+      "bytes": 8364,
+      "sha256": "37f5314b9e74c64b774fc29c29b3dbc0c5f8518103c4e31bc6adc15969d535d2"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__98.blp",
+      "bytes": 8299,
+      "sha256": "921504580fa50f1b4e13fbc8f143867ec7a7135cc0c1fb39276aacd9cdf10906"
+    },
+    {
+      "path": "daily_equities.bcolz/day/data/__99.blp",
+      "bytes": 8408,
+      "sha256": "49d8ab5cfb1888f361e5216d1aa64d6f4f1b26a244e09b0f2b24f468df0a299a"
+    },
+    {
+      "path": "daily_equities.bcolz/day/meta/sizes",
+      "bytes": 61,
+      "sha256": "e97dec1b04f24c0493f2632d114c55f0b17807b5d9e88831ac6fb3c3d1ee991d"
+    },
+    {
+      "path": "daily_equities.bcolz/day/meta/storage",
+      "bytes": 147,
+      "sha256": "bc8acedede8b7ef344f050ed5c8732bfc73e3ba7616a70ffa3e54681c9b94490"
+    },
+    {
+      "path": "daily_equities.bcolz/high/__attrs__",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__0.blp",
+      "bytes": 175095,
+      "sha256": "97f45ae0c72856d0f4c1b4ef16ecec72f14dff59cef43c0432677a84dfac16fa"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__1.blp",
+      "bytes": 180568,
+      "sha256": "30f7da76b065215ddb1de0de7f4b0a7810697bf534171ed3dd70ba7ff37b285f"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__10.blp",
+      "bytes": 178154,
+      "sha256": "c9e6f78ab959d6be99f9ad324e793d83dbf18edc1800d8ac6a98b8fcb0367bb3"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__100.blp",
+      "bytes": 181538,
+      "sha256": "8046c105b020b9880065118ca22f0cb889981f14440a9d87e651ef82610b556a"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__101.blp",
+      "bytes": 167972,
+      "sha256": "eefd6aceaa6bc1a87ae2a04b1f41cc9ac6c5c5d72cd386f4a292ee5dfd73ce9b"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__102.blp",
+      "bytes": 157221,
+      "sha256": "ff0998bf594dbe0282c8355c78c980d93a69d52cb697b0926bd35e204c398c1e"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__103.blp",
+      "bytes": 167352,
+      "sha256": "bbdfd9d467aff7bd9feea584559c616ff19dae1da5979a9cb67c97beb3d25a0f"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__104.blp",
+      "bytes": 182197,
+      "sha256": "fa3502a3b582741bc3d4e884a45ddf33791350da46628a6ec7ac6afd4d968bfa"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__105.blp",
+      "bytes": 175826,
+      "sha256": "d5111fc9c72388d78fc4884b4f2efaa63016919959b881fe19f42d711e6d00b5"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__106.blp",
+      "bytes": 166876,
+      "sha256": "2962bc7598ece3e0fd5fa493389ae09b1c76cb9d791e765ddd03313a71d18e56"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__107.blp",
+      "bytes": 97645,
+      "sha256": "e06d81311babe909c91cdb58a67dbeda4378d0549fde83096a465bbfa5fc8887"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__11.blp",
+      "bytes": 162610,
+      "sha256": "824be60cb3aadf624e0734bf306360882b9a8e4e846eef74359f34eb21a83f10"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__12.blp",
+      "bytes": 157240,
+      "sha256": "a1f28e2dccee6b7993f44200b0b3befc6fa6a9890ec34f12986379da21346393"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__13.blp",
+      "bytes": 127922,
+      "sha256": "7f64363a8aa8265afe264f7b94946952f5f57a1983ac00dc05d6589d2a71aa41"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__14.blp",
+      "bytes": 160253,
+      "sha256": "b0cb92b9a903180c449bbdd458d84128584b9cc576b3e89ded343d557de2adf5"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__15.blp",
+      "bytes": 170261,
+      "sha256": "3243e54161552b592391e8bf595eddf2ee3501cb0a7048d554a027d7a575e764"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__16.blp",
+      "bytes": 170494,
+      "sha256": "090f97b818c8c28097d2604c2b79be2ae37f8c163c8fadec0ed508c7d871324b"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__17.blp",
+      "bytes": 157361,
+      "sha256": "bc2c32e04e5fcd2f34ff9c3c2d3f30867560db14e1e3db75de498a511e0aa0b9"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__18.blp",
+      "bytes": 173183,
+      "sha256": "e879973aab274a1efabc1541b5c9b1e8cf330733dd8dbb8c30e51b159800d904"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__19.blp",
+      "bytes": 168967,
+      "sha256": "1619b9619b0d2205ec2c282409ab6cbf2f05031cfdd85f0612ae6b80b3f3d726"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__2.blp",
+      "bytes": 154964,
+      "sha256": "7de16a0a000c7b7331f9540b7e3abd073ca489054b259b91b33776eccb7f8e7f"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__20.blp",
+      "bytes": 168793,
+      "sha256": "c22b0ad78f37e39c1b7152f503bbda204e2fd74864d8019930491e367c48d692"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__21.blp",
+      "bytes": 171560,
+      "sha256": "a96412509a21758cc0fdae735b150786c34b8b5cf300a8aba692b764f6c5df1b"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__22.blp",
+      "bytes": 182067,
+      "sha256": "63233f9bd2f6c4960cb8e337a703ec9f65130901aa05b20b0484bbc5b8113007"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__23.blp",
+      "bytes": 157957,
+      "sha256": "379cbfed124413fe002a604a34128f82e817fdd947f9da45b74267000d91f3bb"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__24.blp",
+      "bytes": 162920,
+      "sha256": "e08a01a5935d861689b10aef58dcb8100e8c3c0f39cde72989331ec8a9b969ce"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__25.blp",
+      "bytes": 172121,
+      "sha256": "07bb97ea469550f2f6af8e2734b9f923bafdb92de98393b22877ab0d4aa32d71"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__26.blp",
+      "bytes": 156265,
+      "sha256": "d8b609c07a50e08fef4de0ac7e0aa82bd9340c710829a493070d01674a98196a"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__27.blp",
+      "bytes": 172696,
+      "sha256": "c518f92b3474c606683a7c5dac9ce702f519fbcbcfbb783431e671aacfc74cd7"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__28.blp",
+      "bytes": 135593,
+      "sha256": "7ae82390203a8014180b87b5745d006c5ca1f4e898215c5ed5d70032af8a09d3"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__29.blp",
+      "bytes": 144019,
+      "sha256": "166faded384400ebc3a8801ce3e2807cc8e19e3a766756a9992e8dc98fdced57"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__3.blp",
+      "bytes": 175967,
+      "sha256": "2883854ac48c9941791989d7b1aa58aeeecebb4ad64b2e943e70bce2ff88bfd2"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__30.blp",
+      "bytes": 142202,
+      "sha256": "a5b16e5baf13fedd418e163791bdd8ab9b70d98bd92cfba803809f90dd06f116"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__31.blp",
+      "bytes": 167197,
+      "sha256": "e823988885c5e69e01a468488496d009f6a367046f7a1e00c2d4822012a8a4ef"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__32.blp",
+      "bytes": 180267,
+      "sha256": "8f59647be26afc65e150818497de20519831132c3fb82890cfe9e6c1bd162e52"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__33.blp",
+      "bytes": 175788,
+      "sha256": "596b0cacfd67351b086ff2aaf3c102307c9f4b16eadbaf9dabd334626e441218"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__34.blp",
+      "bytes": 173445,
+      "sha256": "ff826490230cc575e5da62c1325fdc3019ef9d9e3b6530f1461cc02801bbafec"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__35.blp",
+      "bytes": 159268,
+      "sha256": "18fbf88879476f8a9e6c9c76db64d63d63c92e03895bbdc71b9f6c72a84efac8"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__36.blp",
+      "bytes": 147198,
+      "sha256": "2974b01a719db4af7c3cf109f89a27ac3153a0f6e10daa5360d23d6856573a52"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__37.blp",
+      "bytes": 155166,
+      "sha256": "ca1c4f290a8602e2f5d7df87f04f87c9d8cd99a6a39208cc65f3d769a54cfb05"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__38.blp",
+      "bytes": 167529,
+      "sha256": "f9ff2dac24ab425636064b843e571766e83f73f35e196b8e0d97a95b02771721"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__39.blp",
+      "bytes": 170123,
+      "sha256": "f1f23fb94705110d31517692c0199604be5f3bbe51b67302fdad4cdfaf9d1a5e"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__4.blp",
+      "bytes": 161335,
+      "sha256": "c8b493694edf17f9a3f51d5e758f919c70730283df025ef8daffcf144d04b1b1"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__40.blp",
+      "bytes": 164078,
+      "sha256": "406baf12138c0f8c020ec60582b0f5118291c1a1afa8575e783dc745e73b9b95"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__41.blp",
+      "bytes": 155293,
+      "sha256": "cc0348c6321a51512dea3d36a71bab20c0dfc994481ad582637ca0133851ce1a"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__42.blp",
+      "bytes": 157407,
+      "sha256": "44642479eff884af96883f060e21e1a1173f78fe558635fa5a02aaa0926e4e49"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__43.blp",
+      "bytes": 168673,
+      "sha256": "e12a8e4a46e0a34ce57173eea22ea68675c4bd6583c80532ae6caf563fa38d44"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__44.blp",
+      "bytes": 137822,
+      "sha256": "b3bf26dba178041e6ab3973d02b345498a04a7c5be8ca486341ff2b7337af2a7"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__45.blp",
+      "bytes": 180245,
+      "sha256": "76aca6ff2a11619b3cdc898cce4276eed1a7655cd9a3007c5c56aa03853b7a2c"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__46.blp",
+      "bytes": 187599,
+      "sha256": "da526d3e71b858a4af33728aee1d2b7a956fe9962981683ca6f20d4c103b71c3"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__47.blp",
+      "bytes": 177449,
+      "sha256": "fae83c50c613076fd278f1bc7015f155cc40d05c80aeb79ec365f44958cfe647"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__48.blp",
+      "bytes": 180422,
+      "sha256": "fa6eee1f8f62abda5000bccb3d6e0162148ce7686bef6f174f8e8ce6fc02c741"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__49.blp",
+      "bytes": 160971,
+      "sha256": "e4492273057fa3f076145dc504d3b0961d4826a5b4ce5f1ad654c6197a87db26"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__5.blp",
+      "bytes": 170545,
+      "sha256": "574fde50f9d242bc4a970c6277f22615cc2a4629d4c98c8f6808f646cd5d7197"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__50.blp",
+      "bytes": 161652,
+      "sha256": "566da2345323ed153cbffa0ccb26f89de7005f657392367bc9a39962ebe2ed1d"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__51.blp",
+      "bytes": 192381,
+      "sha256": "020d9af00ac06580243d2a9d0e8ec5f8e2a6ac3e59b72cc00db2dff9118403bf"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__52.blp",
+      "bytes": 204863,
+      "sha256": "b13359433178afd113e98a0ca9287fda30d63acea1d399cc10b0af007aa90a8c"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__53.blp",
+      "bytes": 182235,
+      "sha256": "c08a748683f2092a7250c68b1bc1def76b86f42657b7f449b910c74934504f1a"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__54.blp",
+      "bytes": 168725,
+      "sha256": "16c2fa9ff82b223028e559f16290ebcca22b7b617cabab5814f86cb3cd15679d"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__55.blp",
+      "bytes": 173306,
+      "sha256": "15b4ccb363e39709803ad6a1f96e69c44ec33e5b8538d1271644ee8621db13b7"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__56.blp",
+      "bytes": 169126,
+      "sha256": "9bfdbff2e2d426afc6d9fbeb19a286065be0f64768f303b94e231af9bb4f071f"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__57.blp",
+      "bytes": 163684,
+      "sha256": "65d9223162fba3f1c10eb676fe009ad64837b44bcd3c37820e741972963cdbb6"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__58.blp",
+      "bytes": 172324,
+      "sha256": "e0f4a03ab3f61f87dde452c610c0cb71201b5a94a5bb45884df0f5a4c28d62a7"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__59.blp",
+      "bytes": 161587,
+      "sha256": "d9327cfbf1d9b46d5e1a1ea876ba5b19d8a8714e09bdc188957d09020fdd928f"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__6.blp",
+      "bytes": 172368,
+      "sha256": "4ecfab678fc4670d0d5a68f1280c3dbc2ba08dbe11306bc15962f74632b1e7ad"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__60.blp",
+      "bytes": 171042,
+      "sha256": "d4ec34685faf32eb86960c1e18a63fcddd85718d360772f569517db0a8cc78c7"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__61.blp",
+      "bytes": 167159,
+      "sha256": "5fb77d088f392d6548aa7a3f6480d10f1b3534465abebf3c7b588b2b1b023ee0"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__62.blp",
+      "bytes": 147247,
+      "sha256": "c25f876757290255b15d8aab7a54fd2a97e4b15965e6721626ea98ae4e006ef0"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__63.blp",
+      "bytes": 177757,
+      "sha256": "b2b3e9ccfd3cfcdf1756e663ce405194208233b2b0badeff4e5b454824449cf6"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__64.blp",
+      "bytes": 176714,
+      "sha256": "dc8edc48248fd271427b1386ef9b12c437ff420aa17bcf54c8b9b9fca0a863c2"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__65.blp",
+      "bytes": 160616,
+      "sha256": "7847d2d7731da719d88270363fdd5bea23290dbcc726d7b1df1b7c12e7eca606"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__66.blp",
+      "bytes": 160482,
+      "sha256": "845fcdbd1ecb725b1113f0d751d6194691b2d1645fd7ebb0abf9e30fd5d9d8c5"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__67.blp",
+      "bytes": 155641,
+      "sha256": "6aacedd58389f341d8872dc020b9fba562a420d84192036d71a1d683b3179902"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__68.blp",
+      "bytes": 174296,
+      "sha256": "f7078c628f9ee5008de79f607fb6636ec57327d89f10fc4c5d2f1b5a7b1f07b0"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__69.blp",
+      "bytes": 161599,
+      "sha256": "fa66d0a680b236d394a007611a1d86a151634a6ff8297bcb10e6c20ef3dedf7e"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__7.blp",
+      "bytes": 164930,
+      "sha256": "a37d8f95ca6795d1cd541f9e69cd52ede60a44bfc0840afcbc659ea8f1d8df1b"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__70.blp",
+      "bytes": 169579,
+      "sha256": "f0398d0ca5f962334b1a3906ec5ee955a5c8bb42bbb2a1cdae1d1af4072e061d"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__71.blp",
+      "bytes": 176483,
+      "sha256": "d3e2a66e7c1a0a70c9c26974767dc3ead77e27a92be8dffedea1c4b45ae3a592"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__72.blp",
+      "bytes": 172858,
+      "sha256": "2bf561c470cb0e3619c20bfaa3356949b0f8eb5d45728d7edd7b2e908311203d"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__73.blp",
+      "bytes": 169658,
+      "sha256": "46d968ff621e7beb75352e72e9956df70e7ef319af7485587582f0380ebbb440"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__74.blp",
+      "bytes": 185632,
+      "sha256": "e6292da140de12d9d4462373523c46d357cbeb59520765cdfc779cc16ecf6138"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__75.blp",
+      "bytes": 180367,
+      "sha256": "33c1d9a66c9e88a9852f2ac6cb7bbb17668a5aec1191d42458a2897f6bd84abb"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__76.blp",
+      "bytes": 186274,
+      "sha256": "1f36bdf072b1be9b9b302ff251ebf3e6e7270ed49c32a0ad964d0034c13e7f79"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__77.blp",
+      "bytes": 159204,
+      "sha256": "52513acc8fa437e3857fbe4fca7cd70f7a5bcc3b714401fc43ee233a66d097f8"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__78.blp",
+      "bytes": 158618,
+      "sha256": "363d9d7bd57a04afc467f7023e484222ff2640115c3b4eb5872e14cd9623585c"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__79.blp",
+      "bytes": 195597,
+      "sha256": "10bf3702aeee64569103b6d9a23281189d813a4cb03e3380e74fb87ebca6d814"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__8.blp",
+      "bytes": 172207,
+      "sha256": "5d6ab25d0260fd2069ff2191597c332b477d8f46614eba21527fb0044f9290aa"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__80.blp",
+      "bytes": 155723,
+      "sha256": "28800290393da5bf39d3e20cf89c8c476c381d80a95d37355da5f274cb41a598"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__81.blp",
+      "bytes": 164812,
+      "sha256": "1fe4aedefa5c820316f28aced6170b0163b808044e085cf29a21f0bdbef46403"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__82.blp",
+      "bytes": 168673,
+      "sha256": "9cdf5272382547d1b62e61581e514a0b67c908b6f2dfe144ab62ab0cdcec3cee"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__83.blp",
+      "bytes": 165781,
+      "sha256": "66c3362ebf8cf9643e54773e52e63cfb2c7b44db129c8c2ee0e57cc641b88d6b"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__84.blp",
+      "bytes": 178991,
+      "sha256": "f0d73bbd1ecdb60847373cb4eed97433d64195d3ad2e3996e4fa9c05ae842096"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__85.blp",
+      "bytes": 149542,
+      "sha256": "1581bbc231983e2ed9865318954bc64994299b13200c6cbb102b35ac1f4dd2d5"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__86.blp",
+      "bytes": 150066,
+      "sha256": "3611fb6fb56d050589974ea37351a15325eb016cece0a33e1693dc0e721ac4e3"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__87.blp",
+      "bytes": 162205,
+      "sha256": "4845f2fc8a310b2d5b3dd6ccb81da6c7e2a843cff090b71f4b6c8502fdd3d222"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__88.blp",
+      "bytes": 165912,
+      "sha256": "248b25dce8744c8b4a4689323e7ded04209b399889f7a7f0f9c60f4fc1ca39ee"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__89.blp",
+      "bytes": 171528,
+      "sha256": "14de3ad937336d7ccec954e1653f9d8a4cb751f39e95c1cd75c06176b9939d3a"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__9.blp",
+      "bytes": 178545,
+      "sha256": "720ffe9545922b6393828ee3989f11147a51f82a481c7fb9d8c14b500cb82ed3"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__90.blp",
+      "bytes": 158967,
+      "sha256": "0bcc947cb3f28e356819d8c07b058f9cfbffe7e4e10bf63640d2cb6126933566"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__91.blp",
+      "bytes": 175145,
+      "sha256": "c4c49f609cfcc64c4f31963bbd290cf3e43816461e4aeab66bfe5cae101ae2a3"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__92.blp",
+      "bytes": 160154,
+      "sha256": "e75576e4e88c20d9e179c27420d42fa605311f6a7e1376dfb8283d07b094c15e"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__93.blp",
+      "bytes": 159479,
+      "sha256": "6386b4a7adc123945979925ea098a034a43356215678a6d18bfbf0482f6b597c"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__94.blp",
+      "bytes": 185234,
+      "sha256": "dca4249849c6a3d20c9446118f7bf136b31269007b3dd9baef82c56f0a5e3deb"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__95.blp",
+      "bytes": 162575,
+      "sha256": "5fa01a714bab721b06014aafc4fe3ec8f2c5879d3361ab097e53d87127f7c443"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__96.blp",
+      "bytes": 161273,
+      "sha256": "fc76365ec6edee8ab41b3b068ed8afd37d758eee5c00fa0c0e4eaf198f0b0f8d"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__97.blp",
+      "bytes": 152056,
+      "sha256": "16bef4f1c97d65febbe6cb2ca032f828d195c35e6d6dfb52e2465deb52e95f4b"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__98.blp",
+      "bytes": 162479,
+      "sha256": "054bb1652cf6f87bef4cb1183a5ecd701a840e1df0a93a7493d1b284aa934bec"
+    },
+    {
+      "path": "daily_equities.bcolz/high/data/__99.blp",
+      "bytes": 175267,
+      "sha256": "ea27d353143110e112ed5d4503b54e460ae37c7fb26b007db80ffdba82d5645d"
+    },
+    {
+      "path": "daily_equities.bcolz/high/meta/sizes",
+      "bytes": 62,
+      "sha256": "ee13710f3c82a83e160620cce0e72cbc383b61a5b42cd0311d293c57892693a8"
+    },
+    {
+      "path": "daily_equities.bcolz/high/meta/storage",
+      "bytes": 147,
+      "sha256": "bc8acedede8b7ef344f050ed5c8732bfc73e3ba7616a70ffa3e54681c9b94490"
+    },
+    {
+      "path": "daily_equities.bcolz/id/__attrs__",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__0.blp",
+      "bytes": 2631,
+      "sha256": "b481f98fe2f8db16fe647a0062d8350fa6d0d3655c229a3c819fe205dfc83ef6"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__1.blp",
+      "bytes": 2637,
+      "sha256": "47b7fad0640758c3aa01a7e1742e68b6a43aa026d7fb31aba6f072b876521377"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__10.blp",
+      "bytes": 2637,
+      "sha256": "8984403dd7b6617f67922135c581e90d8555ea33d5bb60a5a868eea0ac728f9c"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__100.blp",
+      "bytes": 2637,
+      "sha256": "7d1048f14c707303dc0c59c28957e9f2515bd0eeac12a4fdb0f6fe18bcd3edb0"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__101.blp",
+      "bytes": 2632,
+      "sha256": "b751290f8b8860369e7b74e205cca248d96bacc61efa822fa44ed3a97471b873"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__102.blp",
+      "bytes": 2635,
+      "sha256": "66ffcff1105775682f449f08f922567a134e94ff67fc0857ca544857ac7e05a2"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__103.blp",
+      "bytes": 2636,
+      "sha256": "1ee206d3e72a169a760f2c9389a51dcada04f5edd66b3119a59bc7286a0ba960"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__104.blp",
+      "bytes": 2632,
+      "sha256": "9e9eb5bc9d54f2b7d5547560b195ee796ee1658e368849862b6fb27799d60801"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__105.blp",
+      "bytes": 2636,
+      "sha256": "a12762cf6a0cff538e96655da61bbf1786353b794521b51de03ebf8a2998ac01"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__106.blp",
+      "bytes": 2636,
+      "sha256": "a66bcad005ec69e7f253fa87b8ffdd12865c6df07d59c17416d9abd4c88b581d"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__107.blp",
+      "bytes": 2255,
+      "sha256": "e64099061c310cec697be53b2d9ddf2c8b1f052080e2315f415371e6bc1633d9"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__11.blp",
+      "bytes": 2632,
+      "sha256": "529ee171e665ee1bb13378543a431aa7179c8367339b0a1e533e6601fc91729e"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__12.blp",
+      "bytes": 2637,
+      "sha256": "844d70dfe945a036c81f1e2ae875cd5371cc44fe43745af14f07f2d1c2dde2b8"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__13.blp",
+      "bytes": 2637,
+      "sha256": "87ab83b20f89902ffdb7f9be8b134f62eaf56b17d2f7af882260b6667d99c200"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__14.blp",
+      "bytes": 2637,
+      "sha256": "2e33f68fcb2b061e0c72f4a427ae20c08b8020493d04f0d6524cbc4f9b9d2c67"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__15.blp",
+      "bytes": 2630,
+      "sha256": "e78d9b1823adb19479bd802da14e4f46f775965b9280892c6e04e91ce774f480"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__16.blp",
+      "bytes": 2636,
+      "sha256": "e9246be60a0f94a555ff1c20a95e5b136494e26707f5d045f1df0aa02e9504d0"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__17.blp",
+      "bytes": 2637,
+      "sha256": "e927e61a6a705414d31acf48db868add6041896e904fc1ea2895caf7f87466ae"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__18.blp",
+      "bytes": 2637,
+      "sha256": "de020f6babfe90886763f71fe572ee752c8ce6f2b222e8036b1d18054f57ef9a"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__19.blp",
+      "bytes": 2632,
+      "sha256": "4b567dea8dd2bb9974bac7ebb4c0c0752d84974c7a97911ed95023d1eb56b935"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__2.blp",
+      "bytes": 2637,
+      "sha256": "e5983f45ea2ddab8a7195d2164bee98d7cc103421d8b81b2206d7f3623e7ca62"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__20.blp",
+      "bytes": 2637,
+      "sha256": "0773d5f23806212c2b1c68fc2cc208a9832b0a392c41c82647bc238b3a116090"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__21.blp",
+      "bytes": 2636,
+      "sha256": "5c45681eaeaafbeb0c4a2738857844fa50eb02f17b46a96211d5f9c74e6af32c"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__22.blp",
+      "bytes": 2632,
+      "sha256": "5e1f0abb3aadaca1ca5ecfb5d539e6a3804126a31403ab01353059e3cb2c6a69"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__23.blp",
+      "bytes": 2634,
+      "sha256": "d9590caa897829866fed8fb57ae262bf0c2e481fb3161b22e81c32893beab20b"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__24.blp",
+      "bytes": 2636,
+      "sha256": "fc327f016cbb9b34bda07260dbc1a4d0692a0cc43b67a3ead0e6a9f42e42c8bd"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__25.blp",
+      "bytes": 2632,
+      "sha256": "03d34732b62c9deef603d9a89363e2e7fd3e8fc6033522c57bdfa00924299d02"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__26.blp",
+      "bytes": 2637,
+      "sha256": "94608a364712d517ea01b207656b2586536beea64664673cad375f43df35afd4"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__27.blp",
+      "bytes": 2637,
+      "sha256": "8466ed9c88d8b04f6895b79ff3aef6ffb85929e8925ddc04174389cae2ce39cc"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__28.blp",
+      "bytes": 2632,
+      "sha256": "05606101f37eca234585647d752ad40c7c0617eb85f95979cd5201f8da644d52"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__29.blp",
+      "bytes": 2636,
+      "sha256": "e4a44e95d04b6e5c58850f2641d71ac508a6c9b863f37f938532e0fd8735d293"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__3.blp",
+      "bytes": 2637,
+      "sha256": "1578a58557508b65c885fce69972806dc068903dbe9f908afcd7403fd92ea059"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__30.blp",
+      "bytes": 2637,
+      "sha256": "ef403a0d55211f7cdc5d32af104beb078ff15259cfe33211e9d18717424ed689"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__31.blp",
+      "bytes": 2630,
+      "sha256": "564de3744a09c26a0ce47f9716bc82d1dd69516afe4085a7fe128cc01a43fd4a"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__32.blp",
+      "bytes": 2636,
+      "sha256": "7cde934355cac6134d4067c8f8997597e7685062b0a0c309cc610e1213d7aa22"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__33.blp",
+      "bytes": 2636,
+      "sha256": "535b294d18088b55de45c911fe4fce98b5d828e763f15f616d3c519c926e035d"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__34.blp",
+      "bytes": 2637,
+      "sha256": "f30b775e7b02b74dddad5a711c4ce2c5b3e53fb9ef212ce77c15bcfeb0e9ea82"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__35.blp",
+      "bytes": 2637,
+      "sha256": "513e4d0ae12de34e59b840ec9a0e28002a3ad12a3cd63d284be03aaede5f054c"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__36.blp",
+      "bytes": 2632,
+      "sha256": "d54805ab20c16b146fd1c913b7c7c207bf2abcd641e6008d355822996a775683"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__37.blp",
+      "bytes": 2637,
+      "sha256": "e9438d37e2e5045b4957b2b3f3217aec2e6289f5b5917bf4c1bcaf8523f7b44b"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__38.blp",
+      "bytes": 2637,
+      "sha256": "360eb15e6b27081b6ff6b8dad122f70e834d571ccb3dbf995088102ddaaf468e"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__39.blp",
+      "bytes": 2635,
+      "sha256": "489df1dd28ef2df4ccc642c7dcc6698d1ef02c40f300367e94ed924fd0b58fd5"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__4.blp",
+      "bytes": 2632,
+      "sha256": "5381dfed420650db72a0d609e6ab9a405b6d244aaa1074292593ff455be53ca8"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__40.blp",
+      "bytes": 2632,
+      "sha256": "e1dbfe46f62033139e9d40c8de080b5b1e42f7d0bc60f71558df07d8ac9d8b4e"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__41.blp",
+      "bytes": 2637,
+      "sha256": "ecb5794a6a9d5db85e478b2da967a075c95a99a4615510e2a47ad9e44db4cff3"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__42.blp",
+      "bytes": 2637,
+      "sha256": "65c8ca5725490c8be9810bac60123d29f4b04b32046802939f390d236e2ced41"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__43.blp",
+      "bytes": 2637,
+      "sha256": "c447d5fd38023be7a959caf0cdcd9da838a3e84480b86cc95af76089ae0242b9"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__44.blp",
+      "bytes": 2632,
+      "sha256": "974cc5cf56d6b0620729ee1ffac28933e4675036c1bfe58f7553f1d46b35a72a"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__45.blp",
+      "bytes": 2637,
+      "sha256": "c1e62cefe225ae3e6387b46bfb5f6301d5e700f612476cf12c6523d1e8c63e61"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__46.blp",
+      "bytes": 2636,
+      "sha256": "b79d94630a0a1e19dad2560b05ecb87f53a6bdc526a0870bb0fb0057f19e5a93"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__47.blp",
+      "bytes": 2635,
+      "sha256": "5ea06441c51325f4b8a4358a623d8090575e2c4f19125e6262cc8016e3a1fabc"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__48.blp",
+      "bytes": 2632,
+      "sha256": "3ee709d5f6d1421b60b1eb96764d20979d9d91c5a37ca12629241840cbd51a89"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__49.blp",
+      "bytes": 2637,
+      "sha256": "fe7b46cf93f2751750d1f076a73c152f181090903a6be8412001cffe9ec5448b"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__5.blp",
+      "bytes": 2637,
+      "sha256": "4ec7bb95edab4c6a13b14c6aa762b01aaa9075685a0ad03c739bc14ebfbeb798"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__50.blp",
+      "bytes": 2636,
+      "sha256": "ba88b5765cbe4be31f972e18d44a66473769ad38716a157ff5005476f7104869"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__51.blp",
+      "bytes": 2632,
+      "sha256": "ff5ad9b1f00ab596f8c2bb2dbf823d8e043e5170dc03403726721229016ca2fa"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__52.blp",
+      "bytes": 2637,
+      "sha256": "115c9fe4d723d263faad5f081ad49fa50197cbb539913e49ad7bf1d10dcc5578"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__53.blp",
+      "bytes": 2636,
+      "sha256": "4dca7dfef78474d83cc3dfcc5ac80bfe85af5d55fbfbb827c529531f2775fe7e"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__54.blp",
+      "bytes": 2636,
+      "sha256": "0f10ee85bf6013f4f0bf66aa7c6fd9f0ce7f2535e4f98f64eb26186a1d0c9db9"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__55.blp",
+      "bytes": 2630,
+      "sha256": "b15dc8bd4c27c6d1bd72d0f7c6a67cf5bdd1450707afcbc591cff04498751c2c"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__56.blp",
+      "bytes": 2637,
+      "sha256": "3b454b75e02cd883b5b7d941986758b37784b712cdd8cc6209294d21ef916c56"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__57.blp",
+      "bytes": 2637,
+      "sha256": "83308e97c3b9419d3fa08f910d881d05c50276b9b5d0c7de3125fe64c8748f5a"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__58.blp",
+      "bytes": 2637,
+      "sha256": "3663d7e39856f5c303dedda6288a39f3c6b7d5438bcb55519c7e7a1a679ed033"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__59.blp",
+      "bytes": 2632,
+      "sha256": "f7d7eb3b6fc8ed3a395b4249aa74ae4c5bbd93a7eb9d26bdca799784f54c1dd5"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__6.blp",
+      "bytes": 2637,
+      "sha256": "d1717f057b269ec65ce27d81b5b0dd6df754e2bd666c379ffc5fdc0f3ccd5afa"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__60.blp",
+      "bytes": 2637,
+      "sha256": "a8af9c6a25dae4e9940c423147bb548afbdc98bc106906b8b74faafee72693de"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__61.blp",
+      "bytes": 2637,
+      "sha256": "380d969e5fd0e893a42832d17655662afcf9a3cc0c25a782710fc571a13d4609"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__62.blp",
+      "bytes": 2631,
+      "sha256": "13aaf249db4c3e270ce1a79e9b0e3582e06bf29ffcacc636bbcda5234275e42f"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__63.blp",
+      "bytes": 2635,
+      "sha256": "104b1cc27d4a7e788bff8363324cb6606d968d4b3750e298aa435cc840dedc9e"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__64.blp",
+      "bytes": 2632,
+      "sha256": "f1a367d31036ca5a297b21b98f400c31f2d2f9710f1f67822f48ba3a7c715b4d"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__65.blp",
+      "bytes": 2637,
+      "sha256": "6ae8c725e941a617b8a3d449582916d15baaadcc6b483013cf23ce8c4e5bc895"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__66.blp",
+      "bytes": 2637,
+      "sha256": "86d6c00766326e78707b301e750f190e24c550528a37a276e45bd2b599a23996"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__67.blp",
+      "bytes": 2632,
+      "sha256": "01409260427b36d1487faac5012ca78d8505e6a50dd81bea94a8f56f966ab731"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__68.blp",
+      "bytes": 2637,
+      "sha256": "2d94f520e37b22c78a032f0578cb1825c5b45bb9a7a6e1aa1a646a193ab68c68"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__69.blp",
+      "bytes": 2637,
+      "sha256": "1e5ec19a003060fd4236672686a1dc24f067e5942685f4d03fca494afb20b306"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__7.blp",
+      "bytes": 2634,
+      "sha256": "8e62bb2eff76e776f257d51cac38833c04df10b619e4e2b3dd4b96ebc24883f2"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__70.blp",
+      "bytes": 2636,
+      "sha256": "d9798a1b4f7163bce290e049f3d406e079e5a2dfad7b33de8b57bcbb99e9a514"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__71.blp",
+      "bytes": 2630,
+      "sha256": "4a87dedba899ab329e4f5d6db897ab1f8e5c76142493e61b41764526504bd903"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__72.blp",
+      "bytes": 2637,
+      "sha256": "d527ec3bc30c4a172f2adf251726bb456ec1f2461718175058bf4e1ed6c2eaa2"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__73.blp",
+      "bytes": 2636,
+      "sha256": "63a9cff65b48d3bae7ede4fc99956af07ce0a1ecd345a68743e211bbba11ea5c"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__74.blp",
+      "bytes": 2632,
+      "sha256": "6fabbff35ae3bcd06115923154495aa53d471df394c751c715e7bb6e3c413589"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__75.blp",
+      "bytes": 2637,
+      "sha256": "24087b82bee1e9df0b12646410f3b8f04d2914149f64cb6c0671151c5d2263be"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__76.blp",
+      "bytes": 2637,
+      "sha256": "a90dfb6264cce903d67a70dd49dd6b75f6182634d732ed606dee5e8e0b12394d"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__77.blp",
+      "bytes": 2632,
+      "sha256": "34fc8b2b1bf520231cf20a13dae2294db170c9ab81c42412f3820e9269fef0ed"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__78.blp",
+      "bytes": 2639,
+      "sha256": "40535c68e0df4c5ec80f58efd2168d7bc25c935404991a7af1fbfd809485a537"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__79.blp",
+      "bytes": 2636,
+      "sha256": "7b6877c68fb4ba9bc84ef046680f7f4fcc055dc26123ab547cc2a22cda059889"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__8.blp",
+      "bytes": 2631,
+      "sha256": "5193e9829de8708a82b1ec05e0cf37f78d98e75346e5c6055723e6ac53431124"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__80.blp",
+      "bytes": 2637,
+      "sha256": "648d4a82575054b5fa214f234e4c1d1d414f9925d45b97f9b0adff807500a2b0"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__81.blp",
+      "bytes": 2632,
+      "sha256": "39d0a4e1a10199b5a9ed41f9e080c05600a6af095cc0b4ad8971ef193ce0972f"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__82.blp",
+      "bytes": 2637,
+      "sha256": "7740337ab0b09144c416028c03f01ea7d6a9a732b8b4d49009976dd55818c8cb"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__83.blp",
+      "bytes": 2637,
+      "sha256": "3716cc7b6edd0c78d0f793dae4c32a8d84d824d127e86bade5710c9f9deaa7fc"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__84.blp",
+      "bytes": 2632,
+      "sha256": "e614bce2b162d2b7e004779954e5b4f49d502b12a1f12c3b18e2e7e2281d1bbc"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__85.blp",
+      "bytes": 2637,
+      "sha256": "03ae109e92439061b22d83e4b1de5d6bde7eae4d6c412c7bb6048ba8cfaa33c2"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__86.blp",
+      "bytes": 2634,
+      "sha256": "df26c24015440a2be7b4d390edcc6a962bdf705610a97282a81984e2f79d54fa"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__87.blp",
+      "bytes": 2637,
+      "sha256": "9ba18082fc3b1c2d3e5b1bbfd5a8a1c2e0f0c4d755af7795eebbcf9298fd6507"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__88.blp",
+      "bytes": 2632,
+      "sha256": "946a7510bea68f883e733d7cf179d9b696ad8db214bbf1f34cd2c34519796efc"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__89.blp",
+      "bytes": 2637,
+      "sha256": "fa1dae495c292c512fb7e2204a0cb0352af17353a3d91351ce3b1a8ebd65a054"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__9.blp",
+      "bytes": 2637,
+      "sha256": "cd373aa7ab5a2d281ac71e4cd0d97743b9f1dc6a2ac3593078577c87fb34afb0"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__90.blp",
+      "bytes": 2637,
+      "sha256": "7a763eca68a6cb6229489050e1372876b4b3e47c3fcce43e4829c1f43dbb27e7"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__91.blp",
+      "bytes": 2632,
+      "sha256": "e0d499cdce7f5c49ccb2377c38b6ae68dce38b77a067125247987a216340adea"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__92.blp",
+      "bytes": 2637,
+      "sha256": "43d8e45788229ca03289013e7d4b3a22b0222205556f968bc0bd28eb7a017b9b"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__93.blp",
+      "bytes": 2637,
+      "sha256": "c6aac2624bbdfe86a2b5151d5c04923b7d5a0625376df78d1a8689f5756d1bcb"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__94.blp",
+      "bytes": 2630,
+      "sha256": "c62bb8be0089cf6a83212ba8a5e8f50170553fa4ee52097d4df7a3d774bcab62"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__95.blp",
+      "bytes": 2637,
+      "sha256": "520e3d7cdc3cc4c5a82c78cee21d57259b0e954854215eb866adbe2d307843a3"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__96.blp",
+      "bytes": 2636,
+      "sha256": "15378dad5ff5058cd15f886cb4750fb287222348653c4830cf9b50416f0511d0"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__97.blp",
+      "bytes": 2637,
+      "sha256": "571df43cb6a7a26c1cbeb9922c6f5ee93fe3f6bfb819fef15c4920f18553b89d"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__98.blp",
+      "bytes": 2632,
+      "sha256": "9466c6e5888cf914805459ba6ef03bbed07923f0c564cbd54d1e66014a7c2fec"
+    },
+    {
+      "path": "daily_equities.bcolz/id/data/__99.blp",
+      "bytes": 2637,
+      "sha256": "906458b92f04c8fb070e601c45e1836d28c9ff7190e5b931e2631ad0b413adf3"
+    },
+    {
+      "path": "daily_equities.bcolz/id/meta/sizes",
+      "bytes": 60,
+      "sha256": "56f0e657a2574e39960ac3c6d0bd22ddf51dd6026eb49cb24b747d8d624e063d"
+    },
+    {
+      "path": "daily_equities.bcolz/id/meta/storage",
+      "bytes": 147,
+      "sha256": "bc8acedede8b7ef344f050ed5c8732bfc73e3ba7616a70ffa3e54681c9b94490"
+    },
+    {
+      "path": "daily_equities.bcolz/low/__attrs__",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__0.blp",
+      "bytes": 174759,
+      "sha256": "2b71992c806a3ed940d84e2dcfa765819119f6869922e3b67a278c8418f549f6"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__1.blp",
+      "bytes": 180558,
+      "sha256": "bf808df2a72b5d92dcb6f1c651a1a7f22ccc1ea3d94d489bae5c3a9f58acb925"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__10.blp",
+      "bytes": 178493,
+      "sha256": "9a0bac2cc68f60591d0200feb6e1feb4bf40c246839e643ef8daeff6fc538587"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__100.blp",
+      "bytes": 181561,
+      "sha256": "c12b987c583559d2112f9a8127379c34cf0981658d0482d476a072164062d90a"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__101.blp",
+      "bytes": 167981,
+      "sha256": "30423315f0723361c8c204bfc5f68ecad6b548cf17362908168cbf6e6e5aa7b6"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__102.blp",
+      "bytes": 157012,
+      "sha256": "a3e8ed1bd0eb64d44a2a6259e874cf62c943014803241bedb927087d15b2a7d5"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__103.blp",
+      "bytes": 167116,
+      "sha256": "4a827eb65af34d066045244d34a296a94e1d29a8c3c6f639063ccb9796947eb8"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__104.blp",
+      "bytes": 181843,
+      "sha256": "a92f0a3e4fbc8c3017f294447d7131244554877caa1045ee32a4d543d840f67d"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__105.blp",
+      "bytes": 175581,
+      "sha256": "a150d57536eea264dfe6f3ff0411e6ae6f773dbaf33a42af902d142ea220ad25"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__106.blp",
+      "bytes": 167368,
+      "sha256": "276611f01a19d5766b25a94955e6a74128a7220f45313ec29911b6ffff2e4f62"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__107.blp",
+      "bytes": 97292,
+      "sha256": "6b6527fdc225f1e1bbe998b21889b8b546ebd3e4856ae890f03c9c72a88cae77"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__11.blp",
+      "bytes": 162754,
+      "sha256": "ceb61be66229d7d70a624fc3d7f4b9380c6094b7609044b9133dbd940b06699a"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__12.blp",
+      "bytes": 157052,
+      "sha256": "a3f6dc4ca132c15870a35d0cd7733615ce481d2c5c86b3276991ddb7268f16e2"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__13.blp",
+      "bytes": 127900,
+      "sha256": "683db53564e90f62b8eb981ee25faf8333bcac62757e8b09b5a46a3cc1fa99b4"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__14.blp",
+      "bytes": 159589,
+      "sha256": "4e02164806dc8b133cb5e25aec8e946450eb9e7bc8ffef9b507c29fcdfbb11c6"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__15.blp",
+      "bytes": 170291,
+      "sha256": "da117c690545c9068aed93c5e3bcad0bdff1fea8f79ba88c8e0772739297bbf5"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__16.blp",
+      "bytes": 170559,
+      "sha256": "af633d429021e8afa1b2c2b9b9ae46f2b26dda20bb62ba5f9e6910b83103581e"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__17.blp",
+      "bytes": 157466,
+      "sha256": "2e15a2133609ca1cae4811c5f87aab2c606414c870ed652725a9ecc92c720d7a"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__18.blp",
+      "bytes": 173233,
+      "sha256": "7ecc4f39a30d5b33d29701a57dba6a0015346df5484b2b527188431939012115"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__19.blp",
+      "bytes": 168717,
+      "sha256": "ca3ecdbb4fca9d566242ff547060b0c2610d1238517bd31ac44f25d102896249"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__2.blp",
+      "bytes": 154996,
+      "sha256": "2e09f768ca7a5ce8478d8f2f49ca45da79e9fa41f2578a8b49b04dd9e1183db6"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__20.blp",
+      "bytes": 168419,
+      "sha256": "c33149a88c09345e6d405d15a96f83b7feba924c9998d0ea21ff193178a3a8ef"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__21.blp",
+      "bytes": 171462,
+      "sha256": "1ca8186caa85242822c6caaa64ee2584dd38f84db3b0f9088177f9e01e9fca58"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__22.blp",
+      "bytes": 182136,
+      "sha256": "3417d444a8d5e6a24fb4b9df201ca70d73c630248b513b3818781a7339ea2e2f"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__23.blp",
+      "bytes": 158031,
+      "sha256": "4b8fa1fd4ad2bed63c18928e89ac05062599d5c53a1b3310f68df72ea9abe249"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__24.blp",
+      "bytes": 162517,
+      "sha256": "fb7e33917e32747c183acc6a325f9aeee45190a814f509ae58af20e96a96c32b"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__25.blp",
+      "bytes": 172498,
+      "sha256": "ce51924e08b2975029f3a78e822a774efb4187d6fcf2f6a6af8b4d1dd4fee4fd"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__26.blp",
+      "bytes": 156553,
+      "sha256": "7733852307f3227bc33824fe301b174b577ab365a68624b6bcec236d005096af"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__27.blp",
+      "bytes": 172355,
+      "sha256": "f6e71f05ddb62855d3c0b269940279a1a3ad37d4e3190ae52100073b0192288b"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__28.blp",
+      "bytes": 136075,
+      "sha256": "9452c0646dba968958057d74811295c22d40af3cc669ad75098b782586f28b1b"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__29.blp",
+      "bytes": 143637,
+      "sha256": "b396304f1a6f3d5559ea2f75d93f68c2fac36fb528e9f1e9a8c0893cf898a649"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__3.blp",
+      "bytes": 175854,
+      "sha256": "0bd1aca6a6939d50390d226dcb2c5049b7ef1e6a4f8ea0eec890514edf254e32"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__30.blp",
+      "bytes": 142446,
+      "sha256": "4c05a958640a073f91a20a4728ba2ba693bc711047b65cd1f84d34691b75ef46"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__31.blp",
+      "bytes": 167569,
+      "sha256": "03804450a60eb0a5dc8441bd6fb6e5e9042c54cf1be02baa38d0801cec706755"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__32.blp",
+      "bytes": 180583,
+      "sha256": "822129df240e4f0513529b0f4db74eaa94de171784b630a6f5471e28849776af"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__33.blp",
+      "bytes": 176276,
+      "sha256": "bf8652eb5942536b2df6a02ff0e7d67519a93d3ebea5d7ec838033e63e91915f"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__34.blp",
+      "bytes": 173807,
+      "sha256": "ec4a2337798f1930d28a697ee8424f571d423d376b0a41661bbf32865a8cfe07"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__35.blp",
+      "bytes": 159765,
+      "sha256": "8b5d3f949bd930541f815bc0c4fd7d1ca56e63c4b17a73dba357a1b8315c466f"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__36.blp",
+      "bytes": 146886,
+      "sha256": "792079d06a93b0936febd35dfa29e3207ff2b626ba9511bbd03357cdb4e79ced"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__37.blp",
+      "bytes": 154991,
+      "sha256": "6025e809fb49943c096532db61dbdb1fd0d49fc974c79603b5587094ed1fa89f"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__38.blp",
+      "bytes": 167556,
+      "sha256": "bee135f69023debc529f1cccc2c41cee5263932831a7c0972f47e46eedf735e0"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__39.blp",
+      "bytes": 170507,
+      "sha256": "90c4e966727db8360d0217334f4c1f6901c4e26402fbde9bdf05ad662d0863b1"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__4.blp",
+      "bytes": 161022,
+      "sha256": "dc08d02cba020652d3afed91b1e9dbc1eb5d13abf3d73a1399c622d658f27e27"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__40.blp",
+      "bytes": 163876,
+      "sha256": "2472501b5981fba96b5802c735fb3c68da88e47387c7cef7006d1e6cbabdec88"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__41.blp",
+      "bytes": 154768,
+      "sha256": "8d6adbd6920fb99de47aea7ce0f34151e7354f0eb061c0cede23a3b322f50de5"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__42.blp",
+      "bytes": 157066,
+      "sha256": "b34348ce70fd81fafec0d26f3ebe8c18c6f180f5fe68d53c4355549621960247"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__43.blp",
+      "bytes": 168744,
+      "sha256": "79b2bbb602f74b2fcdea0aed9593684098dbeeb422c2fc54a738b744d1056871"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__44.blp",
+      "bytes": 137449,
+      "sha256": "a8ba4aaa83b943693414f43a4dd2de0f3d1bcef98a6f2f2cbe4981b8d666fe6f"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__45.blp",
+      "bytes": 179974,
+      "sha256": "633db339df9cd09b7e7f53093804566d05b8a588fa15071e7c0789b81921f9e6"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__46.blp",
+      "bytes": 187807,
+      "sha256": "5c0f02f2a1f9294a2922e91e22712dc16a63cfdb19dfad5ea4897aaebee26ee9"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__47.blp",
+      "bytes": 177275,
+      "sha256": "b86e35df017c292e493dde804005974cbbd35c522eaeb3e382b4ebd3880bd106"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__48.blp",
+      "bytes": 180229,
+      "sha256": "402d815f36fe19b7228f87fa53ec8662ad317655ca49dd86305bf44ad05255f8"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__49.blp",
+      "bytes": 160874,
+      "sha256": "84dcbf03d2dc164d63ba9a589e5492f58990010a612883b46fce30e76ee05669"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__5.blp",
+      "bytes": 170451,
+      "sha256": "121ede4bad61c6dde4c0af30140877b562970894dc213112d75c31c919987bad"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__50.blp",
+      "bytes": 162016,
+      "sha256": "c0ed17ce737ba6c6034056c9af3cc1c6ce2e53e44fedc3425eb95a8d74d55b71"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__51.blp",
+      "bytes": 192738,
+      "sha256": "92c3430b1ef5edf25ca44037f549adbd7ed30659f004e303bddcd3439e80c141"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__52.blp",
+      "bytes": 204769,
+      "sha256": "d1d648e33ebaeecbe540dd6eb36b79006c263310e04fe3f3daea67b793b10fcd"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__53.blp",
+      "bytes": 182105,
+      "sha256": "69e6543d687e48f79862efee931043c7d8c90f1e4970e28210ea86221b7360ff"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__54.blp",
+      "bytes": 169098,
+      "sha256": "972cf7c16a6c91cb797a2005021741a61234873d745e3b5cb075af7917d71517"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__55.blp",
+      "bytes": 173477,
+      "sha256": "6a98d7b3a5ea9cac4b7b6cb936f7743d7d34ff595832e353302baa552009ae04"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__56.blp",
+      "bytes": 169191,
+      "sha256": "0aa88fea9c926c703ab148c4c32d2eaf95d9422ee29c36be739088a5a8c738f9"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__57.blp",
+      "bytes": 163540,
+      "sha256": "bf32cc8eff037a18d5a0938441d3bf02d585b09bde068f0e88251a853a232991"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__58.blp",
+      "bytes": 172232,
+      "sha256": "78339226b16be1b1bb50c75ca35ddd6d7658f6390f2ad513c8e8d2d931d8dfe1"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__59.blp",
+      "bytes": 160990,
+      "sha256": "097136888a2432826de3a7b2b16feae1a6a58a26d3f9430f6231fc7589e3f5a2"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__6.blp",
+      "bytes": 172018,
+      "sha256": "15756f6a2b0cde63306b58320b62eff8006655af1661a1d2c3cee5899ea8e204"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__60.blp",
+      "bytes": 171118,
+      "sha256": "dab7e9d59eb7948de63979707d52a4dc8ef2c7e4e7c38114f4d71d63926358b0"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__61.blp",
+      "bytes": 166958,
+      "sha256": "c55160b64191342b8cde01e92b53c39ce815f1ad814f9cd387fd3c348a34f75e"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__62.blp",
+      "bytes": 147196,
+      "sha256": "537d5718d36f34e146b746918d30664d51d36a6846c5733918808fc9ea45c175"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__63.blp",
+      "bytes": 178007,
+      "sha256": "0b44718304620936f7946e47aa804b97104ead2c0b10c6bd068403c868409b73"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__64.blp",
+      "bytes": 177456,
+      "sha256": "328c0fb83ea5093058226b171b29eda52f3b8ca438bf02620b151316993e2789"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__65.blp",
+      "bytes": 161080,
+      "sha256": "f26a28cc1957d6654c707aaecd16e602e0f9d6950b27a610218b0377253b3799"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__66.blp",
+      "bytes": 159546,
+      "sha256": "29596fa935257b133505f2a5518915ca797d102d66fd720856d2f81b7431216b"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__67.blp",
+      "bytes": 155257,
+      "sha256": "9a600b6278f531f5cd84958ea945de73a276421c7be7de01575ecccd63789d5e"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__68.blp",
+      "bytes": 174575,
+      "sha256": "fb3bc1b230c30efa36656202b4c7fb77aaf0f7b25be700082cfcd207d6461ae0"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__69.blp",
+      "bytes": 161637,
+      "sha256": "334775f8eb05255de2f529eb5dfef1371756e60dff0bec20f685f5cfa9cceae1"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__7.blp",
+      "bytes": 164708,
+      "sha256": "7da1488b450e5acbd5204452696851373c15e76eafe69811fec256b7bc9b052b"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__70.blp",
+      "bytes": 169206,
+      "sha256": "32d7a0b9428610a7325e5af630b69bee62b7e38e90d3e75c153cd3f6005ffe40"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__71.blp",
+      "bytes": 176284,
+      "sha256": "11e12a28565b81d4c656e13951aba93751d823a2444a2962f4477d0aae8ecf8f"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__72.blp",
+      "bytes": 172789,
+      "sha256": "cf8ed8c982b8bead600a36521e74ffbec2012e3fe9b1723444881cd9a204dafd"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__73.blp",
+      "bytes": 170076,
+      "sha256": "39ac5303bb76a5b54379e8d27f3f81f3763ef540d7d745699e0de02f3ddb9dd8"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__74.blp",
+      "bytes": 185407,
+      "sha256": "bf9d29e4a0165654c2830bb0dbd987fc90c940bcc17d4d45b187a4f8f2cda14d"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__75.blp",
+      "bytes": 180438,
+      "sha256": "16cdd48c78f9be70eca27a2f7e1b3f4d85cc6a4193d818cfa91649c9ae7d9e7b"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__76.blp",
+      "bytes": 186135,
+      "sha256": "8063349201d549706c4d65f59fdaec8d2689943e52564a2ebba67500fff6fe1a"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__77.blp",
+      "bytes": 159508,
+      "sha256": "66a2f476333cf0db851d974c5398a686d3c5075d5873f1f5448740af4123adf2"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__78.blp",
+      "bytes": 159015,
+      "sha256": "c2657b2686ecf521c54b8a0dd7326cdc36ee41c3aaccfc46c4673a349297d6fb"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__79.blp",
+      "bytes": 196100,
+      "sha256": "dc027d80688dd771c703d864386338685ab81a0b5f51f13929195803387b5c5e"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__8.blp",
+      "bytes": 172237,
+      "sha256": "cc7e248367459b7a557e3f0701a2e2ce894185bc96ad93e384e90f6e8a72f6da"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__80.blp",
+      "bytes": 155510,
+      "sha256": "76d684d9296404b29c1e85ef7bd8016cf5b1e85d3e7fa71443f1b177135f41c3"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__81.blp",
+      "bytes": 164789,
+      "sha256": "ce5fd0fa257ffc6d947966018869d5e6a390294c3001febc5b0fb6655107e3a2"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__82.blp",
+      "bytes": 168729,
+      "sha256": "3f0a64cdb8a02af6ba85c03b90fbba1eff8d67c25f00618eabc9091c06a1cb87"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__83.blp",
+      "bytes": 165657,
+      "sha256": "40f0ebe0c98f3b65e00489b12b82aadecd39b57635b8f378c8f073d45614aa12"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__84.blp",
+      "bytes": 179060,
+      "sha256": "7c3395d2721712ebf418a5cd3d79336cd4514f3f6397601834ddaf198396f18f"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__85.blp",
+      "bytes": 149899,
+      "sha256": "47be79b1d295881f9db61164f98ebf36f76b77316f83a0ff6d422ab2cdfbeedc"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__86.blp",
+      "bytes": 150020,
+      "sha256": "a0aff3c9adcde7b279f6f98a5e17b4c49cad15e22fbba727cb8ec43b3dfc3cd7"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__87.blp",
+      "bytes": 161946,
+      "sha256": "5d7f17200d9115ea6ed326e6a21d624ec12a1b8403fd080852106a7e6eb0708d"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__88.blp",
+      "bytes": 166129,
+      "sha256": "36423814fd8b09db900d7492cfef287316050f17646e01615c27260e6811f7ec"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__89.blp",
+      "bytes": 171205,
+      "sha256": "06c323393ab11bc5f33a9e9a5b6a804bb098fc8757b3b69c72ed0c550cab41bc"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__9.blp",
+      "bytes": 178774,
+      "sha256": "f02781c02571bcf929034d2458ede4721aeaf1975884a8a793c467d56244a1e1"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__90.blp",
+      "bytes": 158858,
+      "sha256": "7c7a28cd8f0c14195e13b8bff9b6cbfde5f840de2bcfe616b3b45ae429dd1404"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__91.blp",
+      "bytes": 175139,
+      "sha256": "b9d81ace0663440fd7c79896d3d23f1c439d734b233198277274047b395eb1d6"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__92.blp",
+      "bytes": 160417,
+      "sha256": "76aee2276a4c403f207fe68de36945c371deccf621fff91ed60064d252fb8193"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__93.blp",
+      "bytes": 159661,
+      "sha256": "40e39569c5d2ceabcdbeee6ac27a5ad89611482a4e2ca7cd212d8d0314eb8610"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__94.blp",
+      "bytes": 184990,
+      "sha256": "7f68f990b8682b1de8b30c6c270980942999bdb41246c0a6202fa4c0bfd90ae2"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__95.blp",
+      "bytes": 162768,
+      "sha256": "fc58ff66849d308f6846ab9f9a96454ffebba27e4d4a780bfec6302434794f39"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__96.blp",
+      "bytes": 160927,
+      "sha256": "069dfa052061fcbee0cfa39f7d642b5f17c2bacc539926bbb5503297ef309b1a"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__97.blp",
+      "bytes": 151606,
+      "sha256": "3abd7f43ab2bb2a82d8bb2398ab09a61cbc11a51ed1df21e35110eabece71bc2"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__98.blp",
+      "bytes": 162189,
+      "sha256": "1a77c75aabdf3cef0d209522c73ff7f39e624cd620f539189df8580f45496a36"
+    },
+    {
+      "path": "daily_equities.bcolz/low/data/__99.blp",
+      "bytes": 175121,
+      "sha256": "a4471569a328de2b55f557d59d2bce1b8186ee8746d8d752f36c6a52c5ecd0b4"
+    },
+    {
+      "path": "daily_equities.bcolz/low/meta/sizes",
+      "bytes": 62,
+      "sha256": "978aa53dfe62fa7d242531d8b2548c6b6753bd96a418eaa61e5bfe98aa93b0de"
+    },
+    {
+      "path": "daily_equities.bcolz/low/meta/storage",
+      "bytes": 147,
+      "sha256": "bc8acedede8b7ef344f050ed5c8732bfc73e3ba7616a70ffa3e54681c9b94490"
+    },
+    {
+      "path": "daily_equities.bcolz/open/__attrs__",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__0.blp",
+      "bytes": 176490,
+      "sha256": "885c9cee3a492587037e39f61e248ec02d89e5e04d75c83f7681a55493197a8b"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__1.blp",
+      "bytes": 182498,
+      "sha256": "116956c6b29610a89963c1871f4fc3230869e77c494ba88bbed40d04a240b691"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__10.blp",
+      "bytes": 180647,
+      "sha256": "2b7095782e5933116788db4ab298957f039fc21d468e5f49296e959c2b5d0f22"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__100.blp",
+      "bytes": 182782,
+      "sha256": "152054ed65ab7d6ca13a76591ca037280e3790e744b8dcbc3ab288d80d168df3"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__101.blp",
+      "bytes": 169856,
+      "sha256": "8811ae3720efc0114f743aaab1eb4ab7d13edc4ce1fa817ba769fb250c1ad68a"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__102.blp",
+      "bytes": 158525,
+      "sha256": "64f00bd1e4b2071579d04f6a34b8e65dbe2fdeaad600eb9e00e7218b4e574d9c"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__103.blp",
+      "bytes": 168323,
+      "sha256": "c54694884429b63972c778bb4336e6794dee604f7ae89f344ee186db9d5e4e50"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__104.blp",
+      "bytes": 183611,
+      "sha256": "e1d213e53f6fe200dc171b62bec7d0a3e024c8bcba5c6c0be760665111eb9a0e"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__105.blp",
+      "bytes": 177284,
+      "sha256": "628ee9aea7373bd29ae8ffa3407230c6b7deeb3311ba8cf47e16f9cd180946f5"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__106.blp",
+      "bytes": 168765,
+      "sha256": "067680f79365798a1ca1422a3757566d383b5e22e100f0de8c2afad305449a8a"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__107.blp",
+      "bytes": 98437,
+      "sha256": "923edba0f356130e17246c89b88e5b8684cadbb8b5443bfcbcfdd701c1a9a184"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__11.blp",
+      "bytes": 164250,
+      "sha256": "0b6bc48d60070a836100cfd850e759f75a5501fdac99fc3f8711ff7e8e2d0d7d"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__12.blp",
+      "bytes": 158219,
+      "sha256": "087db680642207e97733c7e509f0ff65bac065d47705a3716ce1fcfeda4037f4"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__13.blp",
+      "bytes": 129143,
+      "sha256": "c6f885dc6ff8391796fdcf0f413fa08bbf97b044cef43a9f1cdd6736c101aaa8"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__14.blp",
+      "bytes": 161251,
+      "sha256": "fccf4d327a5da0f800c74dd471f71f3586d7ba486eefe23fceb84f87d0aabe4b"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__15.blp",
+      "bytes": 171746,
+      "sha256": "653d237d63a09f222e2cd3e97a42629d5a0f575e0cff91287d95417800eeffbb"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__16.blp",
+      "bytes": 172057,
+      "sha256": "ee1465b5362dcd647fe446814e6321ea938f652b8aac67cfbea07c4ed19ab8c3"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__17.blp",
+      "bytes": 158815,
+      "sha256": "c68ff7ea7b5efe7e9a6d1d31fbd5539c259b63abb599caeedea75848f308c13b"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__18.blp",
+      "bytes": 174936,
+      "sha256": "4bcff24034bb6fc5c01b7e1eaf640a21cc06966cf1b422e06122a884ece2a994"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__19.blp",
+      "bytes": 170606,
+      "sha256": "b94843f4a9508e74344a9c151dc09136150f6c8af6ccc37388aeee8c9b3ae8bc"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__2.blp",
+      "bytes": 156208,
+      "sha256": "b765b344fa31db765426066c2910396ba753ebfbe332467642f08d35feec6fbb"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__20.blp",
+      "bytes": 169888,
+      "sha256": "0cd7fd91c20c29681db0a6722b41c955a0a02a5625a4aeb6f3487b3553ce8a05"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__21.blp",
+      "bytes": 172866,
+      "sha256": "51ad2c878fb5c9668e7f84a8c2dd0bbce2511bc6997ce5ae2c78011be3abe840"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__22.blp",
+      "bytes": 183382,
+      "sha256": "b2fc1ffd4d0c6fe04ebed4b56d6a573497b542b4bda1648de82cad4cf2474d51"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__23.blp",
+      "bytes": 159560,
+      "sha256": "c72bb824efb41fc5aa685daccbc5346f7bcc1a8b1bfbd8efa3362e1767f7d4f1"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__24.blp",
+      "bytes": 164373,
+      "sha256": "9901dbd7427d648bb235637ac44994a02b714352abf522b6db4b8d11655c6374"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__25.blp",
+      "bytes": 173572,
+      "sha256": "93ff04a17a5f6bd3dad1a0cca0e8ea29e4cc814df246e8710735b37e93f6b877"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__26.blp",
+      "bytes": 157947,
+      "sha256": "c8fae0f887081fadd1c0e8c63514766ea2f13d96add20105f67f70a804a5f288"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__27.blp",
+      "bytes": 174280,
+      "sha256": "a03ec7c3ef40eae42ef3aa2eb62e14d4fc1d619ad002d6b5c2d951a104cc56b3"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__28.blp",
+      "bytes": 137283,
+      "sha256": "a39fe46c148ae01a368a07780febb4b23481267777fad0f9d76efe16197f74cf"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__29.blp",
+      "bytes": 145145,
+      "sha256": "f1031f801fdd8ef4e874bf5c71a7e036c5d35bc24835de5b69d0922950eead31"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__3.blp",
+      "bytes": 177601,
+      "sha256": "ea81e7b314a43735f29403d011e2cf5900796aab1f2f42185ed88388b87435d4"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__30.blp",
+      "bytes": 143875,
+      "sha256": "20b68e1b00903747e3b0c42948f500d9e3625f88a4718ea69c259b140b41bfbe"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__31.blp",
+      "bytes": 169085,
+      "sha256": "f0af01b88d56e6ef6a76a3fdbe0cb54a75e54106ce0fcf08726016f3555a402f"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__32.blp",
+      "bytes": 181908,
+      "sha256": "dca6d23b35726af771fc5404f261159a43897a170afac688c02f25a36ee6cf35"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__33.blp",
+      "bytes": 177350,
+      "sha256": "0a26a1ced069638bc2d4df9a349fa61522d72a64a90ba37d75d1e7d933803cfa"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__34.blp",
+      "bytes": 175275,
+      "sha256": "5136d445182c36d682abbcad18ce832c8d9bef47eef5713da075f3d94e9767ac"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__35.blp",
+      "bytes": 161422,
+      "sha256": "d5046eedb035d0bba32eec6edd70b09749088986d8503a880ee64bbde1ec30cf"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__36.blp",
+      "bytes": 148709,
+      "sha256": "c2d05b219d2e46649310bf653cfe9d1a22af60d8b4ffbf01b7c7471d3990f403"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__37.blp",
+      "bytes": 156778,
+      "sha256": "54ba71c4ea70eb5b4e6278497c10f28f10eea840b1f43961d27c471c580f6f15"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__38.blp",
+      "bytes": 169429,
+      "sha256": "a9cc37245e1c661920ca903a470c66ae7ae73c1514f83d2a593d6ed73e6d8221"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__39.blp",
+      "bytes": 172229,
+      "sha256": "dc631516060cd9e2eee7f6c8512328bea430805e50ea1cb2f265b07e7cf970e8"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__4.blp",
+      "bytes": 162814,
+      "sha256": "81be4a2806aece05dc0cae87ffd6eeecd903e6b6e61d0fa086e1c9b1647c2578"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__40.blp",
+      "bytes": 165255,
+      "sha256": "8dccc0a74d6c548980a43557470d5a04886f872a71cf3b061bb43cce9dcb3da6"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__41.blp",
+      "bytes": 156631,
+      "sha256": "ef55685f1cacd3ab8dae2eeea308a0b55a99f79a5a8a218a0c534d1330efe5d0"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__42.blp",
+      "bytes": 158521,
+      "sha256": "03b5b07326406c20c197b8f4774341b00bd2ce2e68ae74a701d41d2f895795c5"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__43.blp",
+      "bytes": 170154,
+      "sha256": "59a3f1de74a91ea9fbc2becc5f2a7138890dcf90a4a6e114baa3b9e74c02eb8e"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__44.blp",
+      "bytes": 138669,
+      "sha256": "8cc68cc843fd9f87895a30e5fa2a50cd9eeac6d96b390b19da10f3229d73132b"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__45.blp",
+      "bytes": 181989,
+      "sha256": "959ef5000e29cda6055dff9b25aff5799dbda31c3ba95c0b82bf14491d637bd2"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__46.blp",
+      "bytes": 189947,
+      "sha256": "a2d9ae964f176df29d8543ffa95bc699426fe2be3474bc475338aa4ffbcff35f"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__47.blp",
+      "bytes": 179139,
+      "sha256": "19ecc6004ccd094cd9ac7aa4e8e13dc6d8c7ecd21d249fd1d773f0a66d8ab94e"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__48.blp",
+      "bytes": 181640,
+      "sha256": "5469eaf9d184d014815e15ba5af6baf3eac944222a1a362ea36ce5f220bed717"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__49.blp",
+      "bytes": 162717,
+      "sha256": "512c0e8df13360e0a2e6eaa10a17c5ccf26dbd84e54823d9e7d38e4ceb89d7a1"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__5.blp",
+      "bytes": 171921,
+      "sha256": "7360a214f6bc339aa95a1d427f552dc534f8895a748099c271e06c92e57e84bd"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__50.blp",
+      "bytes": 163223,
+      "sha256": "9ff429cb78151215bfa5bfb2b00b7603a9029eb0338d75866b903b88231e01a6"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__51.blp",
+      "bytes": 193869,
+      "sha256": "db042273a27b1d60bd14b3ba901b01a4090065e792f221abf799107c7a140408"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__52.blp",
+      "bytes": 206401,
+      "sha256": "c9fceb7d669ac80f9481308a77199a909101bd39dfea8a187325be9921dbb222"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__53.blp",
+      "bytes": 183691,
+      "sha256": "42aa6684094b8cc41906bb20be0846d2b1f77f1bcc76783d9cbcd6496efd2ea3"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__54.blp",
+      "bytes": 170452,
+      "sha256": "57e0db22796fdd79b57f4359d89fb32aacc565fd759953aab2c08178256b0c2c"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__55.blp",
+      "bytes": 175066,
+      "sha256": "96648d849b6aef2065a969089b298026b1b240897d30cbe5a5addcfcae701a30"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__56.blp",
+      "bytes": 170744,
+      "sha256": "96cee69b5f869470c8966ba954f9138685d4881101aaba511d5b3b835f2256a1"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__57.blp",
+      "bytes": 164717,
+      "sha256": "6ea051cfba3aa41374f1bc812a3f10a498ede0576a218f5cb9b4a20f0b474af9"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__58.blp",
+      "bytes": 174037,
+      "sha256": "81626b65d9102b45d393630cb79288ae01a5bccbb27cac657f4d954b0bc653c5"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__59.blp",
+      "bytes": 162940,
+      "sha256": "da5533bb41faf2dafa710b62fa8e8c813ebc3666024a4d15ce7219e26d883b88"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__6.blp",
+      "bytes": 174045,
+      "sha256": "f38cdb39e5ed182d7aa9dfab6da826df80c408552d5e349af310831071130344"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__60.blp",
+      "bytes": 173105,
+      "sha256": "4777d4786bb882e792445831b082276369d1314e87755cb0495dbeac5218e979"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__61.blp",
+      "bytes": 168476,
+      "sha256": "79a577f7b5d67234afeba8cac7909c3ac904db877211afc9043d32c5ea5dfa8c"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__62.blp",
+      "bytes": 148445,
+      "sha256": "2f718c79616e53b4c69caa49768e0245453f8005498777df9ed5b5f240c209a5"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__63.blp",
+      "bytes": 179828,
+      "sha256": "61e91e02978e2dca21bd4377c55a461efc5425a4f2274ff4c9089c39b3741a1a"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__64.blp",
+      "bytes": 178990,
+      "sha256": "0a5f5928626006915ce9367fc2c6f9c9cd9eb28e6a8dfb73f1a3c606b93010ed"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__65.blp",
+      "bytes": 162893,
+      "sha256": "28b52bd56db762b26f073df869c2cdd01685a10fabcfcb5a4461dcf14ceffd26"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__66.blp",
+      "bytes": 161758,
+      "sha256": "25172da3766c614569c32a302fba004146813ba62b0d654e9db2d31fdc18ef52"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__67.blp",
+      "bytes": 157254,
+      "sha256": "6bc974b7e1fb8a116794208535efeae9b995b0d83bcbdf61091df907e1bd1696"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__68.blp",
+      "bytes": 176583,
+      "sha256": "3ba3e73df11bab53160744a2dcbbb30de369b031870f2b402aa97178529cf368"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__69.blp",
+      "bytes": 163518,
+      "sha256": "67919bb28e09a78b35a2a7c7d6b90485dcc5064000b9a8f36579d213899cceac"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__7.blp",
+      "bytes": 166621,
+      "sha256": "8f8c992c917f83411f57d0a270faef36b497f5b255e76bdfc21164c88b69d36a"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__70.blp",
+      "bytes": 170840,
+      "sha256": "00b4e40475724fab1204fc64a8592bbef25c411992e6a07824a4afc3a3688d40"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__71.blp",
+      "bytes": 177963,
+      "sha256": "1b2b87622cf284c1ce6cf9daeb1c7d7020ffb71b3c6da57a0d22c7d08fb2a774"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__72.blp",
+      "bytes": 174533,
+      "sha256": "4708d1045e84e475c5d8c21699f88b115381bfa1d15f41105aff49167bcac014"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__73.blp",
+      "bytes": 171550,
+      "sha256": "bc9d82a047afc5c1f32cbecc8379ee31595a00a559ada635b2b85b874fdb9e8e"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__74.blp",
+      "bytes": 187449,
+      "sha256": "ed8d9af5290bedd83d52f551216db54ffef6d0d1144215f8768cbbab1f17e161"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__75.blp",
+      "bytes": 182680,
+      "sha256": "292a15a774cef12f73febd1ce7ead08d922ae3af13a58cd82d64282492d5bb6d"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__76.blp",
+      "bytes": 188538,
+      "sha256": "e0cbf6ad6c95eb99e2420bdd987e7e4a9c2d72e3704630dc60ca48828c984d0e"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__77.blp",
+      "bytes": 161347,
+      "sha256": "4b830e7d2e6a2e3679703df710d8eb6716df5b4cd21f9dc0e63e909ccb16ed36"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__78.blp",
+      "bytes": 160526,
+      "sha256": "9f49e5039e749e4784e261b40e37c98b28cc60bfbda9f3a7f4ab0635795c0ee9"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__79.blp",
+      "bytes": 197855,
+      "sha256": "eb957b62e71328703302ed973f9c27577677fc8071f6c515fec7b9866684c6ba"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__8.blp",
+      "bytes": 173799,
+      "sha256": "94d39f2fd73b2aec46171ffa5628821fe75e7bc6a53ab62d84668cbd4e39b3d6"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__80.blp",
+      "bytes": 157200,
+      "sha256": "95243957ee5f188854f3fb0b3d090a8dbe077af42ed5233f1992f59a30b99d1d"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__81.blp",
+      "bytes": 166603,
+      "sha256": "7a618d6a53091e8d33189f98cd67f32cdca9975eed48e520692b1fff181c74ca"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__82.blp",
+      "bytes": 170127,
+      "sha256": "d9be00ca9e02535934612a23531393cfdbc23285618123d1dae686d5f0b57e4a"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__83.blp",
+      "bytes": 166852,
+      "sha256": "538df8f73057788cfcbd23b7a1fa5a421e2d9a4b0d287823ce3be9c61d32885f"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__84.blp",
+      "bytes": 180314,
+      "sha256": "b747f92a797c053e155128faec9912004b1e8e538a7e7147260ac546d99f1037"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__85.blp",
+      "bytes": 150891,
+      "sha256": "9ff6cb95c265ec4f1ac4f77c4d04c0396a33738f22aa455165c99bdc774cd36b"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__86.blp",
+      "bytes": 151009,
+      "sha256": "4b834a75157908cc23ba532c0ea4cea59f300fa050c703eb2dabcc5668fb0768"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__87.blp",
+      "bytes": 163624,
+      "sha256": "73689e62d165880a0cd906b346b3ab400cccded50da0a06c7c4fd5f99116bede"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__88.blp",
+      "bytes": 167234,
+      "sha256": "f6ba2dad9851cae15d687eba1e54cecf98cab81c13710619cf76cc26609d530d"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__89.blp",
+      "bytes": 172724,
+      "sha256": "aeafd16349ffec57a1a22e333f4e1e03c780a012ddd7bf195d584a39ced7b78c"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__9.blp",
+      "bytes": 180491,
+      "sha256": "6504808eb1a6f074a707df6b261edcb7c385b29b7bc8b175b901c5a2853eec3e"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__90.blp",
+      "bytes": 159900,
+      "sha256": "8569a891c5eb6304a297c4cbb0e07d24f74ff46a2d998495012fb84d587edb96"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__91.blp",
+      "bytes": 176948,
+      "sha256": "a8b8eb77c3070280563d1f13ce789860f4189fb0a3e5a426a6dd1f92c60b3224"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__92.blp",
+      "bytes": 161736,
+      "sha256": "f7a2200aedb6671afa88a101e3a49f069d30eb2459cddd9259acf57b43ec4954"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__93.blp",
+      "bytes": 161044,
+      "sha256": "49c2a202130ed44528ff2bc065643f54b49cc5cdc3ad697deca8aeb57474319d"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__94.blp",
+      "bytes": 186690,
+      "sha256": "f516508b981673e8a2d00df26d79b0d86927e0ad87549a4a66f0e476d7584f67"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__95.blp",
+      "bytes": 164194,
+      "sha256": "335a811acf9e2300c5ad6504cb62e3e76da01f958beec9ee91496823976ee1a9"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__96.blp",
+      "bytes": 162408,
+      "sha256": "e9f1b32c48b04d48d8160fb62801ec598977d15f9b523065784421181a0c09cd"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__97.blp",
+      "bytes": 153195,
+      "sha256": "e8596027173e815ff0da9356e8a8e1993e1de3952a742eb4e91663e69ac4b9d9"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__98.blp",
+      "bytes": 163249,
+      "sha256": "b5a2f38e866c0c24df2d74a23dc7a30fd39d549c46bc813b88e26de51be4d4c3"
+    },
+    {
+      "path": "daily_equities.bcolz/open/data/__99.blp",
+      "bytes": 176413,
+      "sha256": "4e1c78e813f1950accb8a7568604b03474396b7c0d2fa9e43f11d8e8cbc26315"
+    },
+    {
+      "path": "daily_equities.bcolz/open/meta/sizes",
+      "bytes": 62,
+      "sha256": "52716faaaf8b34c99ccf8702debc60d792b53ec136d0ab442249d0299b0d3ead"
+    },
+    {
+      "path": "daily_equities.bcolz/open/meta/storage",
+      "bytes": 147,
+      "sha256": "bc8acedede8b7ef344f050ed5c8732bfc73e3ba7616a70ffa3e54681c9b94490"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/__attrs__",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__0.blp",
+      "bytes": 250654,
+      "sha256": "b2a09dab8749fb57146ca3f75bc909a943d7ae3999632cb2bbde877d57d13f6c"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__1.blp",
+      "bytes": 257537,
+      "sha256": "63d815c16ced13eb35ed292dcc49a6103ece258cb8b2ae3145cf68cd547256d0"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__10.blp",
+      "bytes": 243774,
+      "sha256": "63faa849ec4b995c6fa9c98318d36ecaf4ffc9fbf4077f980b2c9b35fb42003c"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__100.blp",
+      "bytes": 240774,
+      "sha256": "8bcbce9f1a9a5a0b77ea0282f99b875b8ade74de082819dbb13f1b1bc088bcb9"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__101.blp",
+      "bytes": 233896,
+      "sha256": "5bf3686fe52f4aa25fa08cbb9d5760919417d305efb6855308c349cc19617bec"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__102.blp",
+      "bytes": 218719,
+      "sha256": "a5fa7674cf84f3d5a260c336129e7090c69263ea5a7772fd9a0869e48b2ccbaa"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__103.blp",
+      "bytes": 232319,
+      "sha256": "906aac5087e7e73c977085826d536c3c4d9d505f246f3475bc95b7866a44e8ab"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__104.blp",
+      "bytes": 252942,
+      "sha256": "68f279438b4573bcbfa0c62679468cadb6aa8cd181c10503fe49f717353d031b"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__105.blp",
+      "bytes": 230033,
+      "sha256": "7f1b960819e1d9d521a37bde399eee2faea2e7f69ced4b9baa60704a2d06751f"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__106.blp",
+      "bytes": 239261,
+      "sha256": "944959cb9942ec5643d1ba2ddf27ec0adcdf27f6cfcf1307582c41a93cd0d936"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__107.blp",
+      "bytes": 139091,
+      "sha256": "4758a770bdd34af1087d2bba0e336fcb1ca61721bc2f5308f94f8951c2485b65"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__11.blp",
+      "bytes": 226488,
+      "sha256": "8c63e106585f7e2166f6a11dfcd049c54551dbd3a90e07ca95ac550ee5471f23"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__12.blp",
+      "bytes": 210732,
+      "sha256": "3e34ce477f6b163915603feaa1ab67c514852a02e4da0b82c3acc5af7643c669"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__13.blp",
+      "bytes": 170180,
+      "sha256": "7ffd74c83719cec807dafc2f60ed7f00330d10929f94a95dc07479a953f83830"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__14.blp",
+      "bytes": 223452,
+      "sha256": "06cc1269a6b1e9cde220157b1a2df80bda3ea37eaefc5ff754a3bd091688654d"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__15.blp",
+      "bytes": 237859,
+      "sha256": "a17e4ff84037f5ee6ce1df31e69c622d077ed8978e3e40afaca65c93e5d0fda3"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__16.blp",
+      "bytes": 240546,
+      "sha256": "29cddba00c3cae5eb1fe62702dd6496f01dbe4e52a04b33805bd0531a46f25e6"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__17.blp",
+      "bytes": 223834,
+      "sha256": "e61a5ab8896f8a872e231a7a2079bc0df071edfc311a98b92f8c409aaf2a4e85"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__18.blp",
+      "bytes": 243711,
+      "sha256": "6da9da3a32e7aed3e11366485cfb92dbd3366569b11eaf5d0ecf8f04454ecd9d"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__19.blp",
+      "bytes": 237326,
+      "sha256": "2122062356b1c2278819784a0fa71a89f12f28844a002f810b06cd3455bed4d9"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__2.blp",
+      "bytes": 214568,
+      "sha256": "47b303d2a96233159642749d2bb74cc4d7571b802ed81b2488ecaadd2958560f"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__20.blp",
+      "bytes": 241612,
+      "sha256": "b4723735793bd16cf64802b894f791ffbf7aa74ed85617cb4429bcb20adde42f"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__21.blp",
+      "bytes": 236832,
+      "sha256": "001a9e84ea2458c1e0ea5995657eec014e66293e68b8d3c0a334c920b217a9c3"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__22.blp",
+      "bytes": 251047,
+      "sha256": "4dc5b229c4cfaa6c095d752b088cd943bb387c49ce8cce160ddd4388b2437ddd"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__23.blp",
+      "bytes": 225329,
+      "sha256": "e5071f1526a28b343956401dae79effb6c1f0bac48a0d1eff8f61c5ee720f551"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__24.blp",
+      "bytes": 217091,
+      "sha256": "cedec60e71a46ae6c9f63939d58231e946cc62f8960f5a91afcc8de8b8519d44"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__25.blp",
+      "bytes": 232257,
+      "sha256": "f471b9cff707fba7ddd0961f3a83435f635a28d4f9f6e70397a816e07df10729"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__26.blp",
+      "bytes": 215559,
+      "sha256": "170d4de9d9aebb6d608849340d26973e3b6b22352cccb60da63c0b1f24ccd27c"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__27.blp",
+      "bytes": 245877,
+      "sha256": "439bfab2e2994bef5e6ce0e9b21de72d0be8b5adc10c665d4037d9c484064a94"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__28.blp",
+      "bytes": 186593,
+      "sha256": "19809d0830f93c491b056ec67a7d47027bad7346dd1f2bb47de18c06af0f1c7d"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__29.blp",
+      "bytes": 194380,
+      "sha256": "9680ffce76f033fbb7f9720973239b09e27ee4d90063d2926805ff35518669e5"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__3.blp",
+      "bytes": 245477,
+      "sha256": "cb7188781f8a0febafe4592b019e118442b87f40eeb204b7ed214a4baa3ce669"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__30.blp",
+      "bytes": 202790,
+      "sha256": "26a257056f2f5133f213a6a8f41f59c6e9255037ea8e893df8cf303a122cfa79"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__31.blp",
+      "bytes": 233649,
+      "sha256": "c40a7ba217b6ebf4f384e9e8aba3f091c82c76abd54a4483d4128d342acaa289"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__32.blp",
+      "bytes": 246983,
+      "sha256": "c0720887878a30c7d0ad5d750d1fdf2d7dc5b881f9d181459d49a098689c5be3"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__33.blp",
+      "bytes": 253561,
+      "sha256": "c35bc555cbf0bbb8f8db77e6bdcc401a80284ce80796b930f44869d3a3dafb9e"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__34.blp",
+      "bytes": 225405,
+      "sha256": "d87d2cdf9f0d5f93bd0eeb415925ae5e1def2964522247f4daac3482a738fb96"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__35.blp",
+      "bytes": 212148,
+      "sha256": "ec9503ef1f4ae1e33fba4939d35f0a83a0cf730093a541c1d5c7bad4bd2c73ef"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__36.blp",
+      "bytes": 200483,
+      "sha256": "6023ac94e86db5a46803ce654d4fa524de285eaca447e3b4e999b08140a9e0e5"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__37.blp",
+      "bytes": 211800,
+      "sha256": "e5d6eb1263e18b90fb023397b221f5e2490b63d647aac05c2c11bc9db32f3dea"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__38.blp",
+      "bytes": 223218,
+      "sha256": "95dcee8f7d900e2bfcead42cb929d325b0998199a7a74a25b0edf07350ae6d22"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__39.blp",
+      "bytes": 236002,
+      "sha256": "2c7e7a2f35f9c99e8256850e8643e03b360d825d7d39845dc083fbba9a554344"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__4.blp",
+      "bytes": 228571,
+      "sha256": "2bd826206a7e990cf916aa310d969aa72215d2a23a1b1481bf53588d21c5e8b2"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__40.blp",
+      "bytes": 213084,
+      "sha256": "745203768f52cbc771ed714f26cf361edd26a6d5ff10694690211694246220d8"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__41.blp",
+      "bytes": 217620,
+      "sha256": "bd8afeec8fe2c5bd8576e0b0ec225a0ac5266a3507eaa2532016c4795d507f5b"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__42.blp",
+      "bytes": 222603,
+      "sha256": "1a9442c30e53428b0671d2b14417cf5469358916bc9acb0d3d2018014ed05219"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__43.blp",
+      "bytes": 222187,
+      "sha256": "60efaae062f273e57939364c67548cd69c79269bb43c02441f0b5077d310659a"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__44.blp",
+      "bytes": 183314,
+      "sha256": "a2aa2b6822b153ef0a36676a875a57d8101ddd1a897788a32839fee8ad6a5fef"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__45.blp",
+      "bytes": 251643,
+      "sha256": "78e3e86a1659ea6d37c9ca608033dc0ef571bd7644a77d13f0fd319ead3becff"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__46.blp",
+      "bytes": 266963,
+      "sha256": "8e2f5bbaa2153cc427331e1d3e19d8d6ce83df8f99284338c3f795bbea438229"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__47.blp",
+      "bytes": 241485,
+      "sha256": "ab71b443a4ec0de2cde4996e8335626751a48805c4bf7489705e65ae43626276"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__48.blp",
+      "bytes": 244482,
+      "sha256": "66c391849b5977185db98625555048bdc96e0ca5c5d9ae3ee125627cda852b0d"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__49.blp",
+      "bytes": 230001,
+      "sha256": "7ed5e86775896fbd5cc1abca9a3299a4ad87f3584b87bb0c67ffef33de76412d"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__5.blp",
+      "bytes": 239308,
+      "sha256": "39c163a2e219c45899d3acfc705c024aa88ce93bc7fab198729b8e8bca01458f"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__50.blp",
+      "bytes": 221081,
+      "sha256": "2939bbd9d30ac5e4ce0799430116770b7e8501a92c142c9ffbfc114387c954c1"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__51.blp",
+      "bytes": 267190,
+      "sha256": "e460e7469fda5b6dc62488d079981d43542faca84c48603ef0920a5dd23ca1d2"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__52.blp",
+      "bytes": 267884,
+      "sha256": "6d616d4ab5917b2b065f54a8e9904ca8d6a975a3dcfbb9c912c173b4a1c8b82c"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__53.blp",
+      "bytes": 249899,
+      "sha256": "38f6971c85d0016e7134db15b115fa49ca5db53ae581575dfaef837ae7d86925"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__54.blp",
+      "bytes": 234876,
+      "sha256": "5482558a3b4044019b8ecd25b766c67fa22ec7b38f6df1f64ce9859d0bbb9eea"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__55.blp",
+      "bytes": 232378,
+      "sha256": "c846f965a9cd18fbde7f4a9d314ac0fb8342d88fd81e1f0fc7300139cacadb3d"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__56.blp",
+      "bytes": 231208,
+      "sha256": "c400be376dcb74eb2aa73149d57c23d75f66665cb2d4d3d27e307066afe83a48"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__57.blp",
+      "bytes": 231307,
+      "sha256": "6ccd972d1100d1c885298b9b9b8b05b260fae9758a88b04610bc26c973ea90c0"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__58.blp",
+      "bytes": 242523,
+      "sha256": "28e3510285ac4ac484561241d7ec0ffa52bc874393292cc2597fa4e9f51898de"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__59.blp",
+      "bytes": 230969,
+      "sha256": "2b9d1a7f7f2205d62927c9dae454e8677997bcf8ca2bf1ed3c50565dcf1b4abe"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__6.blp",
+      "bytes": 248234,
+      "sha256": "fad606143f16aff33124acccbadfe13522e305c9e9ce342d093cd6c6d8b3bed2"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__60.blp",
+      "bytes": 243525,
+      "sha256": "5d6a3fd7e1e9ca49c5924b80ede617c686d53448d23c33bcd77478e75fb0a9b3"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__61.blp",
+      "bytes": 226271,
+      "sha256": "fdf39c5e3f541777e6f00d920e07bd40baa41b0b4bc39d5eab7225adaa24dccf"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__62.blp",
+      "bytes": 198503,
+      "sha256": "624f1e24824fc43b09af10ff01d007ea835b89d47849e8fad3f6803726af2c46"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__63.blp",
+      "bytes": 253023,
+      "sha256": "5a3ef2cf327d81a899d01bc788f40425604f201c678a9053aa4c16815d4b9550"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__64.blp",
+      "bytes": 249128,
+      "sha256": "517494fd5363353516c517da083b331273e9584cb9610334022a0165f286e033"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__65.blp",
+      "bytes": 219678,
+      "sha256": "442e97942a50d2043c780f2d0aa2027b0ca7a68a0c8035413e1224b3091ef267"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__66.blp",
+      "bytes": 219646,
+      "sha256": "f7c57973a805ddf60776e76ecb30b11e847b4b738c28f8fee3848f368c48ede7"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__67.blp",
+      "bytes": 210294,
+      "sha256": "33e2c426c7f395499e8595fb355379a85f38034f6e5cb59e2cf99f64c09d6c7c"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__68.blp",
+      "bytes": 242301,
+      "sha256": "c46fcff696ae0f1aa0e162534b506bd87cb5723b81896b33451d0c5b8a9fba09"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__69.blp",
+      "bytes": 229948,
+      "sha256": "1d0f3a6814fbe7530ffc016c6a652f9a455bab5e58636995eaa4c1f68782cf69"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__7.blp",
+      "bytes": 239641,
+      "sha256": "5043868a5677fdea1d79e86fdb6615665d864120138bf6dbd218377ae998411a"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__70.blp",
+      "bytes": 229644,
+      "sha256": "b92b542ce41f0ed9fc3ef47f633c5a84f1f308bd7f071a540ad53d983f6b54c4"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__71.blp",
+      "bytes": 252306,
+      "sha256": "8ad378f9d4673719c94eca2f9285c89a4b21840505b088be22dc213d7af4da66"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__72.blp",
+      "bytes": 246469,
+      "sha256": "776d80d27effc8efad2480f204bf856415963ee277df5d9978d5db6bae20e20e"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__73.blp",
+      "bytes": 226714,
+      "sha256": "ec729b96ac77e0f2006ad9f17dc73964e6fd052d660cefe6af17da24685aa23e"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__74.blp",
+      "bytes": 239876,
+      "sha256": "6083b3c516c9c216dac1121212ff4ccc3d577f007051cd3e6b98247f45312b70"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__75.blp",
+      "bytes": 240705,
+      "sha256": "5a5348432e0bd7c6c1372fb5b399b5da264fad61bb7ab92c29f080199e1ed2ff"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__76.blp",
+      "bytes": 252072,
+      "sha256": "359acefa28024ebcb581669e2b12f611efd6be0c538b312f4b03c38f990dd07e"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__77.blp",
+      "bytes": 213789,
+      "sha256": "a01a577d716bdca7afd4f06bd0009493d517a88475163f08564300af17c9c6eb"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__78.blp",
+      "bytes": 211951,
+      "sha256": "a232742ddd85e6fa66e64cc2fa29ddbc8d546eb18f0a4d3e2e8433abf0914bba"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__79.blp",
+      "bytes": 260120,
+      "sha256": "91cec753909ec01671c6bcc8c4423f193b75bf7c5f3fe09099bcccddeb19729d"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__8.blp",
+      "bytes": 239678,
+      "sha256": "e39ef87fa46e2ff79a929c3bcb5c4b1412cd088e4987296ca5e61820b621b432"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__80.blp",
+      "bytes": 219889,
+      "sha256": "b92e49dfdce7a1696adf279860ac732ee0dd216a8b2b590ce2e1f132769bc693"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__81.blp",
+      "bytes": 222767,
+      "sha256": "066975118b676ecb59d7ea292171a9e0eaa35fe1a05dfc5f21e9007f210aef4f"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__82.blp",
+      "bytes": 229864,
+      "sha256": "bf6b9755e8884a9ff5fab9ae9a86016153284dd0a931c15225e7bf1cec14784b"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__83.blp",
+      "bytes": 228708,
+      "sha256": "78708edf8c87800830cab03a8fbb0f0443ca9a3d3f01ada0ab3069d4fec08d42"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__84.blp",
+      "bytes": 235921,
+      "sha256": "ea3ec30d4a4466bd4f5b27420dde9b7e6f68933533e0aae6814169d3841cf20c"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__85.blp",
+      "bytes": 205980,
+      "sha256": "9a5156afa0c9c88f4a9be61835c800f682f85b245a943b036db65cb400ba9d6a"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__86.blp",
+      "bytes": 196198,
+      "sha256": "9cbe290982c65b7dcd7778eb7d9bcdb6e73a5bff6ba4bf11d5ac406875f57ebb"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__87.blp",
+      "bytes": 226777,
+      "sha256": "d7be4b33597e229bb83af37ad229667e487ede2567eaf805beb0c578bc6c71e2"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__88.blp",
+      "bytes": 227552,
+      "sha256": "4ff901c06fb8e398cc588c5d2ebaf515ff505fa89f834f715a16d1811d8dd919"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__89.blp",
+      "bytes": 232982,
+      "sha256": "c92a35aa890011239592a5eb959761648153b3d2cbdfe80a78a38a4fde96e1d3"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__9.blp",
+      "bytes": 245491,
+      "sha256": "4ed750779b36ad13208b86c0c125680db619d3e50f1ea708a5bbc1dbe0c0bd23"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__90.blp",
+      "bytes": 219392,
+      "sha256": "5b125f1077623100e569f0b9f7cce2116f69b092447737b277b340ab25247c54"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__91.blp",
+      "bytes": 241897,
+      "sha256": "b35e5e97ef160f27466e79192690820a089b68ac086782bf227c21cf3e1fc714"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__92.blp",
+      "bytes": 230591,
+      "sha256": "5b08203207b5488ce6c9bb0e00966616d6de70faa6d115c440b89c61aedeeb35"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__93.blp",
+      "bytes": 211971,
+      "sha256": "be38042798232ede29657136ad5d9143fe70c3628c73986595f0e678db2bb8bb"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__94.blp",
+      "bytes": 262563,
+      "sha256": "c1e912c47e64635fc790fc510e7cf292d1e1a7c7d35db6e7ba4ce5f8fa14ef84"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__95.blp",
+      "bytes": 229924,
+      "sha256": "8a6941148abab969967e6af04b9662908a3d2b607eaab52eefb485f273d93ec1"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__96.blp",
+      "bytes": 227242,
+      "sha256": "85ca52bd7145a9b66b21e0244e8656d7e65f51c2b397d9519e9adfde68bfc7b9"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__97.blp",
+      "bytes": 222210,
+      "sha256": "470c2b3d77d852f27615355e0dac9b0095b0b45f3956957188a78aec83e7262e"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__98.blp",
+      "bytes": 202935,
+      "sha256": "5eb5a93c986b0048a97326c69f2a0cf887ae30ee726433d5d9568f83d648315f"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/data/__99.blp",
+      "bytes": 242564,
+      "sha256": "e865617f4b2c073d306ef02003eed2b331cd410224f4299edca9d0bf300c693b"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/meta/sizes",
+      "bytes": 62,
+      "sha256": "a4da956a524bd0de034968eb27080f4dccc3b242ac218e10553336f9971237c9"
+    },
+    {
+      "path": "daily_equities.bcolz/volume/meta/storage",
+      "bytes": 147,
+      "sha256": "bc8acedede8b7ef344f050ed5c8732bfc73e3ba7616a70ffa3e54681c9b94490"
+    },
+    {
+      "path": "minute_equities.bcolz/metadata.json",
+      "bytes": 172,
+      "sha256": "95ee3d733a044df7f2ac3500fb0b91d3ca4e35e7188d47226eaf47f749227636"
+    }
+  ]
+}

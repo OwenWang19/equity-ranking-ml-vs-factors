@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "bundle": "usstock-learn-1d",
+  "created_at_utc": "2026-10-30T14:10:50.649705+00:00",
+  "scope": {
+    "learning_only": true,
+    "authorized_window": [
+      "2007-01-01",
+      "2011-12-31"
+    ],
+    "original_2025_holdout_protocol_modified": false,
+    "raw_data_exported": false,
+    "model_fitted": false
+  },
+  "sessions": {
+    "first": "2007-01-03",
+    "last": "2011-12-30",
+    "count": 1260,
+    "reader_first_trading_day": "2007-01-03",
+    "reader_last_available_dt": "2011-12-30",
+    "first_with_any_observed_close": "2007-01-03",
+    "last_with_any_observed_close": "2011-12-30",
+    "sessions_without_any_observed_close": 0
+  },
+  "coverage": {
+    "securities": 11220,
+    "common_stock_count": null,
+    "common_stock_classification": "unknown; equity metadata also includes non-common-stock securities",
+    "metadata_auto_close_before_cutoff": 3341,
+    "metadata_auto_close_on_cutoff": 6,
+    "metadata_auto_close_after_cutoff": 4293,
+    "metadata_auto_close_missing": 3580,
+    "metadata_end_before_cutoff": 3338,
+    "metadata_end_on_cutoff": 7882,
+    "last_observed_close_before_cutoff": 3793,
+    "observed_close_on_cutoff_right_censoring_candidates": 7427,
+    "no_observed_close": 0,
+    "verified_delisted_security_count": null,
+    "interpretation": "Metadata exits are candidates, not verified delistings or point-in-time status. Observation endings may reflect inactivity, missing coverage, or delisting. An end at the bundle cutoff is censoring, not evidence of death. Future metadata must not be used as a contemporaneous selection feature."
+  },
+  "observation_totals": {
+    "observed_close_sessions": 9236681,
+    "complete_ohlcv_sessions": 9236648,
+    "positive_volume_ohlcv_sessions": 9236648,
+    "zero_volume_with_complete_ohlc_sessions": 0,
+    "negative_volume_sessions": 0,
+    "ohlc_order_violation_sessions": 0
+  },
+  "metadata_lifetimes": {
+    "definition": "AssetFinder.lifetimes, start_date <= session <= auto_close_date; missing end is open",
+    "point_in_time_verified": false,
+    "daily_alive_first": 7303,
+    "daily_alive_last": 7879,
+    "daily_alive_min": 7303,
+    "daily_alive_max": 8043
+  },
+  "observation_definition": "Direct unadjusted daily-reader arrays, no forward-fill. Observed close = finite and > 0. Complete OHLCV = four finite positive prices and finite nonnegative volume. Only derived counts and dates are serialized; prices and volume values are not.",
+  "identity_examples": {
+    "LEH": {
+      "resolution": "unique_bundle_symbol_mapping",
+      "company_identity_independently_verified": false,
+      "point_in_time_symbol_verified": false,
+      "metadata_and_observation_summary": {
+        "real_sid": "FIBBG000BKRK35",
+        "zipline_sid": 10579,
+        "latest_symbol": "LEH",
+        "asset_name": "LEHMAN BROTHERS HOLDINGS INC",
+        "country_code": "US",
+        "start_date": "2007-01-03",
+        "end_date": "2008-09-17",
+        "auto_close_date": "2008-09-17",
+        "observed_close_sessions": 431,
+        "first_observed_close": "2007-01-03",
+        "last_observed_close": "2008-09-17",
+        "complete_ohlcv_sessions": 431,
+        "first_complete_ohlcv": "2007-01-03",
+        "last_complete_ohlcv": "2008-09-17",
+        "positive_volume_ohlcv_sessions": 431,
+        "zero_volume_with_complete_ohlc_sessions": 0,
+        "negative_volume_sessions": 0,
+        "ohlc_order_violation_sessions": 0
+      }
+    },
+    "KKD": {
+      "resolution": "unique_bundle_symbol_mapping",
+      "company_identity_independently_verified": false,
+      "point_in_time_symbol_verified": false,
+      "metadata_and_observation_summary": {
+        "real_sid": "FIBBG000CK38G3",
+        "zipline_sid": 10224,
+        "latest_symbol": "KKD",
+        "asset_name": "KRISPY KREME DOUGHNUTS INC",
+        "country_code": "US",
+        "start_date": "2007-01-03",
+        "end_date": "2011-12-30",
+        "auto_close_date": "2016-07-27",
+        "observed_close_sessions": 1260,
+        "first_observed_close": "2007-01-03",
+        "last_observed_close": "2011-12-30",
+        "complete_ohlcv_sessions": 1260,
+        "first_complete_ohlcv": "2007-01-03",
+        "last_complete_ohlcv": "2011-12-30",
+        "positive_volume_ohlcv_sessions": 1260,
+        "zero_volume_with_complete_ohlc_sessions": 0,
+        "negative_volume_sessions": 0,
+        "ohlc_order_violation_sessions": 0
+      }
+    },
+    "MON": {
+      "resolution": "unique_bundle_symbol_mapping",
+      "company_identity_independently_verified": false,
+      "point_in_time_symbol_verified": false,
+      "metadata_and_observation_summary": {
+        "real_sid": "FIBBG000BFWKC0",
+        "zipline_sid": 11678,
+        "latest_symbol": "MON",
+        "asset_name": "MONSANTO CO",
+        "country_code": "US",
+        "start_date": "2007-01-03",
+        "end_date": "2011-12-30",
+        "auto_close_date": "2018-06-06",
+        "observed_close_sessions": 1260,
+        "first_observed_close": "2007-01-03",
+        "last_observed_close": "2011-12-30",
+        "complete_ohlcv_sessions": 1260,
+        "first_complete_ohlcv": "2007-01-03",
+        "last_complete_ohlcv": "2011-12-30",
+        "positive_volume_ohlcv_sessions": 1260,
+        "zero_volume_with_complete_ohlc_sessions": 0,
+        "negative_volume_sessions": 0,
+        "ohlc_order_violation_sessions": 0
+      }
+    }
+  },
+  "qualifications": {
+    "model_ready": false,
+    "point_in_time_metadata": "unqualified",
+    "common_stock_universe": "unqualified",
+    "delisting_events_and_terminal_returns": "unqualified",
+    "adjusted_return_labels": "unqualified",
+    "corporate_action_completeness": "unqualified",
+    "notes": [
+      "Security membership and historical observations do not qualify investability or survivorship controls.",
+      "Do not infer a zero terminal return, reinvestment proceeds, or delisting return from the last close.",
+      "Raw reader arrays are unadjusted; returns crossing corporate actions need separate validation.",
+      "Zipline query/history adjustments are as of the query end or simulation time, not necessarily today.",
+      "Split adjustments multiply past prices by a ratio and past volume by its inverse; dividends and mergers affect prices only. Do not apply a dividend price factor to volume.",
+      "Latest ticker/name and future auto-close metadata are not proven point-in-time classifications.",
+      "Do not combine this learning exercise with, or claim results for, the original 2025 holdout."
+    ]
+  },
+  "ingestion_completion": {
+    "caller_attested_completion_log_verified": true,
+    "api_listed_as_ingested": true,
+    "independently_verified_by_this_script": false
+  }
+}
